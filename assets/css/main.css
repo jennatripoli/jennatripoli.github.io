@@ -2044,8 +2044,8 @@ input, select, textarea {
 		width: 100%;
 		z-index: 10000;
 		cursor: default;
-		height: 5em;
-		line-height: 5em;
+		height: 3.5em;
+		line-height: 3.5em;
 	}
 
 		#nav ul {
@@ -2075,7 +2075,6 @@ input, select, textarea {
 			height: 2.5em;
 			line-height: 2.5em;
 			padding: 0 1.25em;
-			font-size: 1.5em;
 		}
 
 			#nav a:hover {
