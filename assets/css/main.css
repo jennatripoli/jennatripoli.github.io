@@ -1687,11 +1687,13 @@ input, select, textarea {
 		border-radius: 8px;
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
-		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
+		/*box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);*/
 		background-color: #43B3E0;
+		background-color: #282828;
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
 		max-width: 24em;
+		max-width: 18em;
 	}
 
 		input[type="button"]:hover,
@@ -1700,6 +1702,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			background-color: #43bff0;
+			background-color: #383838;
 			color: #fff !important;
 		}
 
@@ -1709,6 +1712,7 @@ input, select, textarea {
 		button:active,
 		.button:active {
 			background-color: #3BA8D3;
+			background-color: #282828;
 			top: 1px;
 		}
 
