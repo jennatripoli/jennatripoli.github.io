@@ -1691,9 +1691,11 @@ input, select, textarea {
 		background-color: #43B3E0;
 		background-color: #282828;
 		padding: 1em 2.35em 1em 2.35em;
+		padding: 0.5em 0.5em 0.5em 0.5em;
 		font-size: 1.1em;
 		max-width: 24em;
-		max-width: 15em;
+		max-width: 12em;
+		max-height: 4.1em;
 	}
 
 		input[type="button"]:hover,
