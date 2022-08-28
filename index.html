@@ -8,6 +8,14 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<style type="text/css">
+			.mobileShow { display: none; }
+			@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { .mobileShow { display: inline; } }
+
+			.mobileHide { display: inline; }
+			@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { .mobileHide { display: none; } }
+		</style> 
 	</head>
 
 	<body class="is-preload">
@@ -50,16 +58,17 @@
 				</div>
 			</section>
 
-			<section id="education" class="wrapper style2 fullscreen fade-up" style="padding: 2em;">
+			<section id="education" class="wrapper style2 fullscreen fade-up" style="padding: 2em; padding-right: 1.2em;">
 				<div class="content">
 					<div class="inner">
 						<section>
 							<h1>Education</h1>
-							<span class="image left" style="width: 120px; border:4px solid white; border-radius: 50%;"><img src="images/wpi.png" alt="" /></span>
+							<span class="mobileShow"><span class="image left" style="width: 120px; border:2px solid white; border-radius: 50%; margin: 0 1em 1em 0;"><img src="images/wpi.png" alt="" /></span></span>
+							<span class="mobileHide"><span class="image left" style="width: 120px; border:4px solid white; border-radius: 50%;"><img src="images/wpi.png" alt="" /></span></span>
 							<h2>Worcester Polytechnic Institute</h2>
-							<h3>B.S. Computer Science, B.S. Game Development</h3>
+							<h3>B.S. Computer Science, <span class="mobileShow"><br></span>B.S. Game Development</h3>
 							<h3 style="font-weight:normal; font-style: italic;">August 2020 - May 2024</h3>
-							<br>
+							<span class="mobileHide"><br></span>
 							<body>
 								<p><span style="font-weight: bold;"><u>3.93 GPA.</u></span> Dean's List Award every semester. Minoring in Data Science.</p>
 								<p><span style="font-weight: bold;"><u>Computer Science Courses:</u></span> Algorithms, Systems Programming Concepts, Human-Computer Interaction, Operating Systems, Machine Organization and Assembly Language, Discrete Mathematics</p>
@@ -77,31 +86,35 @@
 						<section>
 							<h1>Experience & Skills</h1>
 							<h3>Website Developer, <span style="font-weight:normal; font-style: italic;">Worcester Polytechnic Institute</span> <span style="font-weight:normal; font-size:0.8em;">(JUN 2022 - AUG 2022)</span></h3>
-							<p>Designed and coded sites for Human-Computer Interaction Lab and STEM Research Experience for Teachers.<br>HCI LAB: <a href="https://wp.wpi.edu/hcilab/" target="_blank" rel="noopener noreferrer">https://wp.wpi.edu/hcilab/</a>. RET STEM: <a href="https://wp.wpi.edu/ret-stem/" target="_blank" rel="noopener noreferrer">https://wp.wpi.edu/ret-stem/</a>.</p>
+							<p>Designed and coded sites for Human-Computer Interaction Lab and STEM Research Experience for Teachers.<br>HCI LAB: <a href="https://wp.wpi.edu/hcilab/" target="_blank" rel="noopener noreferrer">https://wp.wpi.edu/hcilab/</a>. <span class="mobileShow"><br></span>RET STEM: <a href="https://wp.wpi.edu/ret-stem/" target="_blank" rel="noopener noreferrer">https://wp.wpi.edu/ret-stem/</a>.</p>
 							<h3>Teaching Assistant, <span style="font-weight:normal; font-style: italic;">Worcester Polytechnic Institute</span> <span style="font-weight:normal; font-size:0.8em;">(MAR 2022 - MAY 2022)</span></h3>
-							<p>Taught students how to use Excel and Python with Jupyter Notebook to parse and analyze data. <br>Held office hours to work individually with students and answer questions with detailed explanations.</p>
+							<p>Taught students how to use Excel and Python with Jupyter Notebook to parse and analyze data. <span class="mobileHide"><br></span>Held office hours to work individually with students and answer questions with detailed explanations.</p>
 							<h3>Tour Guide, <span style="font-weight:normal; font-style: italic;">Worcester Polytechnic Institute</span> <span style="font-weight:normal; font-size:0.8em;">(FEB 2022 - PRESENT)</span></h3>
 							<p>Give tours to campus visitors, answer questions, and communicate online with prospective students.</p>
 							<br>
 
 							<div class="features">
-                                <section style="padding: 1.5em 1.5em 1em 7em;">
-                                    <span class="icon major solid fa-code" style="top: 1.5em;"></span>
+                                <section style="padding: 1.5em 1em 1em 5em;">
+                                    <span class="icon major solid fa-code" style="top: 1.5em; left: 1.5em; position: absolute;"></span>
                                     <h3>★★★ &ensp;Java, C++
-									<br>&emsp;&emsp;&emsp;&ensp;&nbsp;Visual Studio 2019</h3>
+										<span class="mobileShow"><h3>Visual Studio 2019</h3></span>
+										<span class="mobileHide"><br>&emsp;&emsp;&emsp;&ensp;&nbsp;Visual Studio 2019</h3></span>
                                     <h3>★★☆ &ensp;HTML, CSS, C
-									<br>&emsp;&emsp;&emsp;&ensp;&nbsp;GitHub, Eclipse, VS Code</h3>
+										<span class="mobileShow"><h3>GitHub, Eclipse, VS Code</h3></span>
+										<span class="mobileHide"><br>&emsp;&emsp;&emsp;&ensp;&nbsp;GitHub, Eclipse, VS Code</h3></span>
                                     <h3>★☆☆ &ensp;Python, Assembly
-									<br>&emsp;&emsp;&emsp;&ensp;&nbsp;Linux, PID Controllers</h3> 
+										<span class="mobileShow"><h3>Linux, PID Controllers</h3></span>
+										<span class="mobileHide"><br>&emsp;&emsp;&emsp;&ensp;&nbsp;Linux, PID Controllers</h3></span>
                                 </section>
-                                <section style="padding: 1.5em 1.5em 1em 7em;">
-                                    <span class="icon major regular fa-window-maximize" style="top: 1.5em;"></span>
+                                <section style="padding: 1.5em 1em 1em 5em;">
+                                    <span class="icon major regular fa-window-maximize" style="top: 1.5em; left: 1.5em; position: absolute;"></span>
                                     <h3>★★★ &ensp;Excel, WordPress
-									<br>&emsp;&emsp;&emsp;&ensp;&nbsp;Data Analysis, Writing</h3>
+										<span class="mobileShow"><h3>Data Analysis, Writing</h3></span>
+										<span class="mobileHide"><br>&emsp;&emsp;&emsp;&ensp;&nbsp;Data Analysis, Writing</h3></span>
                                     <h3>★★☆ &ensp;Unreal Engine 4, Balsamiq</h3>
                                     <h3>★☆☆ &ensp;Photoshop, Illustrator
-									<br>&emsp;&emsp;&emsp;&ensp;&nbsp;REAPER Audio Workstation</h3>
-                                    <br>
+										<span class="mobileShow"><h3>REAPER Audio Workstation</h3></span>
+										<span class="mobileHide"><br>&emsp;&emsp;&emsp;&ensp;&nbsp;REAPER Audio Workstation</h3></span>
                                 </section>
                             </div>
 						</section>
@@ -225,7 +238,7 @@
 						</section>
 						<section style="padding: 2em 2em 1em 2em;">
 							<h2>WPI Party</h2>
-							<p>Traverse WPI’s campus, complete challenges, and collect items at buildings to prove your knowledge.</p>
+							<p>Traverse WPI's campus, complete challenges, and collect items at buildings to prove your knowledge.</p>
 							<a href="documents/wpiparty.pdf" class="button" target="_blank" rel="noopener noreferrer">Game Manual</a>
 							<br><br>
 						</section>
