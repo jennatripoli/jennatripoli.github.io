@@ -1,275 +1,327 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
 
-<html>
-	<head>
-		<title>Jenna Tripoli</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+    <meta charset="utf-8">
+    <title>Jenna Tripoli</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
 
-		<style type="text/css">
-			.mobileShow { display: none; }
-			@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { .mobileShow { display: inline; } }
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
 
-			.mobileHide { display: inline; }
-			@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { .mobileHide { display: none; } }
-		</style> 
-	</head>
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
 
-	<body class="is-preload">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
-		<!-- Sidebar -->
-		<section id="sidebar">
-			<div class="inner">
-				<nav>
-					<ul>
-						<li><a href="#intro">Hello World</a></li>
-						<li><a href="#education">Education</a></li>
-						<li><a href="#experience">Experience & Skills</a></li>
-						<li><a href="#coding">Software Development</a></li>
-						<li><a href="#gaming">Game Development</a></li>
-					</ul>
-				</nav>
-			</div>
-		</section>
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
-		<!-- Wrapper -->
-		<div id="wrapper">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 
-			<section id="intro" class="wrapper style1 fullscreen fade-up">
-				<div class="inner">
-					<section>
-						<h1>Welcome to my portfolio!</h1>
-						<span class="image right" style="max-width: 220px; border:4px solid white; border-radius: 50%;"><img src="images/headshot.png" alt="" /></span>
-						<h2>My name is Jenna Tripoli.</h2>
-						<h3 style="font-weight:normal;">I am a passionate, creative, and detail-oriented person who has a love for both coding and games. Explore my portfolio to see some of my past projects in both fields.</h3>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/jennatripoli/" target="_blank" rel="noopener noreferrer" 
-								class="icon brands fa-linkedin-in" style="font-size: 40px;"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/jennatripoli" target="_blank" rel="noopener noreferrer" 
-								class="icon brands fa-github" style="font-size: 40px;"><span class="label">GitHub</span></a></li>
-							<li><a href="mailto:jmtripoli@wpi.edu" target="_blank" rel="noopener noreferrer"
-								class="icon fa-envelope" style="font-size: 40px;"><span class="label">Email</span></a></li>
-							<li><a href="documents/resume.pdf" target="_blank" rel="noopener noreferrer"><span style="font-size: x-large; vertical-align: middle;">RESUME</span></a></li></li>
-						</ul>
-					</section>
-				</div>
-			</section>
+    <style type="text/css">
+        .small { display: none; }
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { .small { display: inline; } }
 
-			<section id="education" class="wrapper style2 fullscreen fade-up" style="padding: 2em; padding-right: 1.2em;">
-				<div class="content">
-					<div class="inner">
-						<section>
-							<h1>Education</h1>
-							<span class="mobileShow"><span class="image left" style="width: 120px; border:2px solid white; border-radius: 50%; margin: 0 1em 1em 0;"><img src="images/wpi.png" alt="" /></span></span>
-							<span class="mobileHide"><span class="image left" style="width: 120px; border:4px solid white; border-radius: 50%;"><img src="images/wpi.png" alt="" /></span></span>
-							<h2>Worcester Polytechnic Institute</h2>
-							<h3>B.S. Computer Science, <span class="mobileShow"><br></span>B.S. Game Development</h3>
-							<h3 style="font-weight:normal; font-style: italic;">August 2020 - May 2024</h3>
-							<span class="mobileHide"><br></span>
-							<body>
-								<p><span style="font-weight: bold;"><u>3.93 GPA.</u></span> Dean's List Award every semester. Minoring in Data Science.</p>
-								<p><span style="font-weight: bold;"><u>Computer Science Courses:</u></span> Algorithms (Java), Object-Oriented Design (Java), Discrete Mathematics, Systems Programming Concepts (C++), Human-Computer Interaction (HTML, CSS), Mobile/Ubiquitous Computing (Kotlin, XML), Operating Systems (C), Machine Organization (C, Assembly)</p>
-								<p><span style="font-weight: bold;"><u>Game Development Courses:</u></span> Technical Game Development I (C++), Technical Game Development II (UE4), Advanced Storytelling for Level Design (UE5), Data Analysis (Python), Design of Tabletop Strategy Games, Game Audio I (REAPER), Computer Art (Adobe)</p>
-								<p><span style="font-weight: bold;"><u>Extracurriculars:</u></span> Tour Guide, Chi Omega (Assistant New Member Educator)</p>
-							</body>
-						</section>
-					</div>
-				</div>
-			</section>
+        .medium { display: none; }
+        @media only screen and (min-device-width : 481px) and (max-device-width : 991px) { .medium { display: inline; } }
 
-			<section id="experience" class="wrapper style1 fullscreen fade-up" style="padding: 2em;">
-				<div class="content">
-					<div class="inner">
-						<section>
-							<h1>Experience & Skills</h1>
-							<h3>Website Developer, <span style="font-weight:normal; font-style: italic;">Worcester Polytechnic Institute</span> <span style="font-weight:normal; font-size:0.8em;">(JUN 2022 - AUG 2022)</span></h3>
-							<p>Designed and coded sites for Human-Computer Interaction Lab and STEM Research Experience for Teachers.<br>HCI LAB: <a href="https://wp.wpi.edu/hcilab/" target="_blank" rel="noopener noreferrer">https://wp.wpi.edu/hcilab/</a>. <span class="mobileShow"><br></span>RET STEM: <a href="https://wp.wpi.edu/ret-stem/" target="_blank" rel="noopener noreferrer">https://wp.wpi.edu/ret-stem/</a>.</p>
-							<h3>Teaching Assistant, <span style="font-weight:normal; font-style: italic;">Worcester Polytechnic Institute</span> <span style="font-weight:normal; font-size:0.8em;">(MAR 2022 - MAY 2022)</span></h3>
-							<p>Taught students how to use Excel and Python with Jupyter Notebook to parse and analyze data. <span class="mobileHide"><br></span>Held office hours to work individually with students and answer questions with detailed explanations.</p>
-							<br>
+        .large { display: none; }
+        @media only screen and (min-device-width : 992px) { .large { display: inline; } }
+    </style>
+</head>
 
-							<div class="features">
-                                <section style="padding: 1.5em 1em 1em 5em;">
-                                    <span class="icon major solid fa-code" style="top: 1.5em; left: 1.5em; position: absolute;"></span>
-                                    <h3>★★★ &ensp;Java, C++,
-										<span class="mobileShow"><h3>Visual Studio 2019</h3></span>
-										<span class="mobileHide"><br>&emsp;&emsp;&emsp;&ensp;&nbsp;Visual Studio 2019</h3></span>
-                                    <h3>★★☆ &ensp;HTML, CSS, C,
-										<span class="mobileShow"><h3>GitHub, Eclipse, VS Code</h3></span>
-										<span class="mobileHide"><br>&emsp;&emsp;&emsp;&ensp;&nbsp;GitHub, Eclipse, VS Code</h3></span>
-                                    <h3>★☆☆ &ensp;Python, Assembly,
-										<span class="mobileShow">Kotlin, XML, Linux</span>
-										<span class="mobileHide"><br>&emsp;&emsp;&emsp;&ensp;&nbsp;Kotlin, XML, Linux</h3></span>
-                                </section>
-                                <section style="padding: 1.5em 1em 1em 5em;">
-                                    <span class="icon major regular fa-window-maximize" style="top: 1.5em; left: 1.5em; position: absolute;"></span>
-                                    <h3>★★★ &ensp;Excel, WordPress,
-										<span class="mobileShow"><h3>Data Analysis, Writing</h3></span>
-										<span class="mobileHide"><br>&emsp;&emsp;&emsp;&ensp;&nbsp;Data Analysis, Writing</h3></span>
-                                    <h3>★★☆ &ensp;Unreal Engine 4/5, Balsamiq</h3>
-                                    <h3>★☆☆ &ensp;Photoshop, Illustrator,
-										<span class="mobileShow"><h3>REAPER Audio Workstation</h3></span>
-										<span class="mobileHide"><br>&emsp;&emsp;&emsp;&ensp;&nbsp;REAPER Audio Workstation</h3></span>
-                                </section>
-                            </div>
-						</section>
-					</div>
-				</div>
-			</section>
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5"><span class="text-primary">Jenna </span>Tripoli</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
 
-			<section id="coding" class="wrapper style2 fullscreen fade-up">
-				<section>
-					<div class="content">
-						<div class="inner" style="padding-top: 2em; padding-left: 2em;">
-							<h1>Software Development</h1>
-						</div>
-					</div>
-				</section>
-				<section>
-					<div class="content">
-						<div class="inner" style="padding-left: 2em;">
-							<h2><span class="image left"><img src='images/frc2020.jpg' onmouseover="this.src='images/frc2020.gif';" onmouseout="this.src='images/frc2020.jpg';" alt="" style="min-width: 160px; max-width: 300px; border:4px solid white;"/></span>FIRST Robotics Competition 2020</h2>
-							<p style="padding-right: 2.5em;">I developed Java code for controls, climber, feeder, hopper, intake, and shooter. I was the Software Sub-Team Lead and Robot Operator.</p>
-							<a href="https://github.com/team294/FRC2020" class="button" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
-							<a href="documents/frc2020controls.pdf" class="button" target="_blank" rel="noopener noreferrer">Controls Design</a>
-							<br><br>
-						</div>
-					</div>
-				</section>
-				<section>
-					<div class="content">
-						<div class="inner" style="padding-left: 2em;">
-							<h2><span class="image left"><img src='images/frc2019.jpg' onmouseover="this.src='images/frc2019.gif';" onmouseout="this.src='images/frc2019.jpg';" alt="" style="min-width: 160px; max-width: 300px; border:4px solid white;"/></span>FIRST Robotics Competition 2019</h2>
-							<p style="padding-right: 2.5em;">I developed Java code for controls, vision processing, wrist, safety interlocks, hatch intake, and cargo intake. I was the Robot Operator.</p>
-							<a href="https://github.com/team294/FRC2019" class="button" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
-							<a href="documents/frc2019controls.pdf" class="button" target="_blank" rel="noopener noreferrer">Controls Design</a>
-							<br><br>
-						</div>
-					</div>
-				</section>
-				<section>
-					<div class="content">
-						<div class="inner" style="padding-left: 2em;">
-							<h2><span class="image left"><img src='images/frc2018.jpg' onmouseover="this.src='images/frc2018.gif';" onmouseout="this.src='images/frc2018.jpg';" alt="" style="min-width: 160px; max-width: 300px; border:4px solid white;"/></span>FIRST Robotics Competition 2018</h2>
-							<p style="padding-right: 2.5em;">I developed Java code for autonomous routines, routine selection, claw, climber, and intake.</p>
-							<a href="https://github.com/team294/FRC2018" class="button" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
-							<br><br>
-						</div>
-					</div>
-				</section>
-				<section>
-					<div class="features">
-						<section style="padding: 2em 2em 1em 2em;">
-							<h2>ROMI Bot</h2>
-								<p style="padding-right: 2em;">I developed C++ code for an ESP32 Arduino. Used color sensors, calculated distance with an ultrasonic rangefinder, and carried objects.</p>
-								<a href="https://github.com/jennatripoli/RBE1001" class="button" target="_blank" rel="noopener noreferrer">GitHub Repository</a></li>
-								<a href="documents/romibot.pdf" class="button" target="_blank" rel="noopener noreferrer">Project Report</a></li>
-								<br><br>
-						</section>
-						<section style="padding: 2em 2em 1em 2em;">
-							<h2>Course Portfolio</h2>
-							<p>I have completed a large amount of Computer Science coursework at using Java, C++, C, Python, and more. Due to academic integrity, I cannot publicly share my work on the internet. Upon request, I will gladly provide code samples.</p>
-						</section>
-					</div>
-				</section>
-			</section>
 
-			<section id="gaming" class="wrapper style1 fullscreen fade-up">
-				<section>
-					<div class="content">
-						<div class="inner" style="padding-top: 2em; padding-left: 2em;">
-							<h1>Game Development</h1>
-						</div>
-					</div>
-				</section>
-				<section>
-					<div class="content">
-						<div class="inner" style="padding-left: 2em;">
-							<h2><span class="image left"><img src="images/rowdyraccoon.gif" alt="" style="min-width: 160px; max-width: 300px; border:4px solid white;"/></span>Rowdy Raccoon</h2>
-							<p style="padding-right: 2em;">I developed an open-world simulator game in Unreal Engine 4. Mess with objects, scare citizens, and talk to animal to prove you are the toughest raccoon in town. Discover how to earn points and look for collectibles.</p>
-							<a href="https://github.com/19kmunz/RowdyRaccoon" class="button" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
-							<a href="https://rowdyraccoonwpi.wordpress.com/" class="button" target="_blank" rel="noopener noreferrer">Game Site</a>
-							<br><br>
-						</div>
-					</div>
-				</section>
-				<section>
-					<div class="content">
-						<div class="inner" style="padding-left: 2em;">
-							<h2><span class="image left"><img src="images/gardenofage.gif" alt="" style="min-width: 160px; max-width: 300px; border:4px solid white;"/></span>Garden of Age</h2>
-							<p style="padding-right: 2em;">I developed an ASCII game in C++. Play turn-based strategy combat as Princess Lyla to fight who wronged you in the past.</p>
-							<a href="https://github.com/jennatripoli/GardenOfAge" class="button" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
-							<br><br>
-						</div>
-					</div>
-				</section>
-				<section>
-					<div class="content">
-						<div class="inner" style="padding-left: 2em;">
-							<h2><span class="image left"><img src="images/virtualsorry.gif" alt="" style="min-width: 160px; max-width: 300px; border:4px solid white;"/></span>Virtual Sorry!</h2>
-							<p style="padding-right: 2em;">I developed a digitized board game in Java. The first player to get out of home and make it around the board to their end zone wins.</p>
-							<a href="https://github.com/jennatripoli/CapstoneProject" class="button" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
-							<br><br>
-						</div>
-					</div>
-				</section>
-				<section>
-					<div class="content">
-						<div class="inner" style="padding-left: 2em;">
-							<h2><span class="image left"><img src="images/gameaudio.jpg" alt="" style="min-width: 160px; max-width: 300px; border:4px solid white;"/></span>Game Audio</h2>
-							<p style="padding-right: 2em;">I created a soundscape for a minute-long silent cutscene video utilizing REAPER Audio Workstation and free sounds.</p>
-							<a href="https://www.youtube.com/watch?v=OGAaByrOZWc" class="button" target="_blank" rel="noopener noreferrer">Watch Cutscene</a>
-							<br><br>
-						</div>
-					</div>
-				</section>
-				<section>
-					<div class="features">
-						<section style="padding: 2em 2em 1em 2em;">
-							<h2>Marinara Meltdown</h2>
-							<p>Collect ingredients and money, hire chefs, and make pizza to have the most successful restaurant.</p>
-							<a href="documents/marinarameltdown.pdf" class="button" target="_blank" rel="noopener noreferrer">Game Manual</a>
-							<br><br>
-						</section>
-						<section style="padding: 2em 2em 1em 2em;">
-							<h2>WPI Party</h2>
-							<p>Traverse WPI's campus, complete challenges, and collect items at buildings to prove your knowledge.</p>
-							<a href="documents/wpiparty.pdf" class="button" target="_blank" rel="noopener noreferrer">Game Manual</a>
-							<br><br>
-						</section>
-						<section style="padding: 2em 2em 1em 2em;">
-							<h2>Buccaneer Bash</h2>
-							<p>Compete against your fellow pirates to have the most gold dubloons by stealing and gambling.</p>
-							<a href="documents/buccaneerbash.pdf" class="button" target="_blank" rel="noopener noreferrer">Game Manual</a>
-							<br><br>
-						</section>
-						<section style="padding: 2em 2em 1em 2em;">
-							<h2>Treasure Trackers</h2>
-							<p>Work with friends to win the town scavenger hunt in a first-level one-shot DnD adventure.</p>
-							<a href="documents/treasuretrackers.pdf" class="button" target="_blank" rel="noopener noreferrer">Game Manual</a>
-							<br><br>
-						</section>
-					</div>
-				</section>
-			</section>
-		</div>
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0" style="display: block; text-align: center !important;">
+                    <span class="small"><img class="img-fluid justify-content-center rounded-circle shadow-sm" style="max-width: 200px; border:3px solid white; border-radius: 50%;" src="img/profile.jpg" alt=""></span>
+                    <span class="medium"><img class="img-fluid justify-content-center rounded-circle shadow-sm" style="max-width: 200px; border:3px solid white; border-radius: 50%;" src="img/profile.jpg" alt=""></span>
+                    <span class="large"><img class="img-fluid justify-content-center rounded-circle shadow-sm" style="max-width: 300px; border:3px solid white; border-radius: 50%;" src="img/profile.jpg" alt=""></span>
+                </div>
+                <div class="col-lg-7 text-center text-lg-left">
+                    <h4 class="text-white font-weight-normal mb-2">Hello World! My name is </h4>
+                    <h1 class="display-3 text-uppercase text-primary mb-1" style="-webkit-text-stroke: 2px #ffffff;">Jenna Tripoli</h1>
+                    <h4 class="text-white font-weight-normal mb-2">Welcome to my portfolio for 
+                        <span class="typed-text-output d-inline font-weight-normal text-white"></span></h4>
+                        <div class="typed-text d-none">Computer Science., Game Development.</div>
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-1">
+                        <a class="btn btn-outline-light btn-social mr-2" href="https://www.linkedin.com/in/jennatripoli/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mr-2" href="https://github.com/jennatripoli" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                        <a class="btn btn-outline-light btn-social mr-2" href="mailto:jmtripoli@wpi.edu" target="_blank" rel="noopener noreferrer"><i class="fa fa-envelope"></i></a>
+                        <a href="doc/RESUME.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light mr-5" style="padding: 10px 15px; margin-right: 0 !important;">RESUME</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
 
-		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<p></p>
-			</footer>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About Me</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Education, Skills, & Experience</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-0">B.S. Computer Science, B.S. Game Development</h5>
+                            <p class="mb-2"><strong>Worcester Polytechnic Institute</strong> | <small>2020 - 2024 <i>(In Progress)</i></small></p>
+                            <p class="mb-2">3.93 GPA. Minoring in Data Science.
+                            <p class="mb-2"><b>Relevant Courses:</b> Algorithms, Systems Programming, Operating Systems, Machine Organization, Human-Computer Interaction, Mobile & Ubiquitous Computing, Technical Game Development I & II, Advanced Level Design, Data Analysis, Game Audio, Tabletop Game Design</p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-0">Acquired Skills</h5>
+                            <p class="mb-0">★★★&ensp;Java, C++, Visual Studio Code, Excel, WordPress, Data Analysis</p>
+                            <p class="mb-0">★★☆&ensp;HTML, CSS, C, GitHub, Eclipse, Visual Studio, Unreal Engine 4/5</p>
+                            <p>★☆☆&ensp;Python, Kotlin, XML, Linux/Assembly, Android Studio, Photoshop, REAPER Audio</p>
+                        </div>
+                    </div>		
+                </div>
+                <div class="col-lg-6">
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-0">Web Developer</h5>
+                            <p class="mb-2"><strong>Worcester Polytechnic Institute</strong> | <small>Summer 2022</small></p>
+                            <p>Designed and coded websites for research labs to publicize their findings and display group media. Developed custom CSS and HTML designs for WordPress, along with templates for website contributors.
+                                <br> <a href="https://wp.wpi.edu/hcilab/" target="_blank" rel="noopener noreferrer">wp.wpi.edu/hcilab</a>
+                                    | <a href="https://wp.wpi.edu/ret-stem/" target="_blank" rel="noopener noreferrer">wp.wpi.edu/ret-stem</a>
+                            </p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-0">Teaching Assistant</h5>
+                            <p class="mb-2"><strong>Worcester Polytechnic Institute</strong> | <small>Spring 2022</small></p>
+                            <p>Taught students how to use Excel and Python with Jupyter Notebook to parse and analyze data. Held office hours to work individually with students and answer questions with detailed explanations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
 
-	</body>
+    
+    <!-- Portfolio Start -->
+    <div class="container-fluid pt-5 pb-3" id="portfolio">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Projects</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Portfolio</h1>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mb-2">
+                    <ul class="list-inline mb-4" id="portfolio-flters">
+                        <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">All</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Software Development</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Game Development</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Game Design</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100 mb-3" src="img/rowdyraccoon.gif" alt="">
+                        <h3>Rowdy Raccoon</h3>
+                        <p>Created an open-world simulator game in Unreal Engine 4 and C++. Coded UI, save game states, score calculations, player sockets, and interactions with in-game objects. Conducted play-testing sessions with teammates, presented findings, and adapted game to fit feedback.</p>
+                        <div class="d-flex align-items-center justify-content-left justify-content-lg-start pt-0">
+                            <a href="https://github.com/19kmunz/RowdyRaccoon" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark text-black mr-5" style="padding: 10px 15px; margin-right: 0.25em !important;">GITHUB</a>
+                            <a href="https://www.youtube.com/watch?v=WwgVctMByRE" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark text-black mr-5" style="padding: 10px 15px; margin-right: 0.25em !important;">DEMO</a>
+                            <a href="https://rowdyraccoonwpi.wordpress.com/download" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark text-black mr-5" style="padding: 10px 15px; margin-right: 0 !important;">PLAY</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100 mb-3" src="img/frc2020.jpg" alt="" onmouseover="this.src='img/frc2020.gif';" onmouseout="this.src='img/frc2020.jpg'">
+                        <h3>FIRST Robotics 2020</h3>
+                        <p>Developed Java code for the controls, climber, feeder, hopper, intake, and shooter. Used PID controllers, motion profiling, autonomous routines, and vision processing. Taught software development, managed programming as Sub-Team Lead, and operated robot at competitions.</p>
+                        <div class="d-flex align-items-center justify-content-left justify-content-lg-start pt-0">
+                            <a href="https://github.com/team294/FRC2020" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark text-black mr-5" style="padding: 10px 15px; margin-right: 0.25em !important;">GITHUB</a>
+                            <a href="doc/frc2020controls.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark mr-5" style="padding: 10px 15px; margin-right: 0 !important;">CONTROLS</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100 mb-3" src="img/gardenofage.gif" alt="">
+                        <h3>Garden of Age</h3>
+                        <p>Designed a C++ ASCII game about turn-based strategy combat. Wrote software for enemies, health calculations, battle transitions, move sets, and information screens. Led development for the team, managed version control on GitHub, and ran public game play-testing.</p>
+                        <div class="d-flex align-items-center justify-content-left justify-content-lg-start pt-0">
+                            <a href="https://github.com/jennatripoli/GardenOfAge" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark text-black mr-5" style="padding: 10px 15px; margin-right: 0 !important;">GITHUB</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100 mb-3" src="img/frc2019.jpg" alt="" onmouseover="this.src='img/frc2019.gif';" onmouseout="this.src='img/frc2019.jpg'">
+                        <h3>FIRST Robotics 2019</h3>
+                        <p>Developed Java code for the controls, vision processing, wrist, safety interlocks, hatch intake, and cargo intake. Used PID controllers, motion profiling, autonomous routines, and vision processing. Operated robot at competitions.</p>
+                        <div class="d-flex align-items-center justify-content-left justify-content-lg-start pt-0">
+                            <a href="https://github.com/team294/FRC2019" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark text-black mr-5" style="padding: 10px 15px; margin-right: 0.25em !important;">GITHUB</a>
+                            <a href="doc/frc2019controls.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark mr-5" style="padding: 10px 15px; margin-right: 0 !important;">CONTROLS</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100 mb-3" src="img/digitalsorry.gif" alt="">
+                        <h3>Digital 'Sorry!'</h3>
+                        <p>Developed a digitized version of the classic board game 'Sorry!' in Java. Created game media, automated play, and all game mechanics while using Greenfoot IDE.</p>
+                        <div class="d-flex align-items-center justify-content-left justify-content-lg-start pt-0">
+                            <a href="https://github.com/jennatripoli/CapstoneProject" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark text-black mr-5" style="padding: 10px 15px; margin-right: 0 !important;">GITHUB</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100 mb-3" src="img/frc2018.jpg" alt="" onmouseover="this.src='img/frc2018.gif';" onmouseout="this.src='img/frc2018.jpg'">
+                        <h3>FIRST Robotics 2018</h3>
+                        <p>Developed Java code for the autonomous routines, claw, climber, and intake. Used PID controllers, motion profiling, autonomous routines, and vision processing.</p>
+                        <div class="d-flex align-items-center justify-content-left justify-content-lg-start pt-0">
+                            <a href="https://github.com/team294/FRC2018" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark text-black mr-5" style="padding: 10px 15px; margin-right: 0 !important;">GITHUB</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100 mb-3" src="img/gameaudio.jpg" alt="">
+                        <h3>Game Audio</h3>
+                        <p>I created a soundscape for a minute-long silent cutscene video utilizing REAPER Audio Workstation and free sounds.</p>
+                        <div class="d-flex align-items-center justify-content-left justify-content-lg-start pt-0">
+                            <a href="https://www.youtube.com/watch?v=OGAaByrOZWc" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark text-black mr-5" style="padding: 10px 15px; margin-right: 0 !important;">CUTSCENE VIDEO</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100 mb-3" src="img/marinarameltdown.jpg" alt="">
+                        <h3>Marinara Meltdown</h3>
+                        <p>Collect ingredients and money, hire chefs, and make various pizza to have the most successful Italian restaurant in town.</p>
+                        <div class="d-flex align-items-center justify-content-left justify-content-lg-start pt-0">
+                            <a href="doc/marinarameltdown.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark text-black mr-5" style="padding: 10px 15px; margin-right: 0 !important;">GAME MANUAL</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100 mb-3" src="img/romibot.jpg" alt="">
+                        <h3>ROMI Bot</h3>
+                        <p>Developed C++ code for an ESP32 Arduino. Used color sensors, calculated distance with an ultrasonic rangefinder, and carried objects.</p>
+                        <div class="d-flex align-items-center justify-content-left justify-content-lg-start pt-0">
+                            <a href="https://github.com/jennatripoli/RBE1001" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark text-black mr-5" style="padding: 10px 15px; margin-right: 0.25em !important;">GITHUB</a>
+                            <a href="doc/romibot.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark text-black mr-5" style="padding: 10px 15px; margin-right: 0 !important;">REPORT</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100 mb-3" src="img/wpiparty.jpg" alt="">
+                        <h3>WPI Party</h3>
+                        <p>Traverse WPI's campus, complete challenges, and collect items to prove your knowledge.</p>
+                        <div class="d-flex align-items-center justify-content-left justify-content-lg-start pt-0">
+                            <a href="doc/wpiparty.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark text-black mr-5" style="padding: 10px 15px; margin-right: 0 !important;">GAME MANUAL</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <h3>Buccaneer Bash</h3>
+                        <p>Compete against your fellow pirates to have the most gold dubloons by stealing and gambling.</p>
+                        <div class="d-flex align-items-center justify-content-left justify-content-lg-start pt-0">
+                            <a href="doc/buccaneerbash.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark text-black mr-5" style="padding: 10px 15px; margin-right: 0 !important;">GAME MANUAL</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <h3>Treasure Trackers</h3>
+                        <p>Work with friends to win the town scavenger hunt in a first-level one-shot DnD adventure.</p>
+                        <div class="d-flex align-items-center justify-content-left justify-content-lg-start pt-0">
+                            <a href="doc/treasuretrackers.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark text-black mr-5" style="padding: 10px 15px; margin-right: 0 !important;">GAME MANUAL</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
+    </div>
+    <!-- Footer End -->
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
 </html>
