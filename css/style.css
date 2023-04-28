@@ -604,8 +604,8 @@ pre code {
 .container-lg,
 .container-xl {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 14px;
+  padding-left: 14px;
   margin-right: auto;
   margin-left: auto;
 }
