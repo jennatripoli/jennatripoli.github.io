@@ -88,6 +88,10 @@
 
         portfolioIsotope.isotope({filter: $(this).data('filter')});
     });
+
+    $('img').on('load', () => {
+        portfolioIsotope.isotope('layout');
+    });
     
     
     // Back to top button
