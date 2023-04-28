@@ -6,7 +6,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --blue: #007bff;
+  --blue: #3167a0;
+  --blue-dark: #2c445e;
   --indigo: #6610f2;
   --purple: #603d9c; /*#6f42c1*/
   --purple-dark: #2c1c47;
@@ -155,13 +156,13 @@ sup {
 }
 
 a {
-  color: var(--purple);
+  color: var(--blue);
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: var(--purple); /*--cyan-dark*/
+  color: var(--blue); /*--cyan-dark*/
   text-decoration: underline;
 }
 
@@ -2669,14 +2670,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: var(--purple); /*--cyan*/
-  border-color: var(--purple); /*--cyan*/
+  color: var(--blue); /*--cyan*/
+  border-color: var(--blue); /*--cyan*/
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: var(--purple); /*--cyan-dark*/
-  border-color: var(--purple); /*--cyan-dark*/
+  background-color: var(--blue); /*--cyan-dark*/
+  border-color: var(--blue); /*--cyan-dark*/
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -2684,15 +2685,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: var(--purple); /*--cyan*/
+  color: var(--blue); /*--cyan*/
   background-color: transparent;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: var(--purple); /*--cyan*/
-  border-color: var(--purple); /*--cyan*/
+  background-color: var(--blue); /*--cyan*/
+  border-color: var(--blue); /*--cyan*/
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
@@ -2893,14 +2894,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-dark {
-  color: var(--purple); /*--cyan*/ 
-  border-color: var(--purple); /*--cyan*/
+  color: var(--blue); /*--cyan*/ 
+  border-color: var(--blue); /*--cyan*/
 }
 
 .btn-outline-dark:hover {
   color: #fff;
-  background-color: var(--purple); /*--cyan-dark*/
-  border-color: var(--purple); /*--cyan-dark*/
+  background-color: var(--blue); /*--cyan-dark*/
+  border-color: var(--blue); /*--cyan-dark*/
 }
 
 .btn-outline-dark:focus, .btn-outline-dark.focus {
@@ -6358,7 +6359,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: var(--purple-dark) !important;
+  background-color: var(--blue-dark) !important;
   /*background-image: linear-gradient(#a26ef7, var(--purple), #4709aa) !important;*/
 }
 
@@ -6487,7 +6488,7 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-  border-color: var(--purple) !important; /*--cyan*/
+  border-color: var(--blue) !important; /*--cyan*/
 }
 
 .border-secondary {
@@ -9529,7 +9530,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: var(--purple) !important;
+  color: var(--blue) !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9807,7 +9808,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: var(--purple); /*--cyan*/
+  color: var(--blue); /*--cyan*/
 }
 
 @media (max-width: 991.98px) {
