@@ -18,7 +18,8 @@
     font-size: 2.5em !important;
   }
   .Header-button {
-    margin: 2em 1em 3em 1em !important;
+    margin: 2em 0.5em 3em 0.5em !important;
+    padding: 0 0 0 -1em !important;
   }
   .Header-buttontext {
     margin: 2.5em 1em 3.9em 1em !important;
@@ -294,7 +295,7 @@
 }
 
 .Project-button {
-  width: 6.5em;
+  width: 6em;
   font-size: 1.5em;
   margin: 1em 0.2em 0 0.2em;
   padding: 0.2em 0.5em 0.2em 0.5em;

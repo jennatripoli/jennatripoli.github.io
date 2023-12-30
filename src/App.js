@@ -53,7 +53,7 @@ function App() {
   return (
     <div className="App">
       <section className="Header">
-        <img src={profile} className="Header-profile" />
+        <img src={profile} alt="" className="Header-profile" />
         <div className="Header-text">
           <label>Hello, World! My name is</label>
           <label className="Header-name">Jenna Tripoli</label>
@@ -134,7 +134,7 @@ function App() {
                 <a href="https://www.youtube.com/watch?v=VV5Sk78H6GE" target="_blank" rel="noopener noreferrer"><button className="Project-button">Demo</button></a>
               </div>
             </div>
-            <img className="Project-media" src={crowdsourcing} />
+            <img className="Project-media" alt="" src={crowdsourcing} />
           </div>
         </section>
         <section className="Project" id="Study-buddy">
@@ -148,7 +148,7 @@ function App() {
                   <a href="https://www.youtube.com/watch?v=2_jPqKdkBzg" target="_blank" rel="noopener noreferrer"><button className="Project-button">Demo</button></a>
                 </div>
               </div>
-              <img className="Project-media" src={studybuddy} />
+              <img className="Project-media" alt="" src={studybuddy} />
             </div>
         </section>
         <section className="Project" id="Ninja-se">
@@ -162,7 +162,7 @@ function App() {
                 <a href="https://jennatripoli.github.io/ninja-se" target="_blank" rel="noopener noreferrer"><button className="Project-button">Play</button></a>
               </div>
             </div>
-            <img className="Project-media" src={ninjase} />
+            <img className="Project-media" alt="" src={ninjase} />
           </div>
         </section>
         <section className="Project" id="Rowdy-raccoon">
@@ -177,7 +177,7 @@ function App() {
                 <a href="https://drive.google.com/file/d/1NYheMyWdltBJPFNvbV3RQvvCtKcTgQsW/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className="Project-button">Download</button></a>
               </div>
             </div>
-            <img className="Project-media" src={rowdyraccoon} />
+            <img className="Project-media" alt="" src={rowdyraccoon} />
           </div>
         </section>
         <section className="Project" id="Mystery-mansion">
@@ -191,7 +191,7 @@ function App() {
                 <a href="https://drive.google.com/file/d/1OKgcj3_tn1jvkSzyBn0ugL7EJrz4-rNC/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className="Project-button">Download</button></a>
               </div>
             </div>
-            <img className="Project-media" src={mystery} />
+            <img className="Project-media" alt="" src={mystery} />
           </div>
         </section>
         <section className="Project" id="Garden-of-age">
@@ -205,7 +205,7 @@ function App() {
                 <a href="https://drive.google.com/file/d/1Wu7BGbFUkT1gykMd8JvqZI9lmp9FZE_o/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className="Project-button">Download</button></a>
               </div>
             </div>
-            <img className="Project-media" src={gardenofage} />
+            <img className="Project-media" alt="" src={gardenofage} />
           </div>
         </section>
         <section className="Project" id="Frc-2020">
@@ -219,7 +219,7 @@ function App() {
                 <a href="https://drive.google.com/file/d/1SQ_R9PvzrWIr_4KR-guKyxuNfbGkB4IL/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className="Project-button">Controls</button></a>
               </div>
             </div>
-            <img className="Project-media" src={frc2020jpg} />
+            <img className="Project-media" alt="" src={frc2020jpg} />
           </div>
         </section>
         <section className="Project" id="Frc-2019">
@@ -233,7 +233,7 @@ function App() {
                 <a href="https://drive.google.com/file/d/1vpvcK0-POrjK2AjbrxA3J1-XTaP0juhA/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className="Project-button">Controls</button></a>
               </div>
             </div>
-            <img className="Project-media" src={frc2019jpg} />
+            <img className="Project-media" alt="" src={frc2019jpg} />
           </div>
         </section>
         <section className="Project" id="Frc-2018">
@@ -246,7 +246,7 @@ function App() {
                 <a href="https://github.com/team294/FRC2018" target="_blank" rel="noopener noreferrer"><button className="Project-button">GitHub</button></a>
               </div>
             </div>
-            <img className="Project-media" src={frc2018jpg} />
+            <img className="Project-media" alt="" src={frc2018jpg} />
           </div>
         </section>
       </div>
