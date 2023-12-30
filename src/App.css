@@ -1,0 +1,319 @@
+.App {
+  text-align: center;
+}
+
+@media only screen and (max-width : 1000px) {
+  .Header {
+    flex-direction: column !important;
+    font-size: 1.5em !important;
+  }
+  .Header-profile {
+    height: 35vw !important;
+  }
+  .Header-text {
+    align-items: center !important;
+    margin: 0 !important;
+  }
+  .Header-name {
+    font-size: 2.5em !important;
+  }
+  .Header-button {
+    margin: 2em 1em 3em 1em !important;
+  }
+  .Header-buttontext {
+    margin: 2.5em 1em 3.9em 1em !important;
+  }
+  .About, .Experience, .Portfolio {
+    padding: 0 2em 0 2em !important;
+  }
+  .About-title, .Experience-title, .Portfolio-title {
+    margin: 0.5em 1em 0.5em 1em !important;
+  }
+  .About-intro {
+    margin: 0 0 1.5em 0 !important;
+  }
+  .Skills {
+    margin: 0 0 2em 0 !important;
+  }
+  .Jobs {
+    width: 95vw !important;
+    margin: 0 1.5em 0 1.5em !important;
+  }
+  .Job {
+    max-width: 100% !important;
+    margin: 0 1.5em 2em 1.5em !important;
+  }
+  .Skills:hover, .Job:hover, .Project-media:hover {
+    transform: none !important;
+  }
+  .Project {
+    min-height: initial !important;
+    margin: 0 0 3em 0 !important;
+  }
+  .Project-info {
+    flex-direction: column !important;
+  }
+  .Project-text, .Project-media {
+    width: 90vw !important;
+  }
+  .Project-button {
+    font-size: 1.2em !important;
+  }
+}
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: 2em;
+  background-color: #574B60;
+  color: white;
+}
+
+.Header-profile {
+  height: 20vw;
+  margin: 2em 2em 2em 2em;
+  border: 0.2em solid white;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.Header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin: 0 2em 0 0;
+  z-index: 1;
+}
+
+.Header-name {
+  font-size: 3em;
+  font-weight: bold;
+  margin: 0.1em 0 0.1em 0;
+  z-index: 1;
+}
+
+.Header-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.Header-button {
+  font-size: 1em;
+  min-width: 2em;
+  height: 2em;
+  margin: 1em 0.5em 0 0;
+  border: 0.1em solid white;
+  border-radius: 50%;
+  transition: all 0.7s ease;
+  background: none;
+  fill: white;
+}
+
+.Header-buttontext {
+  font-size: 0.8em;
+  height: 2.4em;
+  margin: 1.3em 1em 0 0;
+  padding: 0 0.5em 0 0.5em;
+  border: 0.13em solid white;
+  border-radius: 1em;
+  transition: all 0.7s ease;
+  background: none;
+  color: white;
+}
+
+.Header-button:hover, .Header-buttontext:hover {
+  background: white;
+  fill: #574B60;
+  color: #574B60;
+}
+
+.Circle {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.6;
+  z-index: 0;
+}
+
+.About, .Experience, .Portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-height: 100vh;
+  padding: 0 5em 0 5em;
+  background-color: white;
+  z-index: 1;
+}
+
+.Experience {
+  background-image: linear-gradient(#3F334D, #574B60, #574B60, #3F334D);
+}
+
+.About-title, .Experience-title, .Portfolio-title {
+  font-size: 3em;
+  font-weight: bold;
+  margin: 1em 1em 1em 1em;
+  color: #574B60;
+}
+
+.Experience-title {
+  color: white;
+}
+
+.About-intro {
+  font-size: 1.5em;
+  margin: 0 0 2em 0;
+}
+
+.Skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 4em 0;
+  padding: 1em 1em 1em 1em;
+  border-radius: 1em;
+  transition: all 0.7s ease;
+  background: #7D8491;
+  fill: white;
+  color: white;
+}
+
+.Skills:hover, .Job:hover, .Project-media:hover {
+  transform: scale(1.1) perspective(1em);
+}
+
+.Skills-title {
+  font-size: x-large;
+  font-weight: bold;
+  margin: 0.5em 0 0.5em 0;
+}
+
+.Skills-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1em 1em 1em 1em;
+}
+
+.Skill-label {
+  margin: 1em 0 0 0;
+}
+
+.Jobs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 88vw;
+  margin: 0 0 2em 0;
+}
+
+.Job {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 40%;
+  margin: 0 1.5em 4em 1.5em;
+  padding: 1em 1em 1em 1em;
+  border-radius: 1em;
+  transition: all 0.7s ease;
+  background: #7D8491;
+  color: white;
+}
+
+.Job-title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.Job-subtitle {
+  font-size: 1.2em;
+  margin: 0 0 1em 0;
+}
+
+.Project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.Project-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 88vw;
+}
+
+.Project-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  margin: 5%;
+}
+
+.Project-title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.Project-subtitle {
+  font-size: 1.2em;
+  margin: 0 0 1em 0;
+}
+
+.Project-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.Project-button {
+  width: 6.5em;
+  font-size: 1.5em;
+  margin: 1em 0.2em 0 0.2em;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+  border: 0.2em solid #574B60;
+  border-radius: 1em;
+  transition: all 0.7s ease;
+  background: none;
+  color: #574B60;
+}
+
+.Project-button:hover {
+  background: #574B60;
+  color: white;
+}
+
+.Project-media {
+  margin: 5%;
+  width: 40%;
+  border-radius: 2em;
+  border: 0.5em solid #574B60;
+  transition: all 0.7s ease;
+}
