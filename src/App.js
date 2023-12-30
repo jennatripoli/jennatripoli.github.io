@@ -127,7 +127,7 @@ function App() {
           <div className="Project-info">
             <div className="Project-text">
               <label className="Project-title">Crowdsourced Funding</label>
-              <label className="Project-subtitle">Lead Front-End Dev || JavaScript, React, AWS</label>
+              <label className="Project-subtitle">Front-End Lead || JavaScript, React, AWS</label>
               <label>Developed page navigation, user input handling, and Lambda function synching. Made API design, UML diagram, and use cases.</label>
               <div className="Project-buttons">
                 <a href="https://github.com/jennatripoli/crowdsourcing-app" target="_blank" rel="noopener noreferrer"><button className="Project-button">GitHub</button></a>
@@ -141,7 +141,7 @@ function App() {
             <div className="Project-info">
               <div className="Project-text">
                 <label className="Project-title">Study Buddy</label>
-                <label className="Project-subtitle">Front-End Dev || Kotlin, XML</label>
+                <label className="Project-subtitle">Front-End Developer || Kotlin, XML</label>
                 <label>Created user interface design, animations, study plan timer, page navigation, and user input handling.</label>
                 <div className="Project-buttons">
                   <a href="https://github.com/jennatripoli/StudyBuddy" target="_blank" rel="noopener noreferrer"><button className="Project-button">GitHub</button></a>
@@ -155,7 +155,7 @@ function App() {
           <div className="Project-info">
             <div className="Project-text">
               <label className="Project-title">Ninja-Se Escape Room</label>
-              <label className="Project-subtitle">Solo Dev || JavaScript, React</label>
+              <label className="Project-subtitle">Solo Developer || JavaScript, React</label>
               <label>Implemented Entity-Boundary-Controller organization with a Canvas object to display game screen from JSON of board layouts.</label>
               <div className="Project-buttons">
                 <a href="https://github.com/jennatripoli/ninja-se" target="_blank" rel="noopener noreferrer"><button className="Project-button">GitHub</button></a>
@@ -169,7 +169,7 @@ function App() {
           <div className="Project-info">
             <div className="Project-text">
               <label className="Project-title">Rowdy Raccoon</label>
-              <label className="Project-subtitle">Technical Dev || Unreal Engine 4</label>
+              <label className="Project-subtitle">Technical Team || Unreal Engine 4</label>
               <label>Used Blueprints to make save states, score calculations, character sockets, interactions with objects, and user interface design.</label>
               <div className="Project-buttons">
                 <a href="https://github.com/jennatripoli/RowdyRaccoon" target="_blank" rel="noopener noreferrer"><button className="Project-button">GitHub</button></a>
@@ -184,7 +184,7 @@ function App() {
           <div className="Project-info">
             <div className="Project-text">
               <label className="Project-title">Mystery in the Mansion</label>
-              <label className="Project-subtitle">Interior Dev || Unreal Engine 5</label>
+              <label className="Project-subtitle">Interior Developer || Unreal Engine 5</label>
               <label>Used Blueprints to make interior level, user interface design, puzzles, interactions with objects, atmosphere, and sound design.</label>
               <div className="Project-buttons">
                 <a href="https://www.youtube.com/watch?v=F9SbaOPLvIo" target="_blank" rel="noopener noreferrer"><button className="Project-button">Demo</button></a>
@@ -198,7 +198,7 @@ function App() {
           <div className="Project-info">
             <div className="Project-text">
               <label className="Project-title">Garden of Age</label>
-              <label className="Project-subtitle">Lead Technical Dev || C++</label>
+              <label className="Project-subtitle">Technical Lead || C++</label>
               <label>Created ASCII-based game with health calculations, user input handling, move sets, and enemy actions through decision trees.</label>
               <div className="Project-buttons">
                 <a href="https://github.com/jennatripoli/GardenOfAge" target="_blank" rel="noopener noreferrer"><button className="Project-button">GitHub</button></a>
