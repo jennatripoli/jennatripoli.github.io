@@ -110,6 +110,7 @@
   height: 2em;
   margin: 1em 0.5em 0 0;
   border: 0.1em solid white;
+  padding: 0.4em 0.48em 0.4em 0.48em;
   border-radius: 50%;
   transition: all 0.7s ease;
   background: none;
@@ -119,7 +120,7 @@
 .Header-buttontext {
   font-size: 0.8em;
   height: 2.4em;
-  margin: 1.3em 1em 0 0;
+  margin: 1em 1em 0 0;
   padding: 0 0.5em 0 0.5em;
   border: 0.13em solid white;
   border-radius: 1em;
