@@ -1,6 +1,7 @@
 import profile from './media/profile.jpg';
 import resume from './media/Resume.pdf'
 import consignment from './media/consignment.gif';
+import madness from './media/2x2madness.gif';
 import crowdsourcing from './media/crowdsourcing.gif';
 import studybuddy from './media/studybuddy.gif';
 import ninjase from './media/ninjase.gif';
@@ -123,7 +124,7 @@ function App() {
         </div>
       </section>
       <div className="Portfolio">
-        <section className="Project" id="Crowdsourced-funding">
+        <section className="Project" id="Virtual-consignment">
           <label className="Portfolio-title">Portfolio</label>
           <div className="Project-info">
             <div className="Project-text">
@@ -136,6 +137,20 @@ function App() {
               </div>
             </div>
             <img className="Project-media" alt="" src={consignment} />
+          </div>
+        </section>
+        <section className="Project" id="2x2-madness">
+          <div className="Project-info">
+            <div className="Project-text">
+              <label className="Project-title">2x2 Madness</label>
+              <label className="Project-subtitle">Solo Developer || JavaScript, React</label>
+              <label>Implemented Entity-Boundary-Controller organization with a Canvas object to display game screen from JSON of board layouts.</label>
+              <div className="Project-buttons">
+                <a href="https://github.com/jennatripoli/2x2-madness" target="_blank" rel="noopener noreferrer"><button className="Project-button">GitHub</button></a>
+                <a href="https://jennatripoli.github.io/2x2-madness" target="_blank" rel="noopener noreferrer"><button className="Project-button">Play</button></a>
+              </div>
+            </div>
+            <img className="Project-media" alt="" src={madness} />
           </div>
         </section>
         <section className="Project" id="Crowdsourced-funding">
