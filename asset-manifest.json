@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1fb1895f.css",
-    "main.js": "/static/js/main.9becc95e.js",
+    "main.js": "/static/js/main.e02f9c13.js",
     "static/js/787.7da721e3.chunk.js": "/static/js/787.7da721e3.chunk.js",
     "static/media/mysteryinthemansion.gif": "/static/media/mysteryinthemansion.8f2f92ec01fa6292f512.gif",
     "static/media/rowdyraccoon.gif": "/static/media/rowdyraccoon.2fdbbdb29a2febf1d921.gif",
@@ -10,6 +10,7 @@
     "static/media/gardenofage.gif": "/static/media/gardenofage.7733d9f7f0faa5128c97.gif",
     "static/media/crowdsourcing.gif": "/static/media/crowdsourcing.de56245220cf568723bc.gif",
     "static/media/consignment.gif": "/static/media/consignment.14dc2743926da09b1f37.gif",
+    "static/media/2x2madness.gif": "/static/media/2x2madness.df863343f95b3bc49a64.gif",
     "static/media/studybuddy.gif": "/static/media/studybuddy.19bf508b99f89bc31a15.gif",
     "static/media/ninjase.gif": "/static/media/ninjase.f88072c97a6a8a47e4ff.gif",
     "static/media/profile.jpg": "/static/media/profile.2e2bdcb71b8182d7ff8f.jpg",
@@ -17,11 +18,11 @@
     "static/media/Resume.pdf": "/static/media/Resume.6c8fcc7def1488a6c195.pdf",
     "index.html": "/index.html",
     "main.1fb1895f.css.map": "/static/css/main.1fb1895f.css.map",
-    "main.9becc95e.js.map": "/static/js/main.9becc95e.js.map",
+    "main.e02f9c13.js.map": "/static/js/main.e02f9c13.js.map",
     "787.7da721e3.chunk.js.map": "/static/js/787.7da721e3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1fb1895f.css",
-    "static/js/main.9becc95e.js"
+    "static/js/main.e02f9c13.js"
   ]
 }
