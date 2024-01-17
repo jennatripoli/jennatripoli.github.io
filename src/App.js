@@ -1,5 +1,6 @@
 import profile from './media/profile.jpg';
 import resume from './media/Resume.pdf'
+import consignment from './media/consignment.gif';
 import crowdsourcing from './media/crowdsourcing.gif';
 import studybuddy from './media/studybuddy.gif';
 import ninjase from './media/ninjase.gif';
@@ -124,6 +125,20 @@ function App() {
       <div className="Portfolio">
         <section className="Project" id="Crowdsourced-funding">
           <label className="Portfolio-title">Portfolio</label>
+          <div className="Project-info">
+            <div className="Project-text">
+              <label className="Project-title">Virtual Consignment</label>
+              <label className="Project-subtitle">Front-End Lead || JavaScript, React, AWS</label>
+              <label>Designed and implemented user interface, user input handling, responsive sizing, and page navigation.</label>
+              <div className="Project-buttons">
+                <a href="https://github.com/jennatripoli/consignment" target="_blank" rel="noopener noreferrer"><button className="Project-button">GitHub</button></a>
+                <a href="https://www.youtube.com/watch?v=EqWgtIKOObE" target="_blank" rel="noopener noreferrer"><button className="Project-button">Demo</button></a>
+              </div>
+            </div>
+            <img className="Project-media" alt="" src={consignment} />
+          </div>
+        </section>
+        <section className="Project" id="Crowdsourced-funding">
           <div className="Project-info">
             <div className="Project-text">
               <label className="Project-title">Crowdsourced Funding</label>
