@@ -75,13 +75,13 @@ function App() {
           <label className="Skills-title">MY FAVORITE TOOLS</label>
           <div className="Skills-items">
             <div className="Skill">{javascript}<label className="Skill-label">JavaScript</label></div>
-            <div className="Skill">{react}<label className="Skill-label">React</label></div>
             <div className="Skill">{sql}<label className="Skill-label">SQL</label></div>
-            <div className="Skill">{html}<label className="Skill-label">HTML</label></div>
             <div className="Skill">{css}<label className="Skill-label">CSS</label></div>
-            <div className="Skill">{r}<label className="Skill-label">R</label></div>
+            <div className="Skill">{html}<label className="Skill-label">HTML</label></div>
+            <div className="Skill">{react}<label className="Skill-label">React</label></div>
             <div className="Skill">{java}<label className="Skill-label">Java</label></div>
             <div className="Skill">{cpp}<label className="Skill-label">C++</label></div>
+            <div className="Skill">{r}<label className="Skill-label">R</label></div>
             <div className="Skill">{github2}<label className="Skill-label">GitHub</label></div>
             <div className="Skill">{unrealengine}<label className="Skill-label">Unreal</label></div>
             <div className="Skill">{aws}<label className="Skill-label">AWS</label></div>
@@ -91,10 +91,9 @@ function App() {
           <label className="Skills-title">MY FAVORITE TOPICS</label>
           <div className="Skills-items">
             <div className="Skill">{frontend}<label className="Skill-label">Front-End</label></div>
-            <div className="Skill">{imgd}<label className="Skill-label">Game Dev</label></div>
-            <div className="Skill">{rbe}<label className="Skill-label">Robotics</label></div>
-            <div className="Skill">{ds}<label className="Skill-label">Data Science</label></div>
             <div className="Skill">{hci}<label className="Skill-label">HCI</label></div>
+            <div className="Skill">{ds}<label className="Skill-label">Data Science</label></div>
+            <div className="Skill">{imgd}<label className="Skill-label">Game Dev</label></div>
           </div>
         </div>
       </section>
@@ -102,24 +101,24 @@ function App() {
         <label className="Experience-title">Experience</label>
         <div className="Jobs">
           <div className="Job">
+            <label className="Job-title">Software Engineering Consultant</label>
+            <label className="Job-subtitle">ASL Education Center || Jan 2024 - Present</label>
+            <label>Contribute to the design and creation of innovative ASL-centric education platforms. Create interfaces in JavaScript and CSS to be integrated with React and the back-end Django API.</label>
+          </div>
+          <div className="Job">
+            <label className="Job-title">Researcher and Developer</label>
+            <label className="Job-subtitle">WPI HCI Lab || Aug 2023 - Present</label>
+            <label>Work with other researchers to continue the development of an online ASL survey tool. Implement designs and changes based on past user studies and sponsor feedback. Use JavaScript, React, CSS, Python, AWS, and a PostgreSQL database for development. Conduct a user study to assess product usability and advise future research.</label>
+          </div>
+          <div className="Job">
             <label className="Job-title">Student Teaching Assistant</label>
-            <label className="Job-subtitle">WPI || Mar 2022 - Present</label>
-            <label>Member of teaching staff for Database Systems (CS 3431) and Data Analysis for Game Development (IMGD 2905). Hold office hours to answer project questions and review course topics like SQL, Python, and Excel.</label>
+            <label className="Job-subtitle">WPI Computer Science || Mar 2022 - Dec 2023</label>
+            <label>Staff member for Database Systems (CS 3431) and Data Analysis for Game Design (IMGD 2905). Held office hours to answer questions and review course topics in SQL, Python, and Excel.</label>
           </div>
           <div className="Job">
             <label className="Job-title">Technology Development Intern</label>
             <label className="Job-subtitle">Optum || Summer 2023</label>
-            <label>Enhanced insurance claim management portal UI by implementing a data override system. Worked full-stack, using React, Java, REST API, and SQL. Collaborated with other interns and engineers in an Agile DevOps team.</label>
-          </div>
-          <div className="Job">
-            <label className="Job-title">Website Developer</label>
-            <label className="Job-subtitle">WPI || Summer 2022</label>
-            <label>Created custom CSS and HTML websites in WordPress for research groups. This included templates for contributors to write their own content in the future.</label>
-          </div>
-          <div className="Job">
-            <label className="Job-title">Campus Tour Guide</label>
-            <label className="Job-subtitle">WPI || Feb 2021 - Present</label>
-            <label>Give tours to prospective/accepted students and their families. Serve as a representative for admissions and help foster relations with the community.</label>
+            <label>Enhanced insurance claim management portal UI by implementing a data override system. Worked full-stack, utilizing React, Java, REST API, and SQL to improve the application.Collaborated with other interns and engineers in an Agile DevOps collaborative environment.</label>
           </div>
         </div>
       </section>
