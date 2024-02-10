@@ -117,8 +117,8 @@ function App() {
           </div>
           <div className="Job">
             <label className="Job-title">Technology Development Intern</label>
-            <label className="Job-subtitle">Optum || Summer 2023</label>
-            <label>Enhanced insurance claim management portal UI by implementing a data override system. Worked full-stack, utilizing React, Java, REST API, and SQL to improve the application.Collaborated with other interns and engineers in an Agile DevOps collaborative environment.</label>
+            <label className="Job-subtitle">Optum || Jun - Aug 2023</label>
+            <label>Enhanced insurance claim management portal UI by implementing a data override system. Worked full-stack, utilizing React, Java, REST API, and SQL to improve the application. Collaborated with other interns and engineers in an Agile DevOps collaborative environment.</label>
           </div>
         </div>
       </section>
