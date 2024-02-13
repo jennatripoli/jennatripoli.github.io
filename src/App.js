@@ -11,7 +11,7 @@ import gardenofage from './media/gardenofage.gif';
 import frc2020jpg from './media/frc2020.jpg';
 import frc2019jpg from './media/frc2019.jpg';
 import frc2018jpg from './media/frc2018.jpg';
-import {linkedin, github, email, javascript, react, sql, html, css, r, java, cpp, github2, unrealengine, aws, frontend, imgd, rbe, ds, hci} from './media/icons.js';
+import {linkedin, github, email, javascript, react, sql, html, css, r, java, cpp, git, unrealengine, aws, frontend, imgd, rbe, ds, hci} from './media/icons.js';
 import './App.css';
 
 function App() {
@@ -82,9 +82,8 @@ function App() {
             <div className="Skill">{java}<label className="Skill-label">Java</label></div>
             <div className="Skill">{cpp}<label className="Skill-label">C++</label></div>
             <div className="Skill">{r}<label className="Skill-label">R</label></div>
-            <div className="Skill">{github2}<label className="Skill-label">GitHub</label></div>
+            <div className="Skill">{git}<label className="Skill-label">Git</label></div>
             <div className="Skill">{unrealengine}<label className="Skill-label">Unreal</label></div>
-            <div className="Skill">{aws}<label className="Skill-label">AWS</label></div>
           </div>
         </div>
         <div className="Skills">
