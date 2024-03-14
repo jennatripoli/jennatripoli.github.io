@@ -129,7 +129,7 @@ function App() {
             <div className="Project-text">
               <label className="Project-title">ASL Survey Tool</label>
               <label className="Project-subtitle">Developer || JavaScript, HTML, CSS</label>
-              <label>Created a website for taking a survey in ASL with various aspects of visual feedback. Implemented designs and changes based on past user studies and sponsor feedback. Conducted a user study to assess product usability and advise future research.</label>
+              <label>Created a website for taking a survey in ASL with various aspects of visual feedback. Implemented designs based on past user studies and sponsor feedback. Conducted a user study to assess product usability and advise future research.</label>
               <div className="Project-buttons">
               </div>
             </div>
