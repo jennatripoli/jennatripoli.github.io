@@ -76,12 +76,11 @@ function App() {
           <label className="Skills-title">MY FAVORITE TOOLS</label>
           <div className="Skills-items">
             <div className="Skill">{javascript}<label className="Skill-label">JavaScript</label></div>
+            <div className="Skill">{react}<label className="Skill-label">React</label></div>
             <div className="Skill">{sql}<label className="Skill-label">SQL</label></div>
             <div className="Skill">{css}<label className="Skill-label">CSS</label></div>
             <div className="Skill">{html}<label className="Skill-label">HTML</label></div>
-            <div className="Skill">{react}<label className="Skill-label">React</label></div>
             <div className="Skill">{java}<label className="Skill-label">Java</label></div>
-            <div className="Skill">{cpp}<label className="Skill-label">C++</label></div>
             <div className="Skill">{r}<label className="Skill-label">R</label></div>
             <div className="Skill">{git}<label className="Skill-label">Git</label></div>
             <div className="Skill">{unrealengine}<label className="Skill-label">Unreal</label></div>
@@ -91,9 +90,9 @@ function App() {
           <label className="Skills-title">MY FAVORITE TOPICS</label>
           <div className="Skills-items">
             <div className="Skill">{frontend}<label className="Skill-label">Front-End</label></div>
-            <div className="Skill">{hci}<label className="Skill-label">HCI</label></div>
-            <div className="Skill">{ds}<label className="Skill-label">Data Science</label></div>
+            <div className="Skill">{hci}<label className="Skill-label">HCI Design</label></div>
             <div className="Skill">{imgd}<label className="Skill-label">Game Dev</label></div>
+            <div className="Skill">{rbe}<label className="Skill-label">Robotics</label></div>
           </div>
         </div>
       </section>
@@ -103,12 +102,12 @@ function App() {
           <div className="Job">
             <label className="Job-title">Software Engineering Consultant</label>
             <label className="Job-subtitle">ASL Education Center || Jan 2024 - Present</label>
-            <label>Contribute to the design and creation of innovative ASL-centric education platforms. Create interfaces in JavaScript and CSS to be integrated with React and the back-end Django API.</label>
+            <label>Contribute to the design and creation of new and innovative ASL-centric education platforms. Restructure an ASL-centric survey tool application to use React and be organized with components. Work with JavaScript, React, and CSS to be integrated with the back-end Python and Django API. </label>
           </div>
           <div className="Job">
-            <label className="Job-title">Researcher and Developer</label>
+            <label className="Job-title">Developer and Researcher</label>
             <label className="Job-subtitle">WPI HCI Lab || Aug 2023 - Present</label>
-            <label>Work with other researchers to continue the development of an online ASL survey tool. Implement designs and changes based on past user studies and sponsor feedback. Use JavaScript, React, CSS, Python, AWS, and a PostgreSQL database for development. Conduct a user study to assess product usability and advise future research.</label>
+            <label>Work with other researchers to continue the development of an online ASL-centric survey tool. Use JavaScript, CSS, Python, AWS, and a PostgreSQL database for application code development. Research and implement new UI designs to create visual feedback and improve user experience. Conduct a user study with Deaf participants to assess product usability and advise future research.</label>
           </div>
           <div className="Job">
             <label className="Job-title">Student Teaching Assistant</label>
@@ -118,7 +117,7 @@ function App() {
           <div className="Job">
             <label className="Job-title">Technology Development Intern</label>
             <label className="Job-subtitle">Optum || Jun - Aug 2023</label>
-            <label>Enhanced insurance claim management portal UI by implementing a data override system. Worked full-stack, utilizing React, Java, REST API, and SQL to improve the application. Collaborated with other interns and engineers in an Agile DevOps collaborative environment.</label>
+            <label>Enhanced insurance claim management portal UI by implementing a new data override system. Utilized React, Java, REST API, and SQL to improve the application as a full-stack developer. Collaborated with other interns and engineers at other offices in a DevOps team environment.</label>
           </div>
         </div>
       </section>
@@ -128,8 +127,8 @@ function App() {
           <div className="Project-info">
             <div className="Project-text">
               <label className="Project-title">ASL Survey Tool</label>
-              <label className="Project-subtitle">Developer || JavaScript, HTML, CSS</label>
-              <label>Created a website for taking a survey in ASL with various aspects of visual feedback. Implemented designs based on past user studies and sponsor feedback. Conducted a user study to assess product usability and advise future research.</label>
+              <label className="Project-subtitle">Developer || JavaScript, React, HTML, CSS</label>
+              <label>Created a website for taking a survey in ASL with various aspects of visual feedback. Initially used existing prototypes to redesign interface and create functionality with the WPI HCI Lab. Then worked separately to make new designs and restructure project with React.</label>
               <div className="Project-buttons">
               </div>
             </div>
@@ -141,7 +140,7 @@ function App() {
             <div className="Project-text">
               <label className="Project-title">Virtual Consignment</label>
               <label className="Project-subtitle">Front-End Lead || JavaScript, React, AWS</label>
-              <label>Designed and implemented user interface, user input handling, responsive sizing, and page navigation.</label>
+              <label>Designed and implemented the user interface, responsive sizing, and page navigation for three distinct user types.</label>
               <div className="Project-buttons">
                 <a href="https://github.com/jennatripoli/consignment" target="_blank" rel="noopener noreferrer"><button className="Project-button">GitHub</button></a>
                 <a href="https://www.youtube.com/watch?v=EqWgtIKOObE" target="_blank" rel="noopener noreferrer"><button className="Project-button">Demo</button></a>
@@ -155,7 +154,7 @@ function App() {
             <div className="Project-text">
               <label className="Project-title">2x2 Madness</label>
               <label className="Project-subtitle">Solo Developer || JavaScript, React</label>
-              <label>Implemented Entity-Boundary-Controller organization with a Canvas object to display game screen from JSON of board layouts.</label>
+              <label>Utilized Entity-Boundary-Controller organization with a Canvas object to display game screen from JSON of board layouts.</label>
               <div className="Project-buttons">
                 <a href="https://github.com/jennatripoli/2x2-madness" target="_blank" rel="noopener noreferrer"><button className="Project-button">GitHub</button></a>
                 <a href="https://jennatripoli.github.io/2x2-madness" target="_blank" rel="noopener noreferrer"><button className="Project-button">Play</button></a>
@@ -169,7 +168,7 @@ function App() {
             <div className="Project-text">
               <label className="Project-title">Crowdsourced Funding</label>
               <label className="Project-subtitle">Front-End Lead || JavaScript, React, AWS</label>
-              <label>Developed page navigation, user input handling, and Lambda function synching. Made API design, UML diagram, and use cases.</label>
+              <label>Developed the user interface, page navigation, and Lambda function synching. Made API design, UML diagram, and use cases.</label>
               <div className="Project-buttons">
                 <a href="https://github.com/jennatripoli/crowdsourcing-app" target="_blank" rel="noopener noreferrer"><button className="Project-button">GitHub</button></a>
                 <a href="https://www.youtube.com/watch?v=VV5Sk78H6GE" target="_blank" rel="noopener noreferrer"><button className="Project-button">Demo</button></a>
@@ -183,7 +182,7 @@ function App() {
               <div className="Project-text">
                 <label className="Project-title">Study Buddy</label>
                 <label className="Project-subtitle">Front-End Developer || Kotlin, XML</label>
-                <label>Created user interface design, animations, study plan timer, page navigation, and user input handling.</label>
+                <label>Designed and implemented the user interface, animations, a study plan timer, and page navigation.</label>
                 <div className="Project-buttons">
                   <a href="https://github.com/jennatripoli/StudyBuddy" target="_blank" rel="noopener noreferrer"><button className="Project-button">GitHub</button></a>
                   <a href="https://www.youtube.com/watch?v=2_jPqKdkBzg" target="_blank" rel="noopener noreferrer"><button className="Project-button">Demo</button></a>
@@ -197,7 +196,7 @@ function App() {
             <div className="Project-text">
               <label className="Project-title">Ninja-Se Escape Room</label>
               <label className="Project-subtitle">Solo Developer || JavaScript, React</label>
-              <label>Implemented Entity-Boundary-Controller organization with a Canvas object to display game screen from JSON of board layouts.</label>
+              <label>Utilized Entity-Boundary-Controller organization with a Canvas object to display game screen from a JSON of board layouts.</label>
               <div className="Project-buttons">
                 <a href="https://github.com/jennatripoli/ninja-se" target="_blank" rel="noopener noreferrer"><button className="Project-button">GitHub</button></a>
                 <a href="https://jennatripoli.github.io/ninja-se" target="_blank" rel="noopener noreferrer"><button className="Project-button">Play</button></a>
@@ -211,7 +210,7 @@ function App() {
             <div className="Project-text">
               <label className="Project-title">Rowdy Raccoon</label>
               <label className="Project-subtitle">Technical Team || Unreal Engine 4</label>
-              <label>Used Blueprints to make save states, score calculations, character sockets, interactions with objects, and user interface design.</label>
+              <label>Used Blueprints to make save states, score calculations, character sockets, interactions with objects, and the user interface design.</label>
               <div className="Project-buttons">
                 <a href="https://github.com/jennatripoli/RowdyRaccoon" target="_blank" rel="noopener noreferrer"><button className="Project-button">GitHub</button></a>
                 <a href="https://www.youtube.com/watch?v=WwgVctMByRE" target="_blank" rel="noopener noreferrer"><button className="Project-button">Demo</button></a>
@@ -226,7 +225,7 @@ function App() {
             <div className="Project-text">
               <label className="Project-title">Mystery in the Mansion</label>
               <label className="Project-subtitle">Interior Developer || Unreal Engine 5</label>
-              <label>Used Blueprints to make interior level, user interface design, puzzles, interactions with objects, atmosphere, and sound design.</label>
+              <label>Used Blueprints to make interior level, the user interface design, puzzles, interactions with objects, atmosphere, and sound design.</label>
               <div className="Project-buttons">
                 <a href="https://www.youtube.com/watch?v=F9SbaOPLvIo" target="_blank" rel="noopener noreferrer"><button className="Project-button">Demo</button></a>
                 <a href="https://drive.google.com/file/d/1OKgcj3_tn1jvkSzyBn0ugL7EJrz4-rNC/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className="Project-button">Download</button></a>
@@ -240,7 +239,7 @@ function App() {
             <div className="Project-text">
               <label className="Project-title">Garden of Age</label>
               <label className="Project-subtitle">Technical Lead || C++</label>
-              <label>Created ASCII-based game with health calculations, user input handling, move sets, and enemy actions through decision trees.</label>
+              <label>Created ASCII-based game with health calculations, input handling, move sets, and enemy actions through decision trees.</label>
               <div className="Project-buttons">
                 <a href="https://github.com/jennatripoli/GardenOfAge" target="_blank" rel="noopener noreferrer"><button className="Project-button">GitHub</button></a>
                 <a href="https://drive.google.com/file/d/1Wu7BGbFUkT1gykMd8JvqZI9lmp9FZE_o/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className="Project-button">Download</button></a>
