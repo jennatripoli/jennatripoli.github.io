@@ -127,7 +127,7 @@ function App() {
           <div className="Project-info">
             <div className="Project-text">
               <label className="Project-title">ASL Survey Tool</label>
-              <label className="Project-subtitle">Developer || JavaScript, React, HTML, CSS</label>
+              <label className="Project-subtitle">Developer || JavaScript, React, CSS, AWS</label>
               <label>Created a website for taking a survey in ASL with various aspects of visual feedback. Initially used existing prototypes to redesign interface and create functionality with the WPI HCI Lab. Then worked separately to make new designs and restructure project with React.</label>
               <div className="Project-buttons">
               </div>
