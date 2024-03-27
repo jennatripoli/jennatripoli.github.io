@@ -1,6 +1,6 @@
 import profile from './media/profile.jpg';
 import resume from './media/Resume.pdf';
-import aslsurvey from './media/aslsurvey.gif';
+import aslsurvey from './media/aslsurvey.png';
 import consignment from './media/consignment.gif';
 import madness from './media/2x2madness.gif';
 import crowdsourcing from './media/crowdsourcing.gif';
@@ -102,7 +102,7 @@ function App() {
           <div className="Job">
             <label className="Job-title">Software Engineering Consultant</label>
             <label className="Job-subtitle">ASL Education Center || Jan 2024 - Present</label>
-            <label>Contribute to the design and creation of new and innovative ASL-centric education platforms. Restructure an ASL-centric survey tool application to use React and be organized with components. Work with JavaScript, React, and CSS to be integrated with the back-end Python and Django API. </label>
+            <label>Contribute to the design and creation of new and innovative ASL-centric online  platforms.</label>
           </div>
           <div className="Job">
             <label className="Job-title">Developer and Researcher</label>
@@ -128,7 +128,7 @@ function App() {
             <div className="Project-text">
               <label className="Project-title">ASL Survey Tool</label>
               <label className="Project-subtitle">Developer || JavaScript, React, CSS, AWS</label>
-              <label>Created a website for taking a survey in ASL with various aspects of visual feedback. Initially used existing prototypes to redesign interface and create functionality with the WPI HCI Lab. Then worked separately to make new designs and restructure project with React.</label>
+              <label>Created an ASL-centric survey tool that allows for a user to take a survey completely in ASL videos and visual cues. Made designs with color indicators that are WCAG and USWDS compliant. Designed an interactive progress bar.</label>
               <div className="Project-buttons">
               </div>
             </div>
