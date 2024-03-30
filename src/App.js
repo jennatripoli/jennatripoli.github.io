@@ -55,7 +55,7 @@ function App() {
       </section>
       <section className="About">
         <label className="About-title">About Me</label>
-        <label className="About-intro">I am graduating in May 2024 from Worcester Polytechnic Institute with a B.S. and M.S. in Computer Science and a minor in Interactive Media and Game Development. <b>I am looking for a job in software engineering near Redondo Beach, CA.</b></label>
+        <label className="About-intro">I am graduating in May 2024 from Worcester Polytechnic Institute with a B.S. and M.S. in Computer Science and a minor in Interactive Media and Game Development.</label>
         <div className="Skills">
           <label className="Skills-title">FAVORITE TOOLS</label>
           <div className="Skills-items">
@@ -103,7 +103,7 @@ function App() {
           <div className="Project-text">
             <label className="Project-title">ASL Survey Tool</label>
             <label className="Project-subtitle">JavaScript, React, CSS, AWS</label>
-            <label className="Project-description"><i>Platform for creating and distributing surveys based in American Sign Language (ASL).</i><br /><br />The surveys use no written text and instead fully rely on videos and non-textual elements. The design includes color indicators that are compliant with WCAG 2.2 and USWDS for non-text contrast and system color tokens. We conducted an unmoderated user study with the survey tool to evaluate its functionality and usability.</label>
+            <label className="Project-description"><i>Platform for creating and distributing surveys based in American Sign Language (ASL).</i><br /><br />The surveys use no written text and instead fully rely on videos and non-textual elements. The design includes color indicators that are compliant with WCAG 2.2 and USWDS for non-text contrast and color tokens. We conducted an unmoderated user study with the survey tool to evaluate its functionality and usability.</label>
             <div className="Project-buttons">
               <a className="Project-button" href="docs/asl_survey_tool.pdf" target="_blank" rel="noopener noreferrer">Report</a>
             </div>

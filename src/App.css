@@ -34,7 +34,10 @@ html {
     padding: 0 2em 0 2em !important;
   }
   .About-title, .Experience-title, .Portfolio-title {
-    margin: 0.5em 1em 0.5em 1em !important;
+    margin: 1em 1em 0.5em 1em !important;
+  }
+  .About {
+    height: 120vh !important;
   }
   .About-intro {
     margin: 0 0 1.5em 0 !important;
@@ -43,6 +46,9 @@ html {
   .Skills {
     margin: 0 0 2em 0 !important;
     padding: 0.5em !important;
+  }
+  .Skills-title {
+    display: none !important;
   }
   .Skill {
     margin: 0.5em !important;
@@ -57,10 +63,11 @@ html {
     padding: 0.5em !important;
   }
   .Job-title {
-    font-size: 1.5em !important;
+    font-size: 1.25em !important;
   }
   .Job-subtitle {
-    font-size: 1em !important;
+    font-size: 0.75em !important;
+    margin: 0 0 0.5em 0 !important;
   }
   .Job-description {
     font-size: 0.75em !important;
@@ -71,9 +78,6 @@ html {
   .Project {
     min-height: initial !important;
     margin: 0 0 3em 0 !important;
-  }
-  .Project-info {
-    flex-direction: column !important;
   }
   .Project-text, .Project-media {
     width: 90vw !important;
