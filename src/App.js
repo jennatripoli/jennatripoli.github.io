@@ -55,7 +55,7 @@ function App() {
       </section>
       <section className="About">
         <label className="About-title">About Me</label>
-        <label className="About-intro">I am graduating in May 2024 from Worcester Polytechnic Institute (WPI) with a B.S. and M.S. in Computer Science, along with a minor in Interactive Media and Game Development. <b>I am in search of post-graduate software engineering roles near Redondo Beach, CA.</b></label>
+        <label className="About-intro">I am graduating in May 2024 from Worcester Polytechnic Institute with a B.S. and M.S. in Computer Science and a minor in Interactive Media and Game Development. <b>I am looking for a job in software engineering near Redondo Beach, CA.</b></label>
         <div className="Skills">
           <label className="Skills-title">MY FAVORITE TOOLS</label>
           <div className="Skills-items">
@@ -65,7 +65,6 @@ function App() {
             <div className="Skill">{css}<label className="Skill-label">CSS</label></div>
             <div className="Skill">{html}<label className="Skill-label">HTML</label></div>
             <div className="Skill">{java}<label className="Skill-label">Java</label></div>
-            <div className="Skill">{r}<label className="Skill-label">R</label></div>
             <div className="Skill">{git}<label className="Skill-label">Git</label></div>
             <div className="Skill">{unrealengine}<label className="Skill-label">Unreal</label></div>
           </div>
@@ -73,8 +72,8 @@ function App() {
         <div className="Skills">
           <label className="Skills-title">MY FAVORITE TOPICS</label>
           <div className="Skills-items">
-            <div className="Skill">{frontend}<label className="Skill-label">Front-End</label></div>
-            <div className="Skill">{hci}<label className="Skill-label">HCI Design</label></div>
+            <div className="Skill">{frontend}<label className="Skill-label">Full-Stack</label></div>
+            <div className="Skill">{hci}<label className="Skill-label">HCI</label></div>
             <div className="Skill">{imgd}<label className="Skill-label">Game Dev</label></div>
             <div className="Skill">{rbe}<label className="Skill-label">Robotics</label></div>
           </div>
@@ -86,10 +85,10 @@ function App() {
           <div className="Job">
             <label className="Job-title">Software Engineering Consultant</label>
             <label className="Job-subtitle">ASL Education Center || Jan 2024 - Present</label>
-            <label className="Job-description">Contribute to the creation of new and innovative ASL-centric online platforms. I work with other software engineers to design and implement this technology, mainly focusing on front-end application development using tools like JavaScript, React, and CSS.</label>
+            <label className="Job-description">Contribute to the creation of new and innovative ASL-centric online platforms. Work with other engineers on technology design and implementation, mainly focusing on front-end application development using JavaScript, React, and CSS.</label>
           </div>
           <div className="Job">
-            <label className="Job-title">Student Teaching Assistant</label>
+            <label className="Job-title">Teaching Assistant</label>
             <label className="Job-subtitle">WPI || Mar 2022 - Dec 2023</label>
             <label className="Job-description">Staff member for Database Systems (CS 3431) and Data Analysis for Game Design (IMGD 2905). Held office hours to answer questions and review course topics on SQL, Python, and Excel. Provided detailed feedback to students on graded assignments.</label>
           </div>
@@ -105,7 +104,7 @@ function App() {
           <div className="Project-text">
             <label className="Project-title">ASL Survey Tool</label>
             <label className="Project-subtitle">JavaScript, React, CSS, AWS</label>
-            <label className="Project-description"><i>Platform for creating and distributing surveys based in American Sign Language (ASL).</i><br /><br />These surveys use no written text and instead fully rely on video content and non-textual elements. Designs were built from the results of previous studies and ASL-centric research. The application uses color indicators that are compliant with the Web Content Accessibility Guidelines (WCAG 2.2) and U.S. Web Design System (USWDS) for non-text contrast and system color tokens. we conducted an unmoderated user study online with the survey tool to evaluate its functionality and usability.</label>
+            <label className="Project-description"><i>Platform for creating and distributing surveys based in American Sign Language (ASL).</i><br /><br />These surveys use no written text and instead fully rely on video content and non-textual elements. The application uses color indicators that are compliant with the Web Content Accessibility Guidelines (WCAG 2.2) and U.S. Web Design System (USWDS) for non-text contrast and system color tokens. We conducted an unmoderated user study online with the survey tool to evaluate its functionality and usability.</label>
             <div className="Project-buttons">
               <a className="Project-button" href="docs/asl_survey_tool.pdf" target="_blank" rel="noopener noreferrer">Report</a>
             </div>
@@ -120,7 +119,7 @@ function App() {
           <div className="Project-text">
             <label className="Project-title">Study Buddy</label>
             <label className="Project-subtitle">Kotlin, XML, SQLite</label>
-            <label className="Project-description"><i>Android app for creating and studying flashcards.</i><br /><br />Users are able to make study sets with terms and definitions that they enter, and then study this information with animated digital flashcards. The application features a study plan timer using the Pomodoro Technique for structured studying, along with a dictionary search that handles written and spoken input.</label>
+            <label className="Project-description"><i>Android application for studying flashcards.</i><br /><br />Users are able to make study sets with terms and definitions that they enter, and then study this information with animated digital flashcards. The application features a study plan timer using the Pomodoro Technique for structured studying, along with a dictionary search that handles written and spoken input.</label>
             <div className="Project-buttons">
               <a className="Project-button" href="https://github.com/jennatripoli/StudyBuddy" target="_blank" rel="noopener noreferrer">GitHub</a>
               <a className="Project-button" href="https://www.youtube.com/watch?v=2_jPqKdkBzg" target="_blank" rel="noopener noreferrer">Demo</a>
