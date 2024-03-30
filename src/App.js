@@ -49,7 +49,7 @@ function App() {
             <a href="https://www.linkedin.com/in/jennatripoli/" target="_blank" rel="noopener noreferrer"><button className="Header-button">{linkedin}</button></a>
             <a href="https://github.com/jennatripoli" target="_blank" rel="noopener noreferrer"><button className="Header-button">{github}</button></a>
             <a href="mailto:jmtripoli@wpi.edu" target="_blank" rel="noopener noreferrer"><button className="Header-button">{email}</button></a>
-            <a href="docs/Resume.pdf" target="_blank" rel="noopener noreferrer"><button className="Header-buttontext">Resume</button></a>
+            <a href="docs/resume.pdf" target="_blank" rel="noopener noreferrer"><button className="Header-buttontext">Resume</button></a>
           </div>
         </div>
       </section>
