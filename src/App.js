@@ -103,7 +103,7 @@ function App() {
           <div className="Project-text">
             <label className="Project-title">ASL Survey Tool</label>
             <label className="Project-subtitle">JavaScript, React, CSS, AWS</label>
-            <label className="Project-description"><i>Platform for creating and distributing surveys based in American Sign Language (ASL).</i><br /><br />These surveys use no written text and instead fully rely on video content and non-textual elements. The application uses color indicators that are compliant with the Web Content Accessibility Guidelines 2.2 and U.S. Web Design System for non-text contrast and system color tokens. We conducted an unmoderated user study with the survey tool to evaluate its functionality and usability.</label>
+            <label className="Project-description"><i>Platform for creating and distributing surveys based in American Sign Language (ASL).</i><br /><br />These surveys use no written text and instead fully rely on video content and non-textual elements. The design includes color indicators that are compliant with WCAG 2.2 and USWDS for non-text contrast and system color tokens. We conducted an unmoderated user study with the survey tool to evaluate its functionality and usability.</label>
             <div className="Project-buttons">
               <a className="Project-button" href="docs/asl_survey_tool.pdf" target="_blank" rel="noopener noreferrer">Report</a>
             </div>
