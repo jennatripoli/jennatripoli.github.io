@@ -5,7 +5,6 @@ function App() {
   const circles = [];
   const colors = ["#EAF0CE", "#C0C5C1", "#7D8491", "#3F334D"];
 
-  document.body.style.overflowX = "hidden";
   const existingCircles = document.getElementsByClassName("Circle");
   for (let i = 0; i < existingCircles.length; i++) { document.body.removeChild(existingCircles[i]); }
 
@@ -76,7 +75,6 @@ function App() {
             <div className="Skill">{frontend}<label className="Skill-label">Full-Stack</label></div>
             <div className="Skill">{hci}<label className="Skill-label">HCI</label></div>
             <div className="Skill">{imgd}<label className="Skill-label">Game Dev</label></div>
-            <div className="Skill">{rbe}<label className="Skill-label">Robotics</label></div>
           </div>
         </div>
       </section>
@@ -96,7 +94,7 @@ function App() {
           <div className="Job">
             <label className="Job-title">Technology Development Intern</label>
             <label className="Job-subtitle">Optum || Jun - Aug 2023</label>
-            <label className="Job-description">Enhanced insurance claim management portal UI by implementing a new data override system. Utilized React, Java, REST API, and SQL to improve the application as a full-stack developer. Collaborated with other interns and engineers at other offices in a DevOps team environment.</label>
+            <label className="Job-description">Enhanced insurance claim management portal by implementing a new data override system. Utilized React, Java, REST API, and SQL to improve the application as a full-stack developer in a DevOps team.</label>
           </div>
         </div>
       </section>
