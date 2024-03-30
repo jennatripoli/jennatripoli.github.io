@@ -54,6 +54,7 @@ html {
   .Job {
     max-width: 100% !important;
     margin: 0 1.5em 2em 1.5em !important;
+    padding: 0.5em !important;
   }
   .Job-title {
     font-size: 1.5em !important;
