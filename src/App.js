@@ -5,6 +5,7 @@ function App() {
   const circles = [];
   const colors = ["#EAF0CE", "#C0C5C1", "#7D8491", "#3F334D"];
 
+  document.body.style.overflowX = "hidden";
   const existingCircles = document.getElementsByClassName("Circle");
   for (let i = 0; i < existingCircles.length; i++) { document.body.removeChild(existingCircles[i]); }
 
@@ -85,12 +86,12 @@ function App() {
           <div className="Job">
             <label className="Job-title">Software Engineering Consultant</label>
             <label className="Job-subtitle">ASL Education Center || Jan 2024 - Present</label>
-            <label className="Job-description">Contribute to the creation of new and innovative ASL-centric online platforms. Work with other engineers on technology design and implementation, mainly focusing on front-end application development using JavaScript, React, and CSS.</label>
+            <label className="Job-description">Contribute to the creation of new and innovative ASL-centric online platforms. Work with other software engineers, mainly focusing on front-end development using JavaScript, React, and CSS.</label>
           </div>
           <div className="Job">
             <label className="Job-title">Teaching Assistant</label>
             <label className="Job-subtitle">WPI || Mar 2022 - Dec 2023</label>
-            <label className="Job-description">Staff member for Database Systems (CS 3431) and Data Analysis for Game Design (IMGD 2905). Held office hours to answer questions and review course topics on SQL, Python, and Excel. Provided detailed feedback to students on graded assignments.</label>
+            <label className="Job-description">Staff member for Database Systems (CS 3431) and Data Analysis for Game Design (IMGD 2905). Held office hours to answer questions and review course topics on SQL, Python, and Excel.</label>
           </div>
           <div className="Job">
             <label className="Job-title">Technology Development Intern</label>
@@ -104,7 +105,7 @@ function App() {
           <div className="Project-text">
             <label className="Project-title">ASL Survey Tool</label>
             <label className="Project-subtitle">JavaScript, React, CSS, AWS</label>
-            <label className="Project-description"><i>Platform for creating and distributing surveys based in American Sign Language (ASL).</i><br /><br />These surveys use no written text and instead fully rely on video content and non-textual elements. The application uses color indicators that are compliant with the Web Content Accessibility Guidelines (WCAG 2.2) and U.S. Web Design System (USWDS) for non-text contrast and system color tokens. We conducted an unmoderated user study online with the survey tool to evaluate its functionality and usability.</label>
+            <label className="Project-description"><i>Platform for creating and distributing surveys based in American Sign Language (ASL).</i><br /><br />These surveys use no written text and instead fully rely on video content and non-textual elements. The application uses color indicators that are compliant with the Web Content Accessibility Guidelines 2.2 and U.S. Web Design System for non-text contrast and system color tokens. We conducted an unmoderated user study with the survey tool to evaluate its functionality and usability.</label>
             <div className="Project-buttons">
               <a className="Project-button" href="docs/asl_survey_tool.pdf" target="_blank" rel="noopener noreferrer">Report</a>
             </div>
