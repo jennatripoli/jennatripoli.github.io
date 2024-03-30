@@ -121,7 +121,7 @@ html {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  scroll-snap-align: start;
+  scroll-snap-align: center;
   background-color: #574B60;
   color: white;
 }
@@ -193,7 +193,7 @@ html {
 /* Styling for the About section */
 .About {
   height: 100vh;
-  scroll-snap-align: start;
+  scroll-snap-align: center;
   background-color: #574B60;
   color: white;
 }
@@ -246,7 +246,7 @@ html {
 /* Styling for the Experience section */
 .Experience {
   height: 100vh;
-  scroll-snap-align: start;
+  scroll-snap-align: center;
   background-color: #3F334D;
   color: white;
 }
@@ -293,7 +293,7 @@ html {
 
 .Project {
   height: 100vh;
-  scroll-snap-align: start;
+  scroll-snap-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
