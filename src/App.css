@@ -1,3 +1,9 @@
+html {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
 .App {
   text-align: center;
 }
@@ -32,9 +38,11 @@
   }
   .About-intro {
     margin: 0 0 1.5em 0 !important;
+    font-size: 1em !important;
   }
   .Skills {
     margin: 0 0 2em 0 !important;
+    padding: 0em !important;
   }
   .Jobs {
     width: 95vw !important;
@@ -43,6 +51,15 @@
   .Job {
     max-width: 100% !important;
     margin: 0 1.5em 2em 1.5em !important;
+  }
+  .Job-title {
+    font-size: 1.5em !important;
+  }
+  .Job-subtitle {
+    font-size: 1em !important;
+  }
+  .Job-description {
+    font-size: 0.75em !important;
   }
   .Skills:hover, .Job:hover, .Project-media:hover {
     transform: none !important;
@@ -62,13 +79,39 @@
   }
 }
 
+.Circle {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.6;
+  z-index: 0;
+}
+
+/* General styling */
+.About, .Experience, .Portfolio {
+  position: relative;
+  padding: 0 5% 0 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.About-title, .Experience-title, .Portfolio-title {
+  margin: 1em;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+/* Styling for the Header section */
 .Header {
+  min-height: 100vh;
+  font-size: 2em;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  font-size: 2em;
+  scroll-snap-align: start;
   background-color: #574B60;
   color: white;
 }
@@ -82,18 +125,18 @@
 }
 
 .Header-text {
+  margin: 0 2em 0 0;
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: center;
-  margin: 0 2em 0 0;
   z-index: 1;
 }
 
 .Header-name {
+  margin: 0.1em 0 0.1em 0;
   font-size: 3em;
   font-weight: bold;
-  margin: 0.1em 0 0.1em 0;
   z-index: 1;
 }
 
@@ -106,25 +149,26 @@
 }
 
 .Header-button {
-  font-size: 1em;
   width: 2em;
   height: 2em;
   margin: 1em 0.5em 0 0;
-  border: 0.1em solid white;
   padding: 0.4em 0.48em 0.4em 0.48em;
+  border: 0.1em solid white;
   border-radius: 50%;
+  font-size: 1em;
   transition: all 0.7s ease;
   background: none;
   fill: white;
+  cursor: pointer;
 }
 
 .Header-buttontext {
-  font-size: 0.8em;
   height: 2.4em;
   margin: 1em 1em 0 0;
   padding: 0 0.5em 0 0.5em;
   border: 0.13em solid white;
   border-radius: 1em;
+  font-size: 0.8em;
   transition: all 0.7s ease;
   background: none;
   color: white;
@@ -136,67 +180,37 @@
   color: #574B60;
 }
 
-.Circle {
-  position: absolute;
-  border-radius: 100%;
-  opacity: 0.6;
-  z-index: 0;
-}
-
-.About, .Experience, .Portfolio {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+/* Styling for the About section */
+.About {
   min-height: 100vh;
-  padding: 0 5em 0 5em;
-  background-color: white;
-  z-index: 1;
-}
-
-.Experience {
-  background-image: linear-gradient(#3F334D, #574B60, #574B60, #3F334D);
-}
-
-.About-title, .Experience-title, .Portfolio-title {
-  font-size: 3em;
-  font-weight: bold;
-  margin: 1em 1em 1em 1em;
-  color: #574B60;
-}
-
-.Experience-title {
+  scroll-snap-align: start;
+  background-color: #574B60;
   color: white;
 }
 
 .About-intro {
+  margin: -0.5em 0 1.5em 0;
   font-size: 1.5em;
-  margin: 0 0 2em 0;
 }
 
 .Skills {
+  margin: 0 0 3em 0;
+  padding: 1em;
+  border-radius: 1em;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0 0 4em 0;
-  padding: 1em 1em 1em 1em;
-  border-radius: 1em;
   transition: all 0.7s ease;
   background: #7D8491;
   fill: white;
   color: white;
 }
 
-.Skills:hover, .Job:hover, .Project-media:hover {
-  transform: scale(1.1) perspective(1em);
-}
-
 .Skills-title {
+  margin: 0.5em 0 0.5em 0;
   font-size: x-large;
   font-weight: bold;
-  margin: 0.5em 0 0.5em 0;
 }
 
 .Skills-items {
@@ -208,36 +222,44 @@
 }
 
 .Skill {
+  margin: 1em;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 1em 1em 1em 1em;
 }
 
 .Skill-label {
   margin: 1em 0 0 0;
 }
 
+/* Styling for the Experience section */
+.Experience {
+  min-height: 100vh;
+  scroll-snap-align: start;
+  background-color: #3F334D;
+  color: white;
+}
+
 .Jobs {
+  width: 88vw;
+  margin: 0 0 2em 0;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  width: 88vw;
-  margin: 0 0 2em 0;
 }
 
 .Job {
+  max-width: 40%;
+  margin: 0 1.5em 3em 1.5em;
+  padding: 1em;
+  border-radius: 1em;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 40%;
-  margin: 0 1.5em 4em 1.5em;
-  padding: 1em 1em 1em 1em;
-  border-radius: 1em;
   transition: all 0.7s ease;
   background: #7D8491;
   color: white;
@@ -249,33 +271,31 @@
 }
 
 .Job-subtitle {
-  font-size: 1.2em;
   margin: 0 0 1em 0;
+  font-size: 1.2em;
+}
+
+/* Styling for the Portfolio section */
+.Portfolio {
+  color: white;
+  background-color: #3F334D;
 }
 
 .Project {
+  height: 100vh;
+  scroll-snap-align: start;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-}
-
-.Project-info {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  width: 88vw;
 }
 
 .Project-text {
+  margin: 0 0 2em 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 40%;
-  margin: 5%;
 }
 
 .Project-title {
@@ -284,11 +304,12 @@
 }
 
 .Project-subtitle {
-  font-size: 1.2em;
   margin: 0 0 1em 0;
+  font-size: 1.2em;
 }
 
 .Project-buttons {
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -296,26 +317,44 @@
 }
 
 .Project-button {
-  width: 6em;
-  font-size: 1.5em;
   margin: 1em 0.2em 0 0.2em;
-  padding: 0.2em 0.5em 0.2em 0.5em;
-  border: 0.2em solid #574B60;
+  padding: 0.2em 0.8em 0.2em 0.8em;
   border-radius: 1em;
+  font-size: 1.5em;
   transition: all 0.7s ease;
-  background: none;
-  color: #574B60;
+  text-decoration: none;
+  background: #7D8491;
+  color: white;
+  cursor: pointer;
 }
 
 .Project-button:hover {
-  background: #574B60;
-  color: white;
+  transform: scale(1.1) perspective(1em);
 }
 
 .Project-media {
-  margin: 5%;
-  width: 40%;
-  border-radius: 2em;
-  border: 0.5em solid #574B60;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.Project-screenshot {
+  width: 100%;
+  min-width: 0;
+  margin: 1.5%;
   transition: all 0.7s ease;
+}
+
+.Project-image {
+  width: 100%;
+  min-width: 0;
+  margin: 1.5%;
+  border: 0.2em solid white;
+  border-radius: 1em;
+  transition: all 0.7s ease;
+}
+
+.Project-screenshot:hover, .Project-image:hover, .Job:hover, .Skills:hover {
+  transform: scale(1.1) perspective(1em);
 }
