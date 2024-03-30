@@ -42,7 +42,10 @@ html {
   }
   .Skills {
     margin: 0 0 2em 0 !important;
-    padding: 0em !important;
+    padding: 0.5em !important;
+  }
+  .Skill {
+    margin: 0.5em !important;
   }
   .Jobs {
     width: 95vw !important;
@@ -76,6 +79,9 @@ html {
   }
   .Project-button {
     font-size: 1.2em !important;
+  }
+  .Project-screenshot, .Project-image {
+    display: none !important;
   }
 }
 
@@ -182,7 +188,7 @@ html {
 
 /* Styling for the About section */
 .About {
-  min-height: 100vh;
+  height: 100vh;
   scroll-snap-align: start;
   background-color: #574B60;
   color: white;
@@ -235,7 +241,7 @@ html {
 
 /* Styling for the Experience section */
 .Experience {
-  min-height: 100vh;
+  height: 100vh;
   scroll-snap-align: start;
   background-color: #3F334D;
   color: white;
@@ -346,7 +352,23 @@ html {
   transition: all 0.7s ease;
 }
 
+.Project-screenshot-main {
+  width: 100%;
+  min-width: 0;
+  margin: 1.5%;
+  transition: all 0.7s ease;
+}
+
 .Project-image {
+  width: 100%;
+  min-width: 0;
+  margin: 1.5%;
+  border: 0.2em solid white;
+  border-radius: 1em;
+  transition: all 0.7s ease;
+}
+
+.Project-image-main {
   width: 100%;
   min-width: 0;
   margin: 1.5%;

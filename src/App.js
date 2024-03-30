@@ -55,7 +55,7 @@ function App() {
       </section>
       <section className="About">
         <label className="About-title">About Me</label>
-        <label className="About-intro">I am a senior at Worcester Polytechnic Institute (WPI), where I am earning a B.S. and M.S. in Computer Science and a minor in Interactive Media and Game Development. I will be graduating in May 2024! <b>I am in search of post-graduate software engineering roles near Redondo Beach, CA.</b></label>
+        <label className="About-intro">I am graduating in May 2024 from Worcester Polytechnic Institute (WPI) with a B.S. and M.S. in Computer Science, along with a minor in Interactive Media and Game Development. <b>I am in search of post-graduate software engineering roles near Redondo Beach, CA.</b></label>
         <div className="Skills">
           <label className="Skills-title">MY FAVORITE TOOLS</label>
           <div className="Skills-items">
@@ -90,8 +90,8 @@ function App() {
           </div>
           <div className="Job">
             <label className="Job-title">Student Teaching Assistant</label>
-            <label className="Job-subtitle">WPI Computer Science || Mar 2022 - Dec 2023</label>
-            <label className="Job-description">Staff member for Database Systems (CS 3431) and Data Analysis for Game Design (IMGD 2905). Held office hours to answer questions and review course topics on SQL, Python, and Excel. Provided detailed feedback and explanations to students in graded assignments.</label>
+            <label className="Job-subtitle">WPI || Mar 2022 - Dec 2023</label>
+            <label className="Job-description">Staff member for Database Systems (CS 3431) and Data Analysis for Game Design (IMGD 2905). Held office hours to answer questions and review course topics on SQL, Python, and Excel. Provided detailed feedback to students on graded assignments.</label>
           </div>
           <div className="Job">
             <label className="Job-title">Technology Development Intern</label>
@@ -105,14 +105,14 @@ function App() {
           <div className="Project-text">
             <label className="Project-title">ASL Survey Tool</label>
             <label className="Project-subtitle">JavaScript, React, CSS, AWS</label>
-            <label className="Project-description"><i>Platform for creating and distributing surveys based in American Sign Language (ASL).</i><br /><br />These surveys use no written text and instead fully rely on video content, non-textual elements, and visual cues. Designs were built off the results of previous user studies and ASL-centric research. The application uses color indicators that are compliant with the Web Content Accessibility Guidelines (WCAG 2.2) and U.S. Web Design System (USWDS) for non-text contrast and system color token standards. we conducted an unmoderated user study online with the survey tool to evaluate its functionality and usability.</label>
+            <label className="Project-description"><i>Platform for creating and distributing surveys based in American Sign Language (ASL).</i><br /><br />These surveys use no written text and instead fully rely on video content and non-textual elements. Designs were built from the results of previous studies and ASL-centric research. The application uses color indicators that are compliant with the Web Content Accessibility Guidelines (WCAG 2.2) and U.S. Web Design System (USWDS) for non-text contrast and system color tokens. we conducted an unmoderated user study online with the survey tool to evaluate its functionality and usability.</label>
             <div className="Project-buttons">
               <a className="Project-button" href="docs/asl_survey_tool.pdf" target="_blank" rel="noopener noreferrer">Report</a>
             </div>
           </div>
           <div className="Project-media">
             <img className="Project-screenshot" src="media/asl_survey_tool/multiple_choice.png" alt="" />
-            <img className="Project-screenshot" src="media/asl_survey_tool/multiple_select.png" alt="" />
+            <img className="Project-screenshot-main" src="media/asl_survey_tool/multiple_select.png" alt="" />
             <img className="Project-screenshot" src="media/asl_survey_tool/scalar.png" alt="" />
           </div>
         </section>
@@ -120,7 +120,7 @@ function App() {
           <div className="Project-text">
             <label className="Project-title">Study Buddy</label>
             <label className="Project-subtitle">Kotlin, XML, SQLite</label>
-            <label className="Project-description"><i>Android application for students to create and study flashcard sets.</i><br /><br />Users are able to make study sets with terms and definitions that they enter, and then study this information with animated digital flashcards. The application features a study plan timer using the Pomodoro Technique for structured studying, along with a dictionary search that handles written and spoken input.</label>
+            <label className="Project-description"><i>Android app for creating and studying flashcards.</i><br /><br />Users are able to make study sets with terms and definitions that they enter, and then study this information with animated digital flashcards. The application features a study plan timer using the Pomodoro Technique for structured studying, along with a dictionary search that handles written and spoken input.</label>
             <div className="Project-buttons">
               <a className="Project-button" href="https://github.com/jennatripoli/StudyBuddy" target="_blank" rel="noopener noreferrer">GitHub</a>
               <a className="Project-button" href="https://www.youtube.com/watch?v=2_jPqKdkBzg" target="_blank" rel="noopener noreferrer">Demo</a>
@@ -128,9 +128,9 @@ function App() {
           </div>
           <div className="Project-media">
             <img className="Project-screenshot" src="media/study_buddy/home.png" alt="" />
-            <img className="Project-screenshot" src="media/study_buddy/study_set.png" alt="" />
-            <img className="Project-screenshot" src="media/study_buddy/add_term.png" alt="" />
-            <img className="Project-screenshot" src="media/study_buddy/flashcards.png" alt="" />
+            <img className="Project-screenshot-main" src="media/study_buddy/study_set.png" alt="" />
+            <img className="Project-screenshot-main" src="media/study_buddy/add_term.png" alt="" />
+            <img className="Project-screenshot-main" src="media/study_buddy/flashcards.png" alt="" />
             <img className="Project-screenshot" src="media/study_buddy/pomodoro.png" alt="" />
             <img className="Project-screenshot" src="media/study_buddy/dictionary.png" alt="" />
           </div>
@@ -139,21 +139,21 @@ function App() {
           <div className="Project-text">
             <label className="Project-title">2x2 Madness</label>
             <label className="Project-subtitle">JavaScript, React, CSS</label>
-            <label className="Project-description"><i>Square grid puzzle about matching colors.</i><br /><br />The player must rotate groups of four squares to create groups of the same color (which can then be removed), with the goal of removing all colors. The game has three preset boards of size 4x4, 5x5, and 6x6. The application uses an Entity Boundary Controller structure with a Canvas and JSON configurations for the board.</label>
+            <label className="Project-description"><i>Square grid puzzle about matching colors.</i><br /><br />The player must rotate groups of four squares to create groups of the same color, with the goal of matching and removing all colors. The game has three boards of size 4x4, 5x5, and 6x6. The application uses an Entity Boundary Controller structure with a Canvas and JSON configurations for the board.</label>
             <div className="Project-buttons">
               <a className="Project-button" href="https://github.com/jennatripoli/2x2-madness" target="_blank" rel="noopener noreferrer">GitHub</a>
               <a className="Project-button" href="https://jennatripoli.github.io/2x2-madness" target="_blank" rel="noopener noreferrer">Play</a>
             </div>
           </div>
           <div className="Project-media">
-            <img className="Project-image" src="media/2x2_madness/demo.gif" alt="" />
+            <img className="Project-image-main" src="media/2x2_madness/demo.gif" alt="" />
           </div>
         </section>
         <section className="Project">
           <div className="Project-text">
             <label className="Project-title">Rowdy Raccoon</label>
             <label className="Project-subtitle">Unreal Engine 4</label>
-            <label className="Project-description"><i>Explore the town as a raccoon named Skeebo.</i><br /><br />The player can mess with objects, scare away citizens, talk to animal friends, do parkour, eat food, and collect bottle caps to earn points. This game was created in seven weeks and heavily uses blueprints for features like save states, score calculations, character sockets, object interactions, and the user interface design.</label>
+            <label className="Project-description"><i>Explore the town as a raccoon named Skeebo.</i><br /><br />The player can mess with objects, scare humans, talk to animals, do parkour, eat food, and collect bottle caps to earn points. This game was created in seven weeks and heavily uses blueprints for features like save states, score calculations, character sockets, object interactions, and the user interface design.</label>
             <div className="Project-buttons">
               <a className="Project-button" href="https://youtu.be/1NMBR5P0ihk" target="_blank" rel="noopener noreferrer">Demo</a>
               <a className="Project-button" href="https://rowdyraccoonwpi.wordpress.com/download/" target="_blank" rel="noopener noreferrer">Download</a>
@@ -161,7 +161,7 @@ function App() {
           </div>
           <div className="Project-media">
             <img className="Project-image" src="media/rowdy_raccoon/skeebo.jpg" alt="" />
-            <img className="Project-image" src="media/rowdy_raccoon/demo.gif" alt="" />
+            <img className="Project-image-main" src="media/rowdy_raccoon/demo.gif" alt="" />
             <img className="Project-image" src="media/rowdy_raccoon/home.png" alt="" />
           </div>
         </section>
@@ -169,7 +169,7 @@ function App() {
           <div className="Project-text">
             <label className="Project-title">Mystery in the Mansion</label>
             <label className="Project-subtitle">Unreal Engine 5</label>
-            <label className="Project-description"><i>Investigate the secrets of the mansion on the hill.</i><br /><br />The player begins in an outdoor area, surrounded by woods, and must venture through a cemetery and up the hill. Inside the building are puzzles that must be solved in order to progress through the map. This game was created in three weeks and uses blueprints for the user interface, puzzles, object interactions, atmosphere, and sound design.</label>
+            <label className="Project-description"><i>Investigate the secrets of a hilltop mansion.</i><br /><br />The player begins in an outdoor area, surrounded by woods, and must venture through a cemetery and up the hill. Inside the building are puzzles that must be solved in order to progress through the map. This game was created in three weeks and uses blueprints for the user interface, puzzles, object interactions, atmosphere, and sound design.</label>
             <div className="Project-buttons">
               <a className="Project-button" href="https://youtu.be/F9SbaOPLvIo" target="_blank" rel="noopener noreferrer">Demo</a>
               <a className="Project-button" href="https://drive.google.com/file/d/1OKgcj3_tn1jvkSzyBn0ugL7EJrz4-rNC" target="_blank" rel="noopener noreferrer">Download</a>
@@ -177,7 +177,7 @@ function App() {
           </div>
           <div className="Project-media">
             <img className="Project-image" src="media/mystery_in_the_mansion/exterior.jpg" alt="" />
-            <img className="Project-image" src="media/mystery_in_the_mansion/demo.gif" alt="" />
+            <img className="Project-image-main" src="media/mystery_in_the_mansion/demo.gif" alt="" />
             <img className="Project-image" src="media/mystery_in_the_mansion/interior.jpg" alt="" />
           </div>
         </section>
@@ -185,7 +185,7 @@ function App() {
           <div className="Project-text">
             <label className="Project-title">FIRST Robotics</label>
             <label className="Project-subtitle">Java</label>
-            <label className="Project-description"><i>Software for FRC Team 294, Beach Cities Robotics.</i><br /><br />Wrote code for subsystems and autonomous routines with PID controls, motion profiling, vision processing, and sensors. Designed teleoperation control schemes with joysticks and game controllers. Served as the Software Sub-Team Lead, organizing tasks and working with new team members to teach them the fundamentals of robot programming.</label>
+            <label className="Project-description"><i>Software for FRC Team 294.</i><br /><br />Wrote code for subsystems and autonomous routines with PID controls, motion profiling, vision processing, and sensors. Designed teleoperation control schemes with joysticks and game controllers. Served as the Software Sub-Team Lead, organizing tasks and working with new team members to teach them the fundamentals of robot programming.</label>
             <div className="Project-buttons">
               <a className="Project-button" href="https://github.com/team294/FRC2018" target="_blank" rel="noopener noreferrer">2018 GitHub</a>
               <a className="Project-button" href="https://github.com/team294/FRC2019" target="_blank" rel="noopener noreferrer">2019 GitHub</a>
@@ -195,7 +195,7 @@ function App() {
           <div className="Project-media">
             <img className="Project-image" src="media/first_robotics/2018.jpg" alt="" />
             <img className="Project-image" src="media/first_robotics/2019.jpg" alt="" />
-            <img className="Project-image" src="media/first_robotics/2020.jpg" alt="" />
+            <img className="Project-image-main" src="media/first_robotics/2020.jpg" alt="" />
           </div>
         </section>
       </div>
