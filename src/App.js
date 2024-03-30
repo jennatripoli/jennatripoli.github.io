@@ -57,7 +57,7 @@ function App() {
         <label className="About-title">About Me</label>
         <label className="About-intro">I am graduating in May 2024 from Worcester Polytechnic Institute with a B.S. and M.S. in Computer Science and a minor in Interactive Media and Game Development. <b>I am looking for a job in software engineering near Redondo Beach, CA.</b></label>
         <div className="Skills">
-          <label className="Skills-title">MY FAVORITE TOOLS</label>
+          <label className="Skills-title">FAVORITE TOOLS</label>
           <div className="Skills-items">
             <div className="Skill">{javascript}<label className="Skill-label">JavaScript</label></div>
             <div className="Skill">{react}<label className="Skill-label">React</label></div>
@@ -70,7 +70,7 @@ function App() {
           </div>
         </div>
         <div className="Skills">
-          <label className="Skills-title">MY FAVORITE TOPICS</label>
+          <label className="Skills-title">FAVORITE TOPICS</label>
           <div className="Skills-items">
             <div className="Skill">{frontend}<label className="Skill-label">Full-Stack</label></div>
             <div className="Skill">{hci}<label className="Skill-label">HCI</label></div>
@@ -94,7 +94,7 @@ function App() {
           <div className="Job">
             <label className="Job-title">Technology Development Intern</label>
             <label className="Job-subtitle">Optum || Jun - Aug 2023</label>
-            <label className="Job-description">Enhanced insurance claim management portal by implementing a new data override system. Utilized React, Java, REST API, and SQL to improve the application as a full-stack developer in a DevOps team.</label>
+            <label className="Job-description">Enhanced insurance claim management portal by implementing a data override system. Utilized React, Java, REST API, and SQL while working as a full-stack developer on a DevOps team.</label>
           </div>
         </div>
       </section>
