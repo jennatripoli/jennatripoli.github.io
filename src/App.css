@@ -186,6 +186,7 @@ html {
   transition: all 0.7s ease;
   background: none;
   color: white;
+  cursor: pointer;
 }
 
 .Header-button:hover, .Header-buttontext:hover {

@@ -84,7 +84,7 @@ function App() {
           <div className="Job">
             <label className="Job-title">Software Engineering Consultant</label>
             <label className="Job-subtitle">ASL Education Center || Jan 2024 - Present</label>
-            <label className="Job-description">Contribute to the creation of new and innovative ASL-centric online platforms. Work with other software engineers, mainly focusing on front-end development using JavaScript, React, and CSS.</label>
+            <label className="Job-description">Contribute to the design and creation of new and innovative ASL-centric online platforms. Focusing on responsive front-end design and development with JavaScript, React, and CSS.</label>
           </div>
           <div className="Job">
             <label className="Job-title">Teaching Assistant</label>
@@ -105,6 +105,7 @@ function App() {
             <label className="Project-subtitle">JavaScript, React, CSS, AWS</label>
             <label className="Project-description"><i>Platform for creating and distributing surveys based in American Sign Language (ASL).</i><br /><br />The surveys use no written text and instead fully rely on videos and non-textual elements. The design includes color indicators that are compliant with WCAG 2.2 and USWDS for non-text contrast and color tokens. We conducted an unmoderated user study with the survey tool to evaluate its functionality and usability.</label>
             <div className="Project-buttons">
+              <a className="Project-button" href="media/asl_survey_tool/poster.png" target="_blank" rel="noopener noreferrer">Poster</a>
               <a className="Project-button" href="docs/asl_survey_tool.pdf" target="_blank" rel="noopener noreferrer">Report</a>
             </div>
           </div>
