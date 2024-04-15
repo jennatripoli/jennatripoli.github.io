@@ -51,16 +51,20 @@ html {
     display: none !important;
   }
   .Skill {
-    margin: 0.5em !important;
+    margin: 0.5em 0.5em 0.25em 0.5em !important;
+    height: 4.5em !important;
   }
   .Jobs {
     width: 95vw !important;
     margin: 0 1.5em 0 1.5em !important;
   }
-  .Job {
+  .Job-main {
     max-width: 100% !important;
     margin: 0 1.5em 2em 1.5em !important;
     padding: 0.5em !important;
+  }
+  .Job {
+    display: none !important;
   }
   .Job-title {
     font-size: 1.25em !important;
@@ -266,7 +270,7 @@ html {
   flex-wrap: wrap;
 }
 
-.Job {
+.Job-main, .Job {
   max-width: 40%;
   margin: 0 1.5em 3em 1.5em;
   padding: 1em;
@@ -386,6 +390,6 @@ html {
   transition: all 0.7s ease;
 }
 
-.Project-screenshot-main:hover, .Project-screenshot:hover, .Project-image-main:hover, .Project-image:hover, .Job:hover, .Skills:hover {
+.Project-screenshot-main:hover, .Project-screenshot:hover, .Project-image-main:hover, .Project-image:hover, .Job-main:hover, .Job.hover, .Skills:hover {
   transform: scale(1.1) perspective(1em);
 }

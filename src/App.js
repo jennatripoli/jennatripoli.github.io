@@ -75,26 +75,33 @@ function App() {
             <div className="Skill">{frontend}<label className="Skill-label">Full-Stack</label></div>
             <div className="Skill">{hci}<label className="Skill-label">HCI</label></div>
             <div className="Skill">{imgd}<label className="Skill-label">Game Dev</label></div>
+            <div className="Skill">{ds}<label className="Skill-label">Data Science</label></div>
+            <div className="Skill">{rbe}<label className="Skill-label">Robotics</label></div>
           </div>
         </div>
       </section>
       <section className="Experience">
         <label className="Experience-title">Experience</label>
         <div className="Jobs">
-          <div className="Job">
+          <div className="Job-main">
             <label className="Job-title">Software Engineering Consultant</label>
             <label className="Job-subtitle">ASL Education Center || Jan 2024 - Present</label>
-            <label className="Job-description">Contribute to the design and creation of new and innovative ASL-centric online platforms. Focusing on responsive front-end design and development with JavaScript, React, and CSS.</label>
+            <label className="Job-description">Contribute to the design and creation of new and innovative online technology for ASL signers. Focus on responsive, component-based front-end development with JavaScript, React.js, and CSS. Use GitHub Projects to enhance team efficiency and foster collaboration across time zones.</label>
           </div>
-          <div className="Job">
-            <label className="Job-title">Teaching Assistant</label>
-            <label className="Job-subtitle">WPI || Mar 2022 - Dec 2023</label>
-            <label className="Job-description">Staff member for Database Systems (CS 3431) and Data Analysis for Game Design (IMGD 2905). Held office hours to answer questions and review course topics on SQL, Python, and Excel.</label>
-          </div>
-          <div className="Job">
+          <div className="Job-main">
             <label className="Job-title">Technology Development Intern</label>
             <label className="Job-subtitle">Optum || Jun - Aug 2023</label>
-            <label className="Job-description">Enhanced insurance claim management portal by implementing a data override system. Utilized React, Java, REST API, and SQL while working as a full-stack developer on a DevOps team.</label>
+            <label className="Job-description">Enhanced an insurance claim management portal by implementing a data override system. Used Java, Oracle Scripts, SQL, and REST APIs for the back end and JavaScript for the front end. Worked with Jenkins for CI/CD, DBeaver and Postman for testing, and Rally for Agile collaboration.</label>
+          </div>
+          <div className="Job-main">
+            <label className="Job-title">Teaching Assistant</label>
+            <label className="Job-subtitle">WPI || Mar 2022 - Dec 2023</label>
+            <label className="Job-description">Held weekly office hours to answer questions and review topics for courses in database systems (SQL, schema design, and relational algebra) and data analysis (Python, visualization, and statistics).</label>
+          </div>
+          <div className="Job">
+            <label className="Job-title">Website Developer</label>
+            <label className="Job-subtitle">WPI || Jun - Aug 2022</label>
+            <label className="Job-description">Designed websites for multiple on-campus research groups using WordPress and CSS. Created page templates for lab contributors to publicize their findings in an organized and readable manner.</label>
           </div>
         </div>
       </section>
@@ -103,7 +110,7 @@ function App() {
           <div className="Project-text">
             <label className="Project-title">ASL Survey Tool</label>
             <label className="Project-subtitle">JavaScript, React, CSS, AWS</label>
-            <label className="Project-description"><i>Platform for creating and distributing surveys based in American Sign Language (ASL).</i><br /><br />The surveys use no written text and instead fully rely on videos and non-textual elements. The design includes color indicators that are compliant with WCAG 2.2 and USWDS for non-text contrast and color tokens. We conducted an unmoderated user study with the survey tool to evaluate its functionality and usability.</label>
+            <label className="Project-description"><i>Platform for creating and distributing surveys based in American Sign Language (ASL).</i><br /><br />The surveys use no written text and instead fully rely on videos and non-textual elements. The design includes color indicators that are compliant with WCAG 2.2 and USWDS for non-text contrast and color tokens. We conducted an unmoderated user study with 30 Deaf participants to evaluate the tool's usability.</label>
             <div className="Project-buttons">
               <a className="Project-button" href="media/asl_survey_tool/poster.png" target="_blank" rel="noopener noreferrer">Poster</a>
               <a className="Project-button" href="docs/asl_survey_tool.pdf" target="_blank" rel="noopener noreferrer">Report</a>
