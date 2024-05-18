@@ -1,5 +1,5 @@
 import './App.css';
-import {linkedin, github, email, javascript, react, sql, html, css, r, java, cpp, git, unrealengine, aws, frontend, imgd, rbe, ds, hci} from './icons.js';
+import {linkedin, github, email, javascript, react, sql, html, css, r, java, python, cpp, git, unrealengine, aws, frontend, imgd, rbe, ds, hci} from './icons.js';
 
 function App() {
   const circles = [];
@@ -55,9 +55,26 @@ function App() {
       </section>
       <section className="About">
         <label className="About-title">About Me</label>
-        <label className="About-intro">I am graduating in May 2024 from Worcester Polytechnic Institute with a B.S. and M.S. in Computer Science and a minor in Interactive Media and Game Development.</label>
         <div className="Skills">
-          <label className="Skills-title">FAVORITE TOOLS</label>
+          <label className="Skills-title">EDUCATION</label>
+          <div className="Skill">
+              <b>Worcester Polytechnic Institute</b>
+              Graduated High Distinction in May 2024
+          </div>
+          <div className="Skill">
+              <b>M.S. & B.S. in Computer Science</b>
+              Minor in Interactive Media & Game Dev
+          </div>
+        </div>
+        <div className="Skills">
+          <label className="Skills-title">FAVORITE TOPICS & TOOLS</label>
+          <div className="Skills-items">
+            <div className="Skill">{frontend}<label className="Skill-label">Full-Stack</label></div>
+            <div className="Skill">{hci}<label className="Skill-label">HCI</label></div>
+            <div className="Skill">{rbe}<label className="Skill-label">Robotics</label></div>
+            <div className="Skill">{ds}<label className="Skill-label">Data Science</label></div>
+            <div className="Skill">{unrealengine}<label className="Skill-label">Game Dev</label></div>
+          </div>
           <div className="Skills-items">
             <div className="Skill">{javascript}<label className="Skill-label">JavaScript</label></div>
             <div className="Skill">{react}<label className="Skill-label">React</label></div>
@@ -65,18 +82,8 @@ function App() {
             <div className="Skill">{css}<label className="Skill-label">CSS</label></div>
             <div className="Skill">{html}<label className="Skill-label">HTML</label></div>
             <div className="Skill">{java}<label className="Skill-label">Java</label></div>
+            <div className="Skill">{python}<label className="Skill-label">Python</label></div>
             <div className="Skill">{git}<label className="Skill-label">Git</label></div>
-            <div className="Skill">{unrealengine}<label className="Skill-label">Unreal</label></div>
-          </div>
-        </div>
-        <div className="Skills">
-          <label className="Skills-title">FAVORITE TOPICS</label>
-          <div className="Skills-items">
-            <div className="Skill">{frontend}<label className="Skill-label">Full-Stack</label></div>
-            <div className="Skill">{hci}<label className="Skill-label">HCI</label></div>
-            <div className="Skill">{imgd}<label className="Skill-label">Game Dev</label></div>
-            <div className="Skill">{ds}<label className="Skill-label">Data Science</label></div>
-            <div className="Skill">{rbe}<label className="Skill-label">Robotics</label></div>
           </div>
         </div>
       </section>
@@ -85,13 +92,13 @@ function App() {
         <div className="Jobs">
           <div className="Job-main">
             <label className="Job-title">Software Engineering Consultant</label>
-            <label className="Job-subtitle">ASL Education Center || Jan 2024 - Present</label>
-            <label className="Job-description">Contribute to the design and creation of new and innovative online technology for ASL signers. Focus on responsive, component-based front-end development with JavaScript, React.js, and CSS. Use GitHub Projects to enhance team efficiency and foster collaboration across time zones.</label>
+            <label className="Job-subtitle">ASL Education Center || Jan - May 2024</label>
+            <label className="Job-description">Contributed to the design and creation of innovative online technology for ASL signers. Focused on responsive, component-based front-end development with JavaScript, React.js, and CSS. Used GitHub Projects to foster collaboration across time zones.</label>
           </div>
           <div className="Job-main">
             <label className="Job-title">Technology Development Intern</label>
             <label className="Job-subtitle">Optum || Jun - Aug 2023</label>
-            <label className="Job-description">Enhanced an insurance claim management portal by implementing a data override system. Used Java, Oracle Scripts, SQL, and REST APIs for the back end and JavaScript for the front end. Worked with Jenkins for CI/CD, DBeaver and Postman for testing, and Rally for Agile collaboration.</label>
+            <label className="Job-description">Enhanced an insurance claim management portal by implementing a data override system. Used Java, Oracle Scripts, SQL, and REST APIs for the back end and JavaScript for the front end. Worked with Jenkins for CI/CD, DBeaver and Postman for testing, and Rally for Agile collaboration. Regularly presented to non-technical company employees.</label>
           </div>
           <div className="Job-main">
             <label className="Job-title">Teaching Assistant</label>
@@ -110,7 +117,7 @@ function App() {
           <div className="Project-text">
             <label className="Project-title">ASL Survey Tool</label>
             <label className="Project-subtitle">JavaScript, React, CSS, AWS</label>
-            <label className="Project-description"><i>Platform for creating and distributing surveys based in American Sign Language (ASL).</i><br /><br />The surveys use no written text and instead fully rely on videos and non-textual elements. The design includes color indicators that are compliant with WCAG 2.2 and USWDS for non-text contrast and color tokens. We conducted an unmoderated user study with 30 Deaf participants to evaluate the tool's usability.</label>
+            <label className="Project-description"><i>Platform for creating and distributing surveys in American Sign Language (ASL).</i><br /><br />The surveys use no written text and instead fully rely on videos and non-textual elements. The design includes color indicators that are compliant with WCAG 2.2 and USWDS for non-text contrast and color tokens. We conducted an unmoderated user study with 30 Deaf participants to evaluate the tool's usability.</label>
             <div className="Project-buttons">
               <a className="Project-button" href="media/asl_survey_tool/poster.png" target="_blank" rel="noopener noreferrer">Poster</a>
               <a className="Project-button" href="docs/asl_survey_tool.pdf" target="_blank" rel="noopener noreferrer">Report</a>

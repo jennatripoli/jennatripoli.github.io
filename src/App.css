@@ -52,7 +52,7 @@ html {
   }
   .Skill {
     margin: 0.5em 0.5em 0.25em 0.5em !important;
-    height: 4.5em !important;
+    max-height: 4.5em !important;
   }
   .Jobs {
     width: 95vw !important;
