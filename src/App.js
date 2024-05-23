@@ -132,7 +132,7 @@ function App() {
         <section className="Project">
           <div className="Project-text">
             <label className="Project-title">Study Buddy</label>
-            <label className="Project-subtitle">Kotlin, XML, SQLite</label>
+            <label className="Project-subtitle">Kotlin, XML, SQLite, REST</label>
             <label className="Project-description"><i>Android application for studying flashcards.</i><br /><br />Users are able to make study sets with terms and definitions that they enter, and then study this information with animated digital flashcards. The application features a study plan timer using the Pomodoro Technique for structured studying, along with a dictionary search that handles written and spoken input.</label>
             <div className="Project-buttons">
               <a className="Project-button" href="https://github.com/jennatripoli/StudyBuddy" target="_blank" rel="noopener noreferrer">GitHub</a>
