@@ -98,7 +98,7 @@ function App() {
           <div className="Job-main">
             <label className="Job-title">Technology Development Intern</label>
             <label className="Job-subtitle">Optum || Jun - Aug 2023</label>
-            <label className="Job-description">Enhanced an insurance claim management portal by implementing a data override system. Used Java, Oracle Scripts, SQL, and REST APIs for the back end and JavaScript for the front end. Worked with Jenkins for CI/CD, DBeaver and Postman for testing, and Rally for Agile collaboration. Regularly presented to non-technical company employees.</label>
+            <label className="Job-description">Enhanced an insurance claim management portal by implementing a data override system. Used Java, Oracle Scripts, SQL, and REST APIs for the back end and JavaScript for the front end. Worked with Jenkins for CI/CD, DBeaver and Postman for testing, and Rally for Agile collaboration.</label>
           </div>
           <div className="Job-main">
             <label className="Job-title">Teaching Assistant</label>
@@ -127,6 +127,22 @@ function App() {
             <img className="Project-screenshot" src="media/asl_survey_tool/multiple_choice.png" alt="" />
             <img className="Project-screenshot-main" src="media/asl_survey_tool/multiple_select.png" alt="" />
             <img className="Project-screenshot" src="media/asl_survey_tool/scalar.png" alt="" />
+          </div>
+        </section>
+        <section className="Project">
+          <div className="Project-text">
+            <label className="Project-title">Smiski Tracker</label>
+            <label className="Project-subtitle">JavaScript, React, CSS</label>
+            <label className="Project-description"><i>Website to track collectible items.</i><br /><br />Users can select and deselect icons to indicate whether they have a certain item, along with collapse and expand various series. The site maintains these visual selections using local storage. All media is from smiski.com and the interface design uses the same color scheming as the brand site.</label>
+            <div className="Project-buttons">
+              <a className="Project-button" href="https://jennatripoli.github.io/smiski" target="_blank" rel="noopener noreferrer">Visit</a>
+              <a className="Project-button" href="https://github.com/jennatripoli/smiski" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </div>
+          <div className="Project-media">
+            <img className="Project-screenshot" style={{width: "35%"}} src="media/smiski_tracker/mobile_collapsed.png" alt="" />
+            <img className="Project-screenshot-main" style={{width: "120%"}} src="media/smiski_tracker/desktop.png" alt="" />
+            <img className="Project-screenshot" style={{width: "35%"}} src="media/smiski_tracker/mobile_expanded.png" alt="" />
           </div>
         </section>
         <section className="Project">
