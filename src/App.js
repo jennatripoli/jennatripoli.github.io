@@ -54,7 +54,7 @@ function App() {
           </div>
       </section>
       <section className="about">
-        <div className="section-title">My Background</div>
+        <div className="section-title">About Me</div>
         <div className="education">
           <b>Worcester Polytechnic Institute</b>
           Graduated High Distinction in May 2024
@@ -81,7 +81,7 @@ function App() {
 
       </section>
       <section className="projects">
-        <div className="section-title">Past Projects</div>
+        <div className="section-title">Projects</div>
         <div className="projects-container">
           <div className="project" id="asl-survey-tool">
             <img className="project-media" src="media/asl_survey_tool/multiple_choice.png" alt="" />
@@ -189,7 +189,7 @@ function App() {
         </div>
       </section>
       <section className="experience">
-        <div className="section-title">Work Experience</div>
+        <div className="section-title">Experience</div>
         <div className="timeline">
           <div className="timeline-item timeline-left">
             <div className="timeline-content">
@@ -203,7 +203,7 @@ function App() {
           <div className="timeline-item timeline-right">
             <div className="timeline-content">
               <div className="timeline-date">Jun - Aug 2023</div>
-              <div className="timeline-position">Technology Development Intern</div>
+              <div className="timeline-position">Full-Stack Technology Development Intern</div>
               <div className="timeline-company">Optum/UnitedHealth Group</div>
               <div className="timeline-location">Cypress, CA</div>
               <div className="timeline-description">Enhanced an insurance claim management portal by implementing a data override system. Used Java, Oracle Scripts, SQL, and REST APIs for the back end and JavaScript for the front end. Worked with Jenkins for CI/CD, DBeaver and Postman for testing, and Rally for Agile collaboration.</div>
