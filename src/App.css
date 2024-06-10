@@ -1,148 +1,60 @@
 html {
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
   overflow-x: hidden;
 }
 
 .App {
   text-align: center;
-}
-
-@media only screen and (max-width : 1000px) {
-  .Header {
-    flex-direction: column !important;
-    font-size: 1.5em !important;
-  }
-  .Header-profile {
-    height: 35vw !important;
-  }
-  .Header-text {
-    align-items: center !important;
-    margin: 0 !important;
-  }
-  .Header-name {
-    font-size: 2.5em !important;
-  }
-  .Header-button {
-    margin: 2em 0.5em 3em 0.5em !important;
-    padding: 0.25em 0.35em 0.25em 0.35em !important;
-  }
-  .Header-buttontext {
-    margin: 2.5em 1em 3.9em 1em !important;
-  }
-  .About, .Experience, .Portfolio {
-    padding: 0 2em 0 2em !important;
-  }
-  .About-title, .Experience-title, .Portfolio-title {
-    margin: 1em 1em 0.5em 1em !important;
-  }
-  .About {
-    height: 120vh !important;
-  }
-  .About-intro {
-    margin: 0 0 1.5em 0 !important;
-    font-size: 1em !important;
-  }
-  .Skills {
-    margin: 0 0 2em 0 !important;
-    padding: 0.5em !important;
-  }
-  .Skills-title {
-    display: none !important;
-  }
-  .Skill {
-    margin: 0.5em 0.5em 0.25em 0.5em !important;
-    max-height: 4.5em !important;
-  }
-  .Jobs {
-    width: 95vw !important;
-    margin: 0 1.5em 0 1.5em !important;
-  }
-  .Job-main {
-    max-width: 100% !important;
-    margin: 0 1.5em 2em 1.5em !important;
-    padding: 0.5em !important;
-  }
-  .Job {
-    display: none !important;
-  }
-  .Job-title {
-    font-size: 1.25em !important;
-  }
-  .Job-subtitle {
-    font-size: 0.75em !important;
-    margin: 0 0 0.5em 0 !important;
-  }
-  .Job-description {
-    font-size: 0.75em !important;
-  }
-  .Skills:hover, .Job:hover, .Project-media:hover {
-    transform: none !important;
-  }
-  .Project {
-    min-height: initial !important;
-    margin: 0 0 3em 0 !important;
-  }
-  .Project-text, .Project-media {
-    width: 90vw !important;
-  }
-  .Project-button {
-    font-size: 1.2em !important;
-  }
-  .Project-screenshot, .Project-image {
-    display: none !important;
-  }
-  .Circle {
-    display: none !important;
-  }
+  background-image: linear-gradient(180deg, #212129, #4c5265);
+  background-attachment: fixed;
 }
 
 .Circle {
-  position: absolute;
+  position: fixed;
   border-radius: 100%;
   opacity: 0.6;
   z-index: 0;
 }
 
-/* General styling */
-.About, .Experience, .Portfolio {
-  position: relative;
-  padding: 0 5% 0 5%;
+.header, .about, .projects, .experience {
+  z-index: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  min-height: 100vh;
+}
+
+.about, .projects, .experience {
+  padding: 2em 0 2em 0;
+}
+
+.section-title {
+  margin-bottom: 1em;
+  font-size: 3em;
+  font-weight: bold;
+  color: white;
   z-index: 1;
 }
 
-.About-title, .Experience-title, .Portfolio-title {
-  margin: 1em;
-  font-size: 3em;
-  font-weight: bold;
-}
-
-/* Styling for the Header section */
-.Header {
-  min-height: 100vh;
+.header {
+  height: 100vh;
   font-size: 2em;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  scroll-snap-align: center;
-  background-color: #574B60;
   color: white;
+  z-index: 1;
 }
 
-.Header-profile {
+.header-profile {
   height: 20vw;
-  margin: 2em 2em 2em 2em;
+  margin: 0 2em 2em 2em;
   border: 0.2em solid white;
   border-radius: 50%;
   z-index: 1;
 }
 
-.Header-text {
+.header-text {
   margin: 0 2em 0 0;
   display: flex;
   flex-direction: column;
@@ -151,14 +63,14 @@ html {
   z-index: 1;
 }
 
-.Header-name {
+.header-name {
   margin: 0.1em 0 0.1em 0;
-  font-size: 3em;
+  font-size: 2.8em;
   font-weight: bold;
   z-index: 1;
 }
 
-.Header-buttons {
+.header-buttons {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -166,7 +78,7 @@ html {
   z-index: 1;
 }
 
-.Header-button {
+.header-button {
   width: 2em;
   height: 2em;
   margin: 1em 0.5em 0 0;
@@ -178,9 +90,10 @@ html {
   background: none;
   fill: white;
   cursor: pointer;
+  z-index: 1;
 }
 
-.Header-buttontext {
+.header-button-text {
   height: 2.4em;
   margin: 1em 1em 0 0;
   padding: 0 0.5em 0 0.5em;
@@ -191,48 +104,31 @@ html {
   background: none;
   color: white;
   cursor: pointer;
+  z-index: 1;
 }
 
-.Header-button:hover, .Header-buttontext:hover {
+.header-button:hover, .header-button-text:hover {
   background: white;
-  fill: #574B60;
-  color: #574B60;
+  fill: #4c5265;
+  color: #4c5265;
 }
 
-/* Styling for the About section */
-.About {
-  height: 100vh;
-  scroll-snap-align: center;
-  background-color: #574B60;
-  color: white;
-}
-
-.About-intro {
-  margin: -0.5em 0 1.5em 0;
-  font-size: 1.5em;
-}
-
-.Skills {
+.education {
   margin: 0 0 3em 0;
-  padding: 1em 1em 0 1em;
+  padding: 1em 1em 1em 1em;
   border-radius: 1em;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   transition: all 0.7s ease;
-  background: #7D8491;
-  fill: white;
-  color: white;
+  background: white;
+  color: #212129;
+  width: fit-content;
+  z-index: 1;
 }
 
-.Skills-title {
-  margin: 0em 0 0.5em 0;
-  font-size: x-large;
-  font-weight: bold;
-}
-
-.Skills-items {
+.skills {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -240,156 +136,312 @@ html {
   flex-wrap: wrap;
 }
 
-.Skill {
+.skill {
   margin: 1em;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  fill: white;
 }
 
-.Skill-label {
+.skill-label {
   margin: 1em 0 0 0;
-}
-
-/* Styling for the Experience section */
-.Experience {
-  height: 100vh;
-  scroll-snap-align: center;
-  background-color: #3F334D;
   color: white;
 }
 
-.Jobs {
-  width: 88vw;
-  margin: 0 0 2em 0;
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  margin: 2.5em;
+}
+
+.project {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+  justify-content: start;
+  margin-bottom: 5em;
+  z-index: 1;
 }
 
-.Job-main, .Job {
-  max-width: 40%;
-  margin: 0 1.5em 3em 1.5em;
-  padding: 1em;
-  border-radius: 1em;
+.project-media {
+  width: 35%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bordered {
+  border: 2px solid white;
+  border-radius: 6px;
+  aspect-ratio: 5.5 / 3;
+  object-fit: cover;
+}
+
+.project-details {
+  width: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  transition: all 0.7s ease;
-  background: #7D8491;
-  color: white;
+  justify-content: start;
 }
 
-.Job-title {
-  font-size: 2em;
+.project-text {
+  padding: 10px;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.project-title {
   font-weight: bold;
+  font-size: larger;
+  color: #212129;
 }
 
-.Job-subtitle {
-  margin: 0 0 1em 0;
-  font-size: 1.2em;
+.project-tools {
+  font-size: larger;
+  color: #212129;
 }
 
-/* Styling for the Portfolio section */
-.Portfolio {
-  color: white;
-  background-color: #3F334D;
+.project-description {
+  margin-top: 1em;
+  font-size: small;
+  color: #4c5265;
 }
 
-.Project {
-  height: 100vh;
-  scroll-snap-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.Project-text {
-  margin: 0 0 2em 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.Project-title {
-  font-size: 2em;
-  font-weight: bold;
-}
-
-.Project-subtitle {
-  margin: 0 0 1em 0;
-  font-size: 1.2em;
-}
-
-.Project-buttons {
-  margin: 0 auto;
+.project-buttons {
+  padding: 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
-.Project-button {
-  margin: 1em 0.2em 0 0.2em;
+.project-button {
+  margin: 1em;
   padding: 0.2em 0.8em 0.2em 0.8em;
-  border-radius: 1em;
-  font-size: 1.5em;
+  font-size: 1em;
+  background-color: white;
+  color: #4c5265;
+  border-radius: 6px;
   transition: all 0.7s ease;
   text-decoration: none;
-  background: #7D8491;
-  color: white;
   cursor: pointer;
 }
 
-.Project-button:hover {
+.project-button:hover {
   transform: scale(1.1) perspective(1em);
 }
 
-.Project-media {
-  max-width: 100%;
+.timeline {
+  position: relative;
   margin: 0 auto;
-  display: flex;
-  align-items: center;
+  z-index: 1;
 }
 
-.Project-screenshot {
-  width: 100%;
-  min-width: 0;
-  margin: 1.5%;
-  transition: all 0.7s ease;
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+  border-radius: 6px;
 }
 
-.Project-screenshot-main {
-  width: 100%;
-  min-width: 0;
-  margin: 1.5%;
-  transition: all 0.7s ease;
+.timeline-item {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+  box-sizing: border-box;
 }
 
-.Project-image {
-  width: 100%;
-  min-width: 0;
-  margin: 1.5%;
-  border: 0.2em solid white;
-  border-radius: 1em;
-  transition: all 0.7s ease;
+.timeline-item::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: #4c5265;
+  border: 4px solid white;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
 }
 
-.Project-image-main {
-  width: 100%;
-  min-width: 0;
-  margin: 1.5%;
-  border: 0.2em solid white;
-  border-radius: 1em;
-  transition: all 0.7s ease;
+.timeline-left {
+  left: 0;
+  text-align: right;
 }
 
-.Project-screenshot-main:hover, .Project-screenshot:hover, .Project-image-main:hover, .Project-image:hover, .Job-main:hover, .Job.hover, .Skills:hover {
-  transform: scale(1.1) perspective(1em);
+.timeline-right {
+  left: 50%;
+  text-align: left;
+}
+
+.timeline-left::before,
+.timeline-right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  border: medium solid white;
+}
+
+.timeline-left::before {
+  right: 30px;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+.timeline-right::before {
+  left: 30px;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+.timeline-right::after {
+  left: -16px;
+}
+
+.timeline-content {
+  padding: 15px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+.timeline-date {
+  font-size: small;
+  color: #4c5265;
+}
+
+.timeline-position {
+  font-weight: bold;
+  font-size: larger;
+  color: #212129;
+}
+
+.timeline-company {
+  font-size: larger;
+  color: #212129;
+}
+
+.timeline-location {
+  font-size: small;
+  color: #4c5265;
+}
+
+.timeline-description {
+  margin-top: 1em;
+  font-size: small;
+  color: #4c5265;
+}
+
+@media screen and (max-width: 1000px) {
+  .header {
+    flex-direction: column !important;
+    font-size: 1.5em !important;
+  }
+
+  .header-profile {
+    height: 35vw !important;
+  }
+
+  .header-text {
+    align-items: center !important;
+    margin: 0 !important;
+  }
+
+  .header-button {
+    margin: 2em 0.5em 3em 0.5em !important;
+    padding: 0.25em 0.35em 0.25em 0.35em !important;
+  }
+
+  .header-button-text {
+    margin: 2.5em 1em 3.9em 1em !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    flex-direction: column !important;
+    font-size: 1.5em !important;
+  }
+
+  .header-profile {
+    height: 50vw !important;
+  }
+
+  .header-text {
+    align-items: center !important;
+    margin: 0 !important;
+  }
+
+  .header-name {
+    font-size: 2.5em !important;
+  }
+
+  .header-button {
+    margin: 2em 0.5em 3em 0.5em !important;
+    padding: 0.25em 0.35em 0.25em 0.35em !important;
+  }
+
+  .header-button-text {
+    margin: 2.5em 1em 3.9em 1em !important;
+  }
+
+  .project {
+    flex-direction: column;
+  }
+
+  .project-media {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1.5em;
+  }
+
+  .project-details {
+    width: 100%;
+  }
+
+  .timeline::after {
+    left: 31px;
+  }
+
+  .timeline-item {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+  .timeline-item::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+  .timeline-left::after,
+  .timeline-right::after {
+    left: 15px;
+  }
+
+  .timeline-left {
+    text-align: left;
+  }
+
+  .timeline-right {
+    left: 0%;
+  }
 }
