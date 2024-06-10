@@ -66,7 +66,6 @@ function App() {
             <div className="skill">{frontend}<label className="skill-label">Full-Stack</label></div>
             <div className="skill">{hci}<label className="skill-label">HCI</label></div>
             <div className="skill">{rbe}<label className="skill-label">Robotics</label></div>
-            <div className="skill">{ds}<label className="skill-label">Data Science</label></div>
             <div className="skill">{unrealengine}<label className="skill-label">Game Dev</label></div>
           </div>
           <div className="skills">

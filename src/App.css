@@ -23,7 +23,11 @@ html {
   min-height: 100vh;
 }
 
-.about, .projects, .experience {
+.about {
+  padding: 2em -1em 2em -1em;
+}
+
+.projects, .experience {
   padding: 2em 0 2em 0;
 }
 
