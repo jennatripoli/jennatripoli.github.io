@@ -121,7 +121,7 @@ function App() {
               <div className="project-text">
                 <div className="project-title">Smiski Tracker</div>
                 <div className="project-tools">JavaScript, React, CSS</div>
-                <div className="project-description"><i>Website to track collectible items.</i><br /><br />Users can select and deselect icons to indicate whether they have a certain item, along with collapse and expand various series. The site maintains these visual selections using local storage. All media is from smiski.com and the interface design uses the same color scheming as the brand site.</div>
+                <div className="project-description"><i>Website to track collectible figurines.</i><br /><br />Users can select and deselect icons to indicate whether they have a certain figurine, along with collapse and expand various series. The site maintains these visual selections using local storage. All media is from smiski.com and the interface design uses the same color scheming as the brand site.</div>
               </div>
               <div className="project-buttons">
                 <a className="project-button" href="https://jennatripoli.github.io/smiski" target="_blank" rel="noopener noreferrer">Visit</a>
