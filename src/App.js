@@ -191,20 +191,29 @@ function App() {
       <section className="experience">
         <div className="section-title">Experience</div>
         <div className="timeline">
+        <div className="timeline-item timeline-right">
+            <div className="timeline-content">
+              <div className="timeline-date">Jun 2024 - Present</div>
+              <div className="timeline-position">Full-Stack Engineer</div>
+              <div className="timeline-company">Gently</div>
+              <div className="timeline-location">Santa Monica, CA</div>
+              <div className="timeline-description">Revamp the company's website and further develop the in-house warehouse management system. Develop solutions in TypeScript, Astro.js, and TailwindCSS integrated with TinaCMS and Jira.</div>
+            </div>
+          </div>
           <div className="timeline-item timeline-left">
             <div className="timeline-content">
               <div className="timeline-date">Jan - May 2024</div>
               <div className="timeline-position">Software Engineering Consultant</div>
               <div className="timeline-company">ASL Education Center</div>
               <div className="timeline-location">Framingham, MA (Remote)</div>
-              <div className="timeline-description">Contributed to the design and creation of innovative online technology for ASL signers. Focused on responsive, component-based front-end development with JavaScript, React.js, and CSS. Used GitHub Projects to foster collaboration across time zones.</div>
+              <div className="timeline-description">Contributed to designing and creating new and innovative online technology for ASL signers. Focused on creating responsive and modular web applications with JavaScript, React.js, and CSS. Used GitHub Projects to enhance team efficiency and foster collaboration across several time zones.</div>
             </div>
           </div>
           <div className="timeline-item timeline-right">
             <div className="timeline-content">
               <div className="timeline-date">Jun - Aug 2023</div>
               <div className="timeline-position">Full-Stack Technology Development Intern</div>
-              <div className="timeline-company">Optum/UnitedHealth Group</div>
+              <div className="timeline-company">Optum</div>
               <div className="timeline-location">Cypress, CA</div>
               <div className="timeline-description">Enhanced an insurance claim management portal by implementing a data override system. Used Java, Oracle Scripts, SQL, and REST APIs for the back end and JavaScript for the front end. Worked with Jenkins for CI/CD, DBeaver and Postman for testing, and Rally for Agile collaboration.</div>
             </div>
