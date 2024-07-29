@@ -229,7 +229,7 @@ function App() {
           </div>
           <div className="timeline-item timeline-right">
             <div className="timeline-content">
-              <div className="timeline-date">Jun-Aug 2022</div>
+              <div className="timeline-date">Jun - Aug 2022</div>
               <div className="timeline-position">Website Developer</div>
               <div className="timeline-company">Worcester Polytechnic Institute</div>
               <div className="timeline-location">Worcester, MA (Remote)</div>
