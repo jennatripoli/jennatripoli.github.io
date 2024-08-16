@@ -1,5 +1,5 @@
 import './App.css';
-import {linkedin, github, email, javascript, react, sql, html, css, r, java, python, cpp, git, unrealengine, aws, frontend, imgd, rbe, ds, hci} from './icons.js';
+import { linkedin, github, email, webdevelopment, robotics, unrealengine, javascript, react, tailwind, java, python, sql, git } from './icons.js';
 
 function App() {
   const circles = [];
@@ -41,43 +41,41 @@ function App() {
     <div className="App">
       <section className="header">
         <img className="header-profile" src="media/profile.jpg" alt="" />
-          <div className="header-text">
-            <label>Hello, World! My name is</label>
-            <label className="header-name">Jenna Tripoli</label>
-            <label>and welcome to my portfolio.</label>
-            <div className="header-buttons">
-              <a href="https://www.linkedin.com/in/jennatripoli/" target="_blank" rel="noopener noreferrer"><button className="header-button">{linkedin}</button></a>
-              <a href="https://github.com/jennatripoli" target="_blank" rel="noopener noreferrer"><button className="header-button">{github}</button></a>
-              <a href="mailto:jmtripoli@wpi.edu" target="_blank" rel="noopener noreferrer"><button className="header-button">{email}</button></a>
-              <a href="docs/resume.pdf" target="_blank" rel="noopener noreferrer"><button className="header-button-text">Resume</button></a>
-            </div>
+        <div className="header-text">
+          <label>Hello, World! My name is</label>
+          <label className="header-name">Jenna Tripoli</label>
+          <label>and welcome to my portfolio.</label>
+          <div className="header-buttons">
+            <a href="https://www.linkedin.com/in/jennatripoli/" target="_blank" rel="noopener noreferrer"><button className="header-button">{linkedin}</button></a>
+            <a href="https://github.com/jennatripoli" target="_blank" rel="noopener noreferrer"><button className="header-button">{github}</button></a>
+            <a href="mailto:jennatripoli02@gmail.com" target="_blank" rel="noopener noreferrer"><button className="header-button">{email}</button></a>
+            <a href="docs/resume.pdf" target="_blank" rel="noopener noreferrer"><button className="header-button-text">Resume</button></a>
           </div>
+        </div>
       </section>
       <section className="about">
         <div className="section-title">About Me</div>
         <div className="education">
           <b>Worcester Polytechnic Institute</b>
           Graduated High Distinction in May 2024
-          <br/><br/>
+          <br /><br />
           <b>M.S. & B.S. in Computer Science</b>
           Minor in Interactive Media & Game Dev
         </div>
         <div className="skills">
-            <div className="skill">{frontend}<label className="skill-label">Full-Stack</label></div>
-            <div className="skill">{hci}<label className="skill-label">HCI</label></div>
-            <div className="skill">{rbe}<label className="skill-label">Robotics</label></div>
-            <div className="skill">{unrealengine}<label className="skill-label">Game Dev</label></div>
-          </div>
-          <div className="skills">
-            <div className="skill">{javascript}<label className="skill-label">JavaScript</label></div>
-            <div className="skill">{react}<label className="skill-label">React</label></div>
-            <div className="skill">{sql}<label className="skill-label">SQL</label></div>
-            <div className="skill">{css}<label className="skill-label">CSS</label></div>
-            <div className="skill">{html}<label className="skill-label">HTML</label></div>
-            <div className="skill">{java}<label className="skill-label">Java</label></div>
-            <div className="skill">{python}<label className="skill-label">Python</label></div>
-            <div className="skill">{git}<label className="skill-label">Git</label></div>
-          </div>
+          <div className="skill">{webdevelopment}<label className="skill-label">Web Dev</label></div>
+          <div className="skill">{robotics}<label className="skill-label">Robotics</label></div>
+          <div className="skill">{unrealengine}<label className="skill-label">Game Dev</label></div>
+        </div>
+        <div className="skills">
+          <div className="skill">{javascript}<label className="skill-label">JavaScript</label></div>
+          <div className="skill">{react}<label className="skill-label">React</label></div>
+          <div className="skill">{tailwind}<label className="skill-label">Tailwind</label></div>
+          <div className="skill">{java}<label className="skill-label">Java</label></div>
+          <div className="skill">{python}<label className="skill-label">Python</label></div>
+          <div className="skill">{sql}<label className="skill-label">SQL</label></div>
+          <div className="skill">{git}<label className="skill-label">GitHub</label></div>
+        </div>
 
       </section>
       <section className="projects">
@@ -182,7 +180,7 @@ function App() {
               <div className="project-buttons">
                 <a className="project-button" href="https://github.com/team294/FRC2018" target="_blank" rel="noopener noreferrer">2018 GitHub</a>
                 <a className="project-button" href="https://github.com/team294/FRC2019" target="_blank" rel="noopener noreferrer">2019 GitHub</a>
-                <a className="project-button" href="https://github.com/team294/FRC2020" target="_blank" rel="noopener noreferrer">2020 GitHub</a>              
+                <a className="project-button" href="https://github.com/team294/FRC2020" target="_blank" rel="noopener noreferrer">2020 GitHub</a>
               </div>
             </div>
           </div>
@@ -191,13 +189,13 @@ function App() {
       <section className="experience">
         <div className="section-title">Experience</div>
         <div className="timeline">
-        <div className="timeline-item timeline-right">
+          <div className="timeline-item timeline-right">
             <div className="timeline-content">
               <div className="timeline-date">Jun 2024 - Present</div>
-              <div className="timeline-position">Full-Stack Engineer</div>
+              <div className="timeline-position">Full-Stack Software Engineer</div>
               <div className="timeline-company">Gently</div>
               <div className="timeline-location">Santa Monica, CA</div>
-              <div className="timeline-description">Revamp the company's website and further develop the in-house warehouse management system. Develop solutions in TypeScript, Astro.js, and TailwindCSS integrated with TinaCMS and Jira.</div>
+              <div className="timeline-description">Further develop the company's proprietary warehouse management system and revamp their website. Create solutions using TypeScript, React, Prisma, Express, Next, Astro, TinaCMS, and Tailwind. Work on platform integrations with Shopify, Route4Me, and AskNicely to ensure successful deliveries.</div>
             </div>
           </div>
           <div className="timeline-item timeline-left">
@@ -206,16 +204,16 @@ function App() {
               <div className="timeline-position">Software Engineering Consultant</div>
               <div className="timeline-company">ASL Education Center</div>
               <div className="timeline-location">Framingham, MA (Remote)</div>
-              <div className="timeline-description">Contributed to designing and creating new and innovative online technology for ASL signers. Focused on creating responsive and modular web applications with JavaScript, React.js, and CSS. Used GitHub Projects to enhance team efficiency and foster collaboration across several time zones.</div>
+              <div className="timeline-description">Contributed to designing and creating new and innovative online technology for native ASL signers. Focused on implementing responsive and modular web applications with JavaScript, React, and CSS. Used GitHub Projects to enhance team efficiency and foster collaboration across several time zones.</div>
             </div>
           </div>
           <div className="timeline-item timeline-right">
             <div className="timeline-content">
               <div className="timeline-date">Jun - Aug 2023</div>
-              <div className="timeline-position">Full-Stack Technology Development Intern</div>
+              <div className="timeline-position">Technology Development Intern</div>
               <div className="timeline-company">Optum</div>
               <div className="timeline-location">Cypress, CA</div>
-              <div className="timeline-description">Enhanced an insurance claim management portal by implementing a data override system. Used Java, Oracle Scripts, SQL, and REST APIs for the back end and JavaScript for the front end. Worked with Jenkins for CI/CD, DBeaver and Postman for testing, and Rally for Agile collaboration.</div>
+              <div className="timeline-description">Enhanced an internal insurance claim management portal by implementing a data override system. Used Java, Oracle Scripts, SQL, and REST APIs for the back end and JavaScript for the front end. Worked with Jenkins for CI/CD, DBeaver and Postman for testing, and Rally for Agile collaboration.</div>
             </div>
           </div>
           <div className="timeline-item timeline-left">
