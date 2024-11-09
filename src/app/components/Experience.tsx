@@ -10,6 +10,9 @@ export const Experience = () => {
       description: [
         "Enhance API capabilities and performance to facilitate same-day local deliveries for a growing client base.",
         "Engineer a custom warehouse management system leveraging modern front-end technologies.",
+        "Create solutions using TypeScript, React, Prisma, Express, Next, Astro, TinaCMS, Tailwind, and Vitest.",
+        "Develop integrations with Shopify, Route4Me, Twilio, SendGrid, Narvar, Clerk Auth, and AskNicely.",
+        "Use AWS for deployment through Amplify and App Runner, and storage of media and logs through S3.",
       ],
     },
     {
@@ -20,6 +23,7 @@ export const Experience = () => {
       description: [
         "Collaborated in designing and creating cutting-edge online technology for native ASL signers.",
         "Designed and implemented responsive and modular web applications with JavaScript, React, and CSS.",
+        "Streamlined project collaboration across time zones using GitHub Projects to enhance team efficiency.",
       ],
     },
     {
@@ -30,6 +34,7 @@ export const Experience = () => {
       description: [
         "Improved an internal insurance claim management portal by implementing a data override system.",
         "Used Java, Oracle Scripts, SQL, and REST APIs for the back end and JavaScript for the front end.",
+        "Worked with Jenkins for CI/CD, DBeaver and Postman for testing, and Rally for Agile collaboration.",
       ],
     },
     {
