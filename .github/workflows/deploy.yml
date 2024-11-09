@@ -34,7 +34,7 @@ jobs:
 
       # Configure Git user
       - name: Configure Git user
-      run: |
+        run: |
         git config --global user.name "Jenna Tripoli"
         git config --global user.email "jennatripoli02@gmail.com"
 
