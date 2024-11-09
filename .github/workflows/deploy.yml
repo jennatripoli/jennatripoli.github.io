@@ -36,6 +36,6 @@ jobs:
       - name: Deploy to GitHub Pages
         run: |
           npm install --save-dev gh-pages
-          npx gh-pages -d out
+          npx gh-pages -d out --nojekyll
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
