@@ -28,9 +28,15 @@ jobs:
       - name: Build the app
         run: npm run build
 
-      # Export the app as static HTML (next export)
-      - name: Export static site
+      # Export the app
+      - name: Export site
         run: npm run build
+
+      # Configure Git user
+      - name: Configure Git user
+      run: |
+        git config --global user.name "Jenna Tripoli"
+        git config --global user.email "jennatripoli02@gmail.com"
 
       # Deploy to GitHub Pages using gh-pages
       - name: Deploy to GitHub Pages
