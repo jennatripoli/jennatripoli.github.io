@@ -35,7 +35,7 @@ jobs:
       # Configure Git user
       - name: Configure Git user
         run: |
-          git config --global user.name "Jenna Tripoli"
+          git config --global user.name "jennatripoli"
           git config --global user.email "jennatripoli02@gmail.com"
 
       # Deploy to GitHub Pages using gh-pages
