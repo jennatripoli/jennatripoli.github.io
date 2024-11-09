@@ -4,7 +4,7 @@ export const Experience = () => {
   const experiences = [
     {
       date: "Jun 2024 - Present",
-      position: "Full-Stack Software Engineer",
+      position: "Full-Stack Engineer",
       company: "Gently",
       location: "Santa Monica, CA",
       description: [
@@ -84,10 +84,16 @@ const TimelineItem = ({
     <div className="border-l-4 pl-8 py-8 flex flex-row items-center gap-x-8">
       <div className="bg-white rounded-full w-5 h-5 -ml-11 flex-shrink-0" />
       <div className="bg-white rounded-lg p-4 text-left w-full">
-        <p className="text-body text-sm lg:text-base">
+        <p className="hidden md:block text-body text-sm lg:text-base">
           {date} | {location}
         </p>
-        <p className="text-body text-lg lg:text-2xl font-bold">{position}</p>
+        <p className="block md:hidden text-body text-sm lg:text-base">{date}</p>
+        <p className="block md:hidden text-body text-sm lg:text-base">
+          {location}
+        </p>
+        <p className="text-body text-lg lg:text-2xl font-bold mt-2">
+          {position}
+        </p>
         <p className="text-body text-lg lg:text-2xl">{company}</p>
         <br />
         {description.map((item, key) => (
