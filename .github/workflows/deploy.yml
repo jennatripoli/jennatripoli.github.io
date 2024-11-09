@@ -31,10 +31,11 @@ jobs:
         run: |
           git config --global user.name "Jenna Tripoli"
           git config --global user.email "jennatripoli02@gmail.com"
+          git remote set-url origin https://jennatripoli:${{ secrets.PA_TOKEN }}@github.com/jennatripoli/jennatripoli.github.io.git
 
       - name: Deploy to GitHub Pages
         run: |
           npm install --save-dev gh-pages
           npx gh-pages -d out
         env:
-          PA_TOKEN: ${{ secrets.PA_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
