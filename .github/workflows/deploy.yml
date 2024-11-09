@@ -30,7 +30,7 @@ jobs:
       - name: Configure Git user
         run: |
           git config --global user.name "Jenna Tripoli"
-          git config --global user.email "jennatripoli02@gmail.com"
+          git config --global user.email "jennamt1282@gmail.com"
           git remote set-url origin https://jennatripoli:${{ secrets.GITHUB_TOKEN }}@github.com/jennatripoli/jennatripoli.github.io.git
 
       - name: Deploy to GitHub Pages
