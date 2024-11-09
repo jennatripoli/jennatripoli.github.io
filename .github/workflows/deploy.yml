@@ -30,7 +30,7 @@ jobs:
 
       # Export the app as static HTML (next export)
       - name: Export static site
-        run: npm run export
+        run: npm run build
 
       # Deploy to GitHub Pages using gh-pages
       - name: Deploy to GitHub Pages
