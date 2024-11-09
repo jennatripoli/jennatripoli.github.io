@@ -36,3 +36,5 @@ jobs:
         run: |
           npm install --save-dev gh-pages
           npx gh-pages -d out
+        env:
+          PA_TOKEN: ${{ secrets.PA_TOKEN }}
