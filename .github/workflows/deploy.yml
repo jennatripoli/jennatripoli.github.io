@@ -10,35 +10,28 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout the repository
       - name: Checkout code
         uses: actions/checkout@v2
 
-      # Set up Node.js environment
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
           node-version: "20.15.1"
 
-      # Install dependencies
       - name: Install dependencies
         run: npm install
 
-      # Build the app
       - name: Build the app
         run: npm run build
 
-      # Export the app
-      - name: Export site
+      - name: Export static site
         run: npm run build
 
-      # Configure Git user
       - name: Configure Git user
         run: |
-          git config --global user.name "jennatripoli"
+          git config --global user.name "Jenna Tripoli"
           git config --global user.email "jennatripoli02@gmail.com"
 
-      # Deploy to GitHub Pages using gh-pages
       - name: Deploy to GitHub Pages
         run: |
           npm install --save-dev gh-pages
