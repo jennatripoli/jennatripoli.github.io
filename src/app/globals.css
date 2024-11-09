@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/Montserrat.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Cherry Bomb One";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/CherryBombOne.ttf") format("truetype");
+  }
+}
