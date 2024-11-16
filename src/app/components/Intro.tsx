@@ -5,9 +5,9 @@ export const Intro = () => {
   return (
     <section
       id="intro"
-      className="min-h-screen max-w-5xl mx-auto p-8 flex flex-row items-center justify-center text-white -mt-20 md:mt-0"
+      className="min-h-screen max-w-5xl mx-auto p-8 flex flex-row items-center justify-center text-white"
     >
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 place-items-center">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 place-items-center -mt-20 md:mt-0">
         <div className="max-w-56 lg:max-w-xs">
           <Image
             src={"/media/profile.jpg"}
