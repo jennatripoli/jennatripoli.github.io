@@ -86,8 +86,8 @@ const TimelineItem = ({
   description: string[];
 }) => {
   return (
-    <div className="border-l-4 pl-8 py-8 flex flex-row items-center gap-x-8">
-      <div className="bg-white rounded-full w-5 h-5 -ml-11 flex-shrink-0" />
+    <div className="border-l-4 pl-8 py-8 flex flex-row items-start gap-x-8">
+      <div className="bg-white rounded-full w-5 h-5 -ml-11 mt-6 md:mt-4 flex-shrink-0" />
       <div className="bg-white rounded-lg p-4 text-left w-full">
         <p className="hidden md:block text-body text-sm lg:text-base">
           {date} | {location}
