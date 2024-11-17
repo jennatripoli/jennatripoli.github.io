@@ -11,7 +11,7 @@ export const Projects = () => {
       tagline:
         "Platform for creating and distributing surveys in American Sign Language (ASL).",
       description:
-        "The tool hosts surveys that use no written English and instead fully rely on videos and non-textual elements. The design includes color indicators compliant with WCAG 2.2 and USWDS for non-text contrast and color tokens. We conducted an unmoderated user study with 30 Deaf participants to evaluate the tool's usability.",
+        "The tool hosts surveys that eliminate written English, relying entirely on videos and non-textual elements. The design incorporates color indicators that meet WCAG 2.2 and USWDS standards for non-text contrast. To evaluate the tool's usability, we conducted an unmoderated user study with 30 Deaf participants.",
       media: ["/media/asl_survey_tool/multiple_choice.png"],
       border: false,
       buttons: [
@@ -30,7 +30,7 @@ export const Projects = () => {
       tools: ["Kotlin", "XML", "SQLite", "REST"],
       tagline: "Android app for studying flashcards.",
       description:
-        "Users are able to make study sets with terms and definitions that they enter, and then study this information with animated digital flashcards. The application features a study plan timer using the Pomodoro Technique for structured studying, along with a dictionary search that handles written and spoken input.",
+        "Users can create custom study sets by entering terms and definitions, then review them using animated digital flashcards. The application also features a study plan timer based on the Pomodoro Technique. Additionally, it includes a dictionary search that supports both written and spoken input for easy access to definitions.",
       media: [
         "/media/study_buddy/study_set.png",
         "/media/study_buddy/add_term.png",
@@ -48,12 +48,12 @@ export const Projects = () => {
         },
       ],
     },
-    /*{
+    {
       title: "Smiski Tracker",
       tools: ["JavaScript", "React", "CSS"],
       tagline: "Website to track collectible figurines.",
       description:
-        "Users can select and deselect icons to indicate whether they have a certain figurine, along with collapse and expand various series. The site maintains these visual selections using local storage. All media is from smiski.com and the interface design uses the same color scheming as the brand site.",
+        "Users can select or deselect icons to track their collection, with the option to collapse or expand different series. The site preserves these choices using local storage, ensuring a personalized experience. All images are sourced from Smiski's official site, and the interface is designed to reflect the brand's signature color scheme.",
       media: ["/media/smiski_tracker/desktop.png"],
       border: false,
       buttons: [
@@ -66,13 +66,13 @@ export const Projects = () => {
           href: "https://github.com/jennatripoli/smiski",
         },
       ],
-    },*/
+    },
     {
       title: "2x2 Madness",
       tools: ["JavaScript", "React", "CSS"],
       tagline: "Grid puzzle about matching colors.",
       description:
-        "The player must rotate groups of four squares to create groups of the same color, with the goal of matching and removing all colors. The game has three boards of size 4x4, 5x5, and 6x6. The application uses an Entity Boundary Controller structure with a Canvas and JSON configurations for the board.",
+        "The player rotates groups of four squares to form color-matching sets, with the objective of removing all colors from the board. Built using a Model-View-Controller architecture, the application utilizes a Canvas object for rendering and JSON configurations to manage the board setup for three sizes.",
       media: ["/media/2x2_madness/demo.gif"],
       border: true,
       buttons: [
@@ -91,7 +91,7 @@ export const Projects = () => {
       tools: ["Java"],
       tagline: "Robot software for FRC Team 294.",
       description:
-        "Teach high school students about Java coding and GitHub for robot programming and web development. Use PID controls, motion profiling, and vision processing for teleoperation and autonomous routines with custom visual displays to provide information and functionality.",
+        "I teach high school students Java programming and GitHub for robot programming and web development. Students learn to implement PID control, motion profiling, and vision processing for both teleoperation and autonomous routines. They create custom visual displays that provide real-time information and diagnostics.",
       media: ["/media/first_robotics/2020.jpg"],
       border: true,
       buttons: [
@@ -106,7 +106,7 @@ export const Projects = () => {
       tools: ["Unreal Engine 4", "Blueprints"],
       tagline: "Explore the town as a raccoon.",
       description:
-        "The player can mess with objects, scare humans, talk to animals, do parkour, eat food, and collect bottle caps to earn points. This game was created in six weeks and uses blueprints for features like save states, score calculations, character sockets, object interactions, and the user interface design.",
+        "The player can interact with objects, scare NPCs, communicate with animals, perform parkour, eat food, and collect bottle caps to earn points. Developed in six weeks, the game uses blueprints to implement key features such as save states, score tracking, character sockets, object interactions, and the user interface design.",
       media: ["/media/rowdy_raccoon/demo.gif"],
       border: true,
       buttons: [
@@ -125,7 +125,7 @@ export const Projects = () => {
       tools: ["Unreal Engine 5", "Blueprints"],
       tagline: "Investigate a hilltop mansion.",
       description:
-        "The player must explore their surroundings and solve a variety of puzzles to progress through the map and learn about the game's setting. This game was created in three weeks and uses blueprints for the user interface, puzzles, object interactions, atmosphere, and sound design.",
+        "The player must explore their environment and solve a series of puzzles to advance through the map and uncover the story behind the game's setting. Developed in three weeks, the game utilizes blueprints for the user interface, puzzle mechanics, object interactions, atmosphere, and sound design.",
       media: ["/media/mystery_in_the_mansion/demo.gif"],
       border: true,
       buttons: [
