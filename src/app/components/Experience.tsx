@@ -17,7 +17,7 @@ export const Experience = () => {
     },
     {
       date: "Jan - May 2024",
-      position: "Software Engineering Consultant",
+      position: "Software Engineer (Consultant)",
       company: "ASL Education Center",
       location: "Framingham, MA (Remote)",
       description: [
@@ -102,7 +102,7 @@ const TimelineItem = ({
         <p className="text-body text-lg lg:text-2xl">{company}</p>
         <br />
         {description.map((item, key) => (
-          <li key={key}>{item}</li>
+          <li key={key} className="text-sm lg:text-base">{item}</li>
         ))}
       </div>
     </div>
