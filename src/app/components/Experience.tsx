@@ -46,6 +46,16 @@ export const Experience = () => {
         "Taught students concepts in Python, SQL, relational databases, and data visualization.",
       ],
     },
+    {
+      date: "Jun - Aug 2022",
+      position: "Website Developer",
+      company: "Worcester Polytechnic Institute",
+      location: "Worcester, MA (Remote)",
+      description: [
+        "Designed websites for multiple on-campus research organizations utilizing WordPress and CSS.",
+        "Created templates for lab contributors to publicize their findings in a methodical manner.",
+      ],
+    },
   ];
 
   return (
