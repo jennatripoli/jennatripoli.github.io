@@ -9,10 +9,9 @@ export const Experience = () => {
       location: "Santa Monica, CA",
       description: [
         "Enhance API capabilities and performance to facilitate same-day local deliveries for a growing client base.",
-        "Engineer a custom warehouse management system leveraging modern front-end technologies.",
-        "Create solutions using TypeScript, React, Prisma, Express, Next, Astro, TinaCMS, Tailwind, and Vitest.",
-        "Develop integrations with Shopify, Route4Me, Twilio, SendGrid, Narvar, Clerk Auth, and AskNicely.",
-        "Use AWS for deployment through Amplify and App Runner, and storage of media and logs through S3.",
+        "Engineer and test a custom warehouse management system with modern front-end design and technology.",
+        "Create solutions using TypeScript, React, Tailwind CSS, AWS, Prisma, Express, Next, and Vitest.",
+        "Develop back-end integrations with Shopify, Route4Me, Twilio, SendGrid, Clerk, and AskNicely.",
       ],
     },
     {
@@ -102,7 +101,9 @@ const TimelineItem = ({
         <p className="text-body text-lg lg:text-2xl">{company}</p>
         <br />
         {description.map((item, key) => (
-          <li key={key} className="text-sm lg:text-base">{item}</li>
+          <li key={key} className="text-sm lg:text-base">
+            {item}
+          </li>
         ))}
       </div>
     </div>

@@ -91,7 +91,7 @@ export const Projects = () => {
       tools: ["Java"],
       tagline: "Robot software for FRC Team 294.",
       description:
-        "I teach high school students Java programming and GitHub for robot programming and web development. Students learn to implement PID control, motion profiling, and vision processing for both teleoperation and autonomous routines. They create custom visual displays that provide real-time information and diagnostics.",
+        "I teach high school students Java programming and GitHub for robot programming. They learn how to implement topics like PID controls and vision processing for teleoperation and autonomous routines. I also help design and develop platforms for the team's website and their application for strategy and data analysis.",
       media: ["/media/first_robotics/2020.jpg"],
       border: true,
       buttons: [

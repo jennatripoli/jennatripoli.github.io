@@ -18,7 +18,7 @@ export const Intro = () => {
             priority
           />
         </div>
-        <div className="lg:col-span-2 text-center md:text-left space-y-4">
+        <div className="lg:col-span-2 text-center lg:text-left space-y-4">
           <p className="text-lg lg:text-2xl overflow-hidden whitespace-nowrap lg:animate-typing lg:opacity-0">
             Hello, World! My name is
           </p>
