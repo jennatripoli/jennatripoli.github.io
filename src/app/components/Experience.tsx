@@ -8,8 +8,8 @@ export const Experience = () => {
       company: "Gently",
       location: "Santa Monica, CA",
       description: [
-        "Enhance API capabilities and performance to facilitate same-day local deliveries for a growing client base.",
-        "Engineer and test a custom warehouse management system with modern front-end design and technology.",
+        "Enhance API capabilities to facilitate same-day local deliveries for a growing client base.",
+        "Engineer and test a custom warehouse management system with modern front-end technology.",
         "Create solutions using TypeScript, React, Tailwind CSS, AWS, Prisma, Express, Next, and Vitest.",
         "Develop back-end integrations with Shopify, Route4Me, Twilio, SendGrid, Clerk, and AskNicely.",
       ],
