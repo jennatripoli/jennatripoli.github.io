@@ -24,8 +24,8 @@ jobs:
       - name: Build the app
         run: npm run build
 
-      - name: Export static site
-        run: npm run build
+      - name: Add CNAME file
+        run: echo "jennatripoli.com" > ./out/CNAME
 
       - name: Configure Git user
         run: |
