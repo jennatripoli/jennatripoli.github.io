@@ -35,7 +35,7 @@ interface LinkProps {
 const Link: React.FC<LinkProps> = ({ title, icon: Icon, href }) => {
   return (
     <a
-      className={`fill-[#7D8491] text-[#7D8491] hover:fill-[#212129] hover:text-[#212129] hover:scale-110 transition-all duration-200 bg-white h-10 p-2 flex items-center justify-center ${
+      className={`fill-white text-white hover:scale-110 transition-all duration-200 bg-[#4d4d4d] h-10 p-2 flex items-center justify-center ${
         Icon ? "w-10 rounded-full" : "w-fit rounded-2xl font-bold"
       }`}
       href={href}

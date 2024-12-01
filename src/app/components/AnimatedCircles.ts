@@ -19,6 +19,7 @@ export const AnimatedCircles = () => {
       circle.style.position = "fixed";
       circle.style.borderRadius = "50%";
       circle.style.zIndex = "-1";
+      circle.style.marginTop = "-32px";
       circle.style.background =
         colors[Math.floor(Math.random() * colors.length)];
       circle.style.left = `${Math.floor(Math.random() * 100)}vw`;
@@ -32,7 +33,7 @@ export const AnimatedCircles = () => {
 
     // Animate the circles
     circles.forEach((el) => {
-      el.animate([{ opacity: 0 }, { opacity: 0.6 }], {
+      el.animate([{ opacity: 0 }, { opacity: 0.2 }], {
         duration: (Math.random() + 1) * 1000,
         direction: "alternate",
         fill: "both",

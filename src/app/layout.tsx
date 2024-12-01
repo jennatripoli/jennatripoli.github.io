@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased text-center bg-gradient-to-b from-[#212129] to-[#4c5265] bg-fixed min-h-screen font-body space-y-48">
+      <body className="antialiased text-center bg-[#0b0c0f] bg-fixed min-h-screen font-body space-y-48">
         {children}
       </body>
       <AnimatedCircles />

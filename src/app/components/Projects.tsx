@@ -216,7 +216,7 @@ const ProjectItem = ({
           {buttons.map((button, key) => (
             <a
               key={key}
-              className="rounded-md bg-[#7D8491] text-white w-fit px-4 hover:scale-110 transition-all duration-300"
+              className="rounded-md bg-[#4d4d4d] text-white w-fit px-4 hover:scale-110 transition-all duration-300"
               href={button.href}
               target="_blank"
               rel="noopener noreferrer"
@@ -227,13 +227,13 @@ const ProjectItem = ({
         </div>
       </div>
 
-      <div className="md:col-span-2 bg-white rounded-lg p-4 w-full text-center md:text-left">
+      <div className="md:col-span-2 bg-[#262626] rounded-lg p-4 w-full text-center md:text-left text-white">
         <p className="text-body text-lg lg:text-2xl font-bold">{title}</p>
         <div className="flex flex-row flex-wrap justify-center md:justify-start gap-2 mt-2">
           {tools.map((tool, key) => (
             <div
               key={key}
-              className="rounded-md bg-[#7D8491] text-white w-fit px-2"
+              className="rounded-md bg-[#4d4d4d] w-fit px-2"
             >
               {tool}
             </div>
