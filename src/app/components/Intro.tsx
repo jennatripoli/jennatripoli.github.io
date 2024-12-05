@@ -19,13 +19,13 @@ export const Intro = () => {
           />
         </div>
         <div className="lg:col-span-2 text-center lg:text-left space-y-4">
-          <p className="text-lg lg:text-2xl overflow-hidden whitespace-nowrap lg:animate-typing lg:opacity-0">
+          <p className="text-lg lg:text-2xl overflow-hidden whitespace-nowrap">
             Hello, World! My name is
           </p>
-          <p className="font-title pb-2 text-6xl lg:pb-6 lg:text-8xl lg:animate-fadeIn-delay lg:opacity-0">
+          <p className="font-title pb-2 text-6xl lg:pb-6 lg:text-8xl">
             Jenna Tripoli
           </p>
-          <p className="text-lg lg:text-2xl overflow-hidden whitespace-nowrap lg:animate-typing-delay lg:opacity-0">
+          <p className="text-lg lg:text-2xl overflow-hidden whitespace-nowrap">
             and welcome to my portfolio.
           </p>
         </div>
