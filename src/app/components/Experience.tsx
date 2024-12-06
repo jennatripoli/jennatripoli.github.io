@@ -3,20 +3,20 @@ import React from "react";
 export const Experience = () => {
   const experiences = [
     {
-      date: "Jun 2024 - Present",
+      date: "Jun - Dec 2024",
       position: "Full-Stack Engineer",
       company: "Gently",
       location: "Santa Monica, CA",
       description: [
-        "Enhance API capabilities to facilitate same-day local deliveries for a growing client base.",
-        "Engineer and test a custom warehouse management system with modern front-end technology.",
-        "Create solutions using TypeScript, React, Tailwind CSS, AWS, Prisma, Express, Next, and Vitest.",
-        "Develop back-end integrations with Shopify, Route4Me, Twilio, SendGrid, Clerk, and AskNicely.",
+        "Enhanced API capabilities to facilitate high-quality same-day local deliveries for a growing client base.",
+        "Engineered a custom warehouse management system with modern front-end design and technology.",
+        "Created solutions using TypeScript, React, Tailwind CSS, AWS, Prisma, Express, Next, and Vitest.",
+        "Developed back-end integrations with Shopify, Route4Me, Twilio, SendGrid, Clerk, and AskNicely.",
       ],
     },
     {
       date: "Jan - May 2024",
-      position: "Software Engineer (Consultant)",
+      position: "Software Engineer",
       company: "ASL Education Center",
       location: "Framingham, MA (Remote)",
       description: [
@@ -42,8 +42,9 @@ export const Experience = () => {
       company: "Worcester Polytechnic Institute",
       location: "Worcester, MA",
       description: [
-        "Provided detailed feedback on projects and held office hours to answer questions and debug issues.",
-        "Taught students concepts in Python, SQL, relational databases, and data visualization.",
+        "Delivered detailed feedback on projects, helping refine coding techniques and problem-solving skills.",
+        "Held regular office hours to debug issues, answer questions, and provide personalized academic support.",
+        "Taught and reinforced key concepts in Python, SQL, relational databases, and data visualization.",
       ],
     },
     {
@@ -52,8 +53,8 @@ export const Experience = () => {
       company: "Worcester Polytechnic Institute",
       location: "Worcester, MA (Remote)",
       description: [
-        "Designed websites for multiple on-campus research organizations utilizing WordPress and CSS.",
-        "Created templates for lab contributors to publicize their findings in a methodical manner.",
+        "Designed and developed websites for multiple groups on campus using WordPress and custom CSS.",
+        "Created templates for lab contributors to share research findings, streamlining content publication.",
       ],
     },
   ];
