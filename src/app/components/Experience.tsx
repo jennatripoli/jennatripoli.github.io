@@ -9,7 +9,7 @@ export const Experience = () => {
       location: "Redondo Beach, CA",
       description: [
         "Teach high school students skills in Java programming and GitHub for robot control systems.",
-        "Help design and develop the team's website and their application for strategy and data analysis.",
+        "Design and develop the team's website and an application for strategy and data analysis.",
       ],
     },
     {
