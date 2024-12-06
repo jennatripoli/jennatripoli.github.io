@@ -6,10 +6,24 @@ import React from "react";
 export const Projects = () => {
   const projects = [
     {
+      title: "Gently",
+      tools: ["TypeScript", "React", "TailwindCSS", "Astro", "TinaCMS"],
+      tagline: "Website for a same-day delivery company.",
+      description: "This website allows visitors to explore available services through a clean and intuitive user experience. I prioritized responsive design to ensure seamless usability on both mobile and desktop platforms. The site is integrated with real-time customer reviews from AskNicely to highlight feedback and build trust.",
+      media: ["/media/gently/gently_website.png"],
+      border: false,
+      buttons: [
+        {
+          text: "Visit",
+          href: "https://gently.io",
+        },
+      ],
+    },
+    {
       title: "ASL Survey Tool",
       tools: ["JavaScript", "React", "CSS", "AWS"],
       tagline:
-        "Platform for creating and distributing surveys in American Sign Language (ASL).",
+        "Platform for surveys in American Sign Language (ASL).",
       description:
         "The tool hosts surveys that eliminate written English, relying entirely on videos and non-textual elements. The design incorporates color indicators that meet WCAG 2.2 and USWDS standards for non-text contrast. To evaluate the tool's usability, we conducted an unmoderated user study with 30 Deaf participants.",
       media: ["/media/asl_survey_tool/multiple_choice.png"],
@@ -87,21 +101,6 @@ export const Projects = () => {
       ],
     },
     {
-      title: "FIRST Robotics Competition",
-      tools: ["Java"],
-      tagline: "Robot software for FRC Team 294.",
-      description:
-        "I teach high school students Java programming and GitHub for robot programming. They learn how to implement topics like PID controls and vision processing for teleoperation and autonomous routines. I also help design and develop platforms for the team's website and their application for strategy and data analysis.",
-      media: ["/media/first_robotics/2020.jpg"],
-      border: true,
-      buttons: [
-        {
-          text: "Team Website",
-          href: "https://team294.com",
-        },
-      ],
-    },
-    {
       title: "Rowdy Raccoon",
       tools: ["Unreal Engine 4", "Blueprints"],
       tagline: "Explore the town as a raccoon.",
@@ -120,31 +119,12 @@ export const Projects = () => {
         },
       ],
     },
-    {
-      title: "Mystery in the Mansion",
-      tools: ["Unreal Engine 5", "Blueprints"],
-      tagline: "Investigate a hilltop mansion.",
-      description:
-        "The player must explore their environment and solve a series of puzzles to advance through the map and uncover the story behind the game's setting. Developed in three weeks, the game utilizes blueprints for the user interface, puzzle mechanics, object interactions, atmosphere, and sound design.",
-      media: ["/media/mystery_in_the_mansion/demo.gif"],
-      border: true,
-      buttons: [
-        {
-          text: "Demo",
-          href: "https://youtu.be/F9SbaOPLvIo",
-        },
-        {
-          text: "Download",
-          href: "https://drive.google.com/file/d/1OKgcj3_tn1jvkSzyBn0ugL7EJrz4-rNC",
-        },
-      ],
-    },
   ];
 
   return (
     <section className="min-h-screen max-w-6xl mx-auto p-8 space-y-8">
       <p className="font-title pb-2 text-6xl lg:pb-6 lg:text-8xl text-white">
-        Past Projects
+        Projects
       </p>
       <div className="flex justify-center">
         <div className="flex flex-col gap-20">
@@ -231,10 +211,7 @@ const ProjectItem = ({
         <p className="text-body text-lg lg:text-2xl font-bold">{title}</p>
         <div className="flex flex-row flex-wrap justify-center md:justify-start gap-2 mt-2">
           {tools.map((tool, key) => (
-            <div
-              key={key}
-              className="rounded-md bg-[#4d4d4d] w-fit px-2"
-            >
+            <div key={key} className="rounded-md bg-[#4d4d4d] w-fit px-2">
               {tool}
             </div>
           ))}

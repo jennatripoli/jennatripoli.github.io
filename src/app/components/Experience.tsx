@@ -8,9 +8,9 @@ export const Experience = () => {
       company: "Gently",
       location: "Santa Monica, CA",
       description: [
-        "Enhanced API capabilities to facilitate high-quality same-day local deliveries for a growing client base.",
+        "Enhanced API capabilities to facilitate same-day local deliveries for a growing client base.",
         "Engineered a custom warehouse management system with modern front-end design and technology.",
-        "Created solutions using TypeScript, React, Tailwind CSS, AWS, Prisma, Express, Next, and Vitest.",
+        "Created solutions with TypeScript, React, TailwindCSS, AWS, Prisma, Express, Next, and Vitest.",
         "Developed back-end integrations with Shopify, Route4Me, Twilio, SendGrid, Clerk, and AskNicely.",
       ],
     },
@@ -20,9 +20,20 @@ export const Experience = () => {
       company: "ASL Education Center",
       location: "Framingham, MA (Remote)",
       description: [
-        "Collaborated in designing and creating cutting-edge online technology for native ASL signers.",
-        "Designed and implemented responsive and modular web applications with JavaScript, React, and CSS.",
-        "Streamlined project collaboration across time zones using GitHub Projects to enhance team efficiency.",
+        "Created responsive and modular online applications using JavaScript, React, and CSS.",
+        "Streamlined collaboration across time zones using GitHub Projects to enhance team efficiency.",
+      ],
+    },
+    {
+      date: "Aug 2023 - Dec 2024",
+      position: "Researcher and Developer",
+      company: "WPI Human-Computer Interaction Lab",
+      location: "Worcester, MA",
+      description: [
+        "Made a cutting-edge platform for creating and distributing surveys in American Sign Language (ASL).",
+        "Used guidelines from the WCAG 2.2 and USWDS color indicators and standards for non-text contrast.",
+        "Implemented and deployed the application using JavaScript, React, CSS, Python, PostgreSQL, and AWS.",
+        "Conducted an unmoderated user study with 30 Deaf participants to evaluate the tool's usability.",
       ],
     },
     {
@@ -31,8 +42,8 @@ export const Experience = () => {
       company: "Optum",
       location: "Cypress, CA",
       description: [
-        "Improved an internal insurance claim management portal by implementing a data override system.",
-        "Used Java, Oracle Scripts, SQL, and REST APIs for the back end and JavaScript for the front end.",
+        "Improved an internal insurance claim management portal by creating a data override system.",
+        "Used Java, Oracle Scripts, SQL, and REST APIs for the back end functionality of the feature.",
         "Worked with Jenkins for CI/CD, DBeaver and Postman for testing, and Rally for Agile collaboration.",
       ],
     },
@@ -42,8 +53,8 @@ export const Experience = () => {
       company: "Worcester Polytechnic Institute",
       location: "Worcester, MA",
       description: [
-        "Delivered detailed feedback on projects, helping refine coding techniques and problem-solving skills.",
-        "Held regular office hours to debug issues, answer questions, and provide personalized academic support.",
+        "Delivered detailed feedback on projects, helping refine coding and problem-solving skills.",
+        "Held regular office hours to debug issues, answer questions, and provide academic support.",
         "Taught and reinforced key concepts in Python, SQL, relational databases, and data visualization.",
       ],
     },
@@ -62,7 +73,7 @@ export const Experience = () => {
   return (
     <section className="min-h-screen max-w-5xl mx-auto p-8 space-y-8">
       <p className="font-title pb-2 text-6xl lg:pb-6 lg:text-8xl text-white">
-        Work Experience
+        Experience
       </p>
       <div className="flex justify-center">
         <div className="flex flex-col">
