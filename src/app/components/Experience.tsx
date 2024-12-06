@@ -3,6 +3,16 @@ import React from "react";
 export const Experience = () => {
   const experiences = [
     {
+      date: "May 2024 - Present",
+      position: "Volunteer Mentor",
+      company: "Beach Cities Robotics",
+      location: "Redondo Beach, CA",
+      description: [
+        "Teach high school students skills in Java programming and GitHub for robot control systems.",
+        "Help design and develop the team's website and their application for strategy and data analysis.",
+      ],
+    },
+    {
       date: "Jun - Dec 2024",
       position: "Full-Stack Engineer",
       company: "Gently",
@@ -20,7 +30,7 @@ export const Experience = () => {
       company: "ASL Education Center",
       location: "Framingham, MA (Remote)",
       description: [
-        "Created responsive and modular online applications using JavaScript, React, and CSS.",
+        "Designed and created responsive and modular web applications using JavaScript, React, and CSS.",
         "Streamlined collaboration across time zones using GitHub Projects to enhance team efficiency.",
       ],
     },

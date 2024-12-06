@@ -8,8 +8,8 @@ export const Projects = () => {
     {
       title: "Gently",
       tools: ["TypeScript", "React", "TailwindCSS", "Astro", "TinaCMS"],
-      tagline: "Website for a same-day delivery company.",
-      description: "This website allows visitors to explore available services through a clean and intuitive user experience. I prioritized responsive design to ensure seamless usability on both mobile and desktop platforms. The site is integrated with real-time customer reviews from AskNicely to highlight feedback and build trust.",
+      tagline: "A local same-day delivery company.",
+      description: "Gently's website allows visitors to explore available services through a clean and intuitive user experience. I prioritized responsive design to ensure seamless usability on both mobile and desktop platforms. The site is integrated with real-time customer reviews from AskNicely to highlight feedback and build trust.",
       media: ["/media/gently/gently_website.png"],
       border: false,
       buttons: [
@@ -105,7 +105,7 @@ export const Projects = () => {
       tools: ["Unreal Engine 4", "Blueprints"],
       tagline: "Explore the town as a raccoon.",
       description:
-        "The player can interact with objects, scare NPCs, communicate with animals, perform parkour, eat food, and collect bottle caps to earn points. Developed in six weeks, the game uses blueprints to implement key features such as save states, score tracking, character sockets, object interactions, and the user interface design.",
+        "The player can interact with objects, scare NPCs, communicate with animals, do parkour, eat food, and collect bottle caps to earn points. Developed in six weeks, the game uses blueprints to implement key features such as save states, score tracking, character sockets, object interactions, and the interface design.",
       media: ["/media/rowdy_raccoon/demo.gif"],
       border: true,
       buttons: [
@@ -217,7 +217,7 @@ const ProjectItem = ({
           ))}
         </div>
         <br />
-        <p className="text-body text-sm lg:text-base font-bold">{tagline}</p>
+        <p className="text-body text-sm lg:text-base font-bold mb-2">{tagline}</p>
         <p className="text-body text-sm lg:text-base">{description}</p>
       </div>
     </div>
