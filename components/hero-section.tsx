@@ -18,9 +18,6 @@ export function HeroSection() {
         <div className="mb-8">
           <Avatar className="w-32 h-32 mx-auto mb-6 border-4 border-pink-500 shadow-lg">
             <AvatarImage src="/media/profile.jpg" alt="Jenna Tripoli" />
-            <AvatarFallback className="text-2xl bg-pink-500 text-white font-heading">
-              JT
-            </AvatarFallback>
           </Avatar>
           <h1 className="font-heading font-bold text-5xl md:text-6xl text-cyan-800 mb-4">
             Jenna Tripoli
