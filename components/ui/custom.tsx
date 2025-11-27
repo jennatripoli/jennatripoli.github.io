@@ -71,7 +71,7 @@ export function ProjectCard({
   links,
 }: ProjectCardProps) {
   return (
-    <Card className="border-cyan-100 hover:shadow-xl transition-all duration-300 hover:scale-105 group">
+    <Card className="border-cyan-100 hover:shadow-xl transition-all duration-300 hover:scale-102 group">
       <CardContent>
         <div className="flex items-center justify-center rounded-lg mb-4 p-1 bg-gradient-to-br from-cyan-100 to-pink-100 group-hover:from-cyan-200 group-hover:to-pink-200 transition-all duration-300">
           <img src={image} alt={title} className="w-full h-full rounded-md" />

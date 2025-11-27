@@ -16,9 +16,7 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "Jenna Tripoli - Portfolio",
-  description: "Passionate developer and designer crafting intuitive digital experiences",
-  generator: "v0.app",
+  title: "Jenna Tripoli",
 }
 
 export default function RootLayout({

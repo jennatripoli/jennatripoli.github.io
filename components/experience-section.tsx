@@ -88,11 +88,13 @@ export function ExperienceSection() {
                     {exp.period}
                   </Badge>
                 </div>
-                {exp.description?.map((item, key) => (
-                  <li key={key} className="text-slate-600 leading-relaxed">
-                    {item}
-                  </li>
-                ))}
+                <div className="pl-4 pr-2">
+                  {exp.description?.map((item, key) => (
+                    <li key={key} className="text-slate-600 leading-relaxed">
+                      {item}
+                    </li>
+                  ))}
+                </div>
               </CardContent>
             </Card>
           ))}
