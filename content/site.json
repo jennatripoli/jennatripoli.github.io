@@ -1,0 +1,132 @@
+{
+  "person": {
+    "name": "Jenna Tripoli",
+    "title": "Front-End Software Engineer",
+    "photo": "/media/profile.jpg",
+    "resume": "/docs/Jenna_Tripoli_Resume.pdf"
+  },
+  "socials": [
+    { "key": "github", "label": "GitHub", "href": "https://github.com/jennatripoli" },
+    { "key": "linkedin", "label": "LinkedIn", "href": "https://linkedin.com/in/jennatripoli" },
+    { "key": "email", "label": "Email", "href": "mailto:jennatripoli02@gmail.com" }
+  ],
+  "nav": [
+    { "label": "About", "sectionId": "about" },
+    { "label": "Experience", "sectionId": "experience" },
+    { "label": "Projects", "sectionId": "projects" }
+  ],
+  "about": [
+    "I am a software engineer with a passion for modern web development and user-centric design. I currently work at Coco Robotics, where I develop a wide variety of internal and external tools. I pride myself on my ability to learn new technologies quickly and thrive in fast-paced environments. I bring strong attention to detail to every project I work on, emphasizing maintainable, modular, and well-documented code that delivers exceptional user experiences.",
+    "In my free time, I volunteer as a mentor for FIRST Robotics Competition (FRC) Team 294, Beach Cities Robotics. I teach high school students about robot programming, strategic analysis, and full-stack development."
+  ],
+  "education": [
+    {
+      "institution": "Worcester Polytechnic Institute",
+      "period": "Class of 2024",
+      "degrees": [
+        "M.S. Computer Science",
+        "B.S. Computer Science",
+        "Interactive Media & Game Development Minor"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "role": "Front-End Software Engineer",
+      "company": "Coco Robotics",
+      "period": "Jan 2025 - Present",
+      "icon": "bot",
+      "description": [
+        "Manage the design and functionality of 10+ different applications across varying user groups.",
+        "Spearheaded the creation of a design system with Shadcn and component management in Storybook.",
+        "Added E2E testing with Playwright, integrated with CI to ensure pages maintain their functionality.",
+        "Create custom interfaces to refine triaging, prioritizing mobile-friendly design for user convenience."
+      ],
+      "tech": [
+        "TypeScript",
+        "React",
+        "React Native",
+        "Tailwind",
+        "Shadcn",
+        "MaterialUI",
+        "Mapbox",
+        "ConnectRPC",
+        "Playwright"
+      ]
+    },
+    {
+      "role": "Full-Stack Software Engineer",
+      "company": "Gently U.S.",
+      "period": "Jun - Dec 2024",
+      "icon": "package",
+      "description": [
+        "Revamped a proprietary warehouse management system to facilitate a growing client and customer base.",
+        "Developed the ability for customers to track the progress of their order and easily see proof of delivery.",
+        "Streamlined client billing by developing a cron job and a friendly user interface for creating invoices.",
+        "Enhanced integrations with Shopify, Route4Me, Twilio, SendGrid, Clerk, and AskNicely."
+      ],
+      "tech": [
+        "TypeScript",
+        "React",
+        "Tailwind",
+        "Prisma",
+        "AWS",
+        "Express",
+        "Vitest",
+        "TinaCMS"
+      ]
+    },
+    {
+      "role": "Software Engineer",
+      "company": "ASL Education Center",
+      "period": "Jan - May 2024",
+      "icon": "hand",
+      "description": [
+        "Designed and developed tools for Deaf-centric online technology using JavaScript, React, and CSS.",
+        "Contributed to high-quality collaboration across time zones, using GitHub Projects for team efficiency."
+      ],
+      "tech": ["JavaScript", "React", "CSS"]
+    },
+    {
+      "role": "Researcher and Developer",
+      "company": "WPI Human-Computer Interaction Lab",
+      "period": "Aug 2023 - May 2024",
+      "icon": "monitor-smartphone",
+      "description": [
+        "Created a cutting-edge platform for making and distributing surveys in American Sign Language (ASL).",
+        "Used guidelines from the WCAG 2.2 and USWDS color indicators and standards for non-text contrast.",
+        "Implemented and deployed the application using JavaScript, React, CSS, Python, PostgreSQL, and AWS.",
+        "Conducted a successful unmoderated user study with 30 Deaf participants to evaluate the tool's usability."
+      ],
+      "tech": ["JavaScript", "React", "CSS", "Python", "PostgreSQL", "AWS"]
+    },
+    {
+      "role": "Technology Development Intern",
+      "company": "Optum",
+      "period": "Jun - Aug 2023",
+      "icon": "heart-pulse",
+      "description": [
+        "Improved an internal insurance claim management portal by creating a data override system."
+      ],
+      "tech": ["Java", "Oracle Scripts", "SQL", "Jenkins", "DBeaver", "Postman"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Warehouse Management System",
+      "image": "/media/warehouse_management_system.png",
+      "platform": "desktop",
+      "description": "Web app for all operations of a same-day delivery company. It provides an easy way to track and edit orders, configure vendors, update inventory, and manage billing. Vendors have their own dashboard to view all of their recent deliveries. Customers can use their tracking number to see the order status and proof of delivery. Its features utilize integrations with Shopify, Route4Me, Twilio, SendGrid, and Clerk."
+    },
+    {
+      "title": "ASL Survey Tool",
+      "image": "/media/asl_survey_tool.png",
+      "platform": "desktop",
+      "description": "Web app that hosts surveys in American Sign Language, relying entirely on videos and non-textual elements. The design incorporates color indicators that meet WCAG 2.2 and USWDS standards for non-text contrast. To evaluate the tool's usability, we conducted an unmoderated user study with 30 Deaf participants. It was used at the Symposium on AI and Sign Language Interpreting in April 2024.",
+      "links": [
+        { "title": "Paper", "link": "/docs/ASL_Survey_Tool.pdf" },
+        { "title": "Poster", "link": "/docs/ASL_Survey_Tool.png" }
+      ]
+    }
+  ]
+}
