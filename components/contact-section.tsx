@@ -1,7 +1,8 @@
 "use client";
 
+import { Github, Linkedin, Mail } from "lucide-react";
+
 import { LinkButton } from "@/components/ui";
-import { Linkedin, Github, Mail } from "lucide-react";
 
 export function ContactSection() {
   return (

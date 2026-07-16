@@ -1,6 +1,7 @@
+import { ExternalLink, LucideIcon } from "lucide-react";
+
 import { Badge, Button, Card, CardContent } from "@/components/ui";
 import { cn } from "@/lib/utils";
-import { ExternalLink, LucideIcon } from "lucide-react";
 
 type SectionTitleProps = {
   title: string;
@@ -31,7 +32,7 @@ export function SkillsCard({
     <Card
       className={cn(
         className,
-        "border-cyan-100 hover:shadow-lg transition-shadow duration-300"
+        "border-cyan-100 hover:shadow-lg transition-shadow duration-300",
       )}
     >
       <CardContent className="text-center px-4">
@@ -134,7 +135,7 @@ export function LinkButton({
         className,
         color === "white" && "bg-white text-cyan-800 hover:bg-cyan-50",
         color === "pink" && "bg-pink-500 text-white hover:bg-pink-600",
-        "px-6 py-3 rounded-full transition-all duration-300 hover:scale-105"
+        "px-6 py-3 rounded-full transition-all duration-300 hover:scale-105",
       )}
       onClick={() => window.open(link, "_blank")}
     >

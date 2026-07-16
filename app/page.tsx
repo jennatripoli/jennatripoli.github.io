@@ -1,10 +1,10 @@
 import {
-  Navigation,
-  HeroSection,
-  SkillsSection,
-  ProjectsSection,
-  ExperienceSection,
   ContactSection,
+  ExperienceSection,
+  HeroSection,
+  Navigation,
+  ProjectsSection,
+  SkillsSection,
 } from "@/components/index";
 
 export default function Portfolio() {

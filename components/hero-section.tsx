@@ -1,7 +1,8 @@
 "use client";
 
-import { Avatar, AvatarImage, LinkButton } from "@/components/ui";
 import { FileUser, Linkedin } from "lucide-react";
+
+import { Avatar, AvatarImage, LinkButton } from "@/components/ui";
 
 export function HeroSection() {
   return (

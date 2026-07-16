@@ -1,10 +1,17 @@
 "use client";
 
-import { SectionTitle, SkillsCard } from "@/components/ui";
 import { Code, GraduationCap, Palette } from "lucide-react";
 
+import { SectionTitle, SkillsCard } from "@/components/ui";
+
 export function SkillsSection() {
-  const development = ["TypeScript", "React", "Tailwind", "Playwright", "React Native"];
+  const development = [
+    "TypeScript",
+    "React",
+    "Tailwind",
+    "Playwright",
+    "React Native",
+  ];
   const design = ["Shadcn", "MaterialUI", "Figma", "Storybook"];
   const education = [
     "M.S. Computer Science",
