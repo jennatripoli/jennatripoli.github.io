@@ -16,8 +16,8 @@
     { "label": "Projects", "sectionId": "projects" }
   ],
   "about": [
-    "I am a software engineer with a passion for modern web development and user-centric design. I currently work at Coco Robotics, where I develop a wide variety of internal and external tools. I pride myself on my ability to learn new technologies quickly and thrive in fast-paced environments. I bring strong attention to detail to every project I work on, emphasizing maintainable, modular, and well-documented code that delivers exceptional user experiences.",
-    "In my free time, I volunteer as a mentor for FIRST Robotics Competition (FRC) Team 294, Beach Cities Robotics. I teach high school students about robot programming, strategic analysis, and full-stack development."
+    "I am a software engineer with a passion for web development and user-centric design. I pride myself on my ability to learn new technologies quickly and am known to thrive in fast-paced environments. I bring strong attention to detail to every project I work on, emphasizing maintainable, modular, and well-documented code to help provide exceptional experiences to users.",
+    "I currently work at Coco Robotics, where I own the frontend development of a wide range of internal and external applications that support business operations. In my free time, I volunteer as a mentor for FIRST Robotics Competition (FRC) Team 294, Beach Cities Robotics, teaching high school students about robot programming, strategic analysis, and full-stack development."
   ],
   "education": [
     {
@@ -39,8 +39,7 @@
       "description": [
         "Manage the design and functionality of 10+ different applications across varying user groups.",
         "Spearheaded the creation of a design system with Shadcn and component management in Storybook.",
-        "Added E2E testing with Playwright, integrated with CI to ensure pages maintain their functionality.",
-        "Create custom interfaces to refine triaging, prioritizing mobile-friendly design for user convenience."
+        "Added E2E testing with Playwright, integrated with CI to ensure vital functionality is maintained."
       ],
       "tech": [
         "TypeScript",
@@ -61,9 +60,9 @@
       "icon": "package",
       "description": [
         "Revamped a proprietary warehouse management system to facilitate a growing client and customer base.",
-        "Developed the ability for customers to track the progress of their order and easily see proof of delivery.",
-        "Streamlined client billing by developing a cron job and a friendly user interface for creating invoices.",
-        "Enhanced integrations with Shopify, Route4Me, Twilio, SendGrid, Clerk, and AskNicely."
+        "Developed the ability for customers to track the progress of their order and access proof of delivery.",
+        "Streamlined client billing by developing a cron job and associated user interface for generating invoices.",
+        "Improved reliability with third-party integrations such as Shopify, Route4Me, Twilio, SendGrid, and Clerk."
       ],
       "tech": [
         "TypeScript",
@@ -82,8 +81,8 @@
       "period": "Jan - May 2024",
       "icon": "hand",
       "description": [
-        "Designed and developed tools for Deaf-centric online technology using JavaScript, React, and CSS.",
-        "Contributed to high-quality collaboration across time zones, using GitHub Projects for team efficiency."
+        "Designed and developed tools for online technology designed specifically for the Deaf community.",
+        "Created a content management system to simplify using video content across different projects."
       ],
       "tech": ["JavaScript", "React", "CSS"]
     },
@@ -94,9 +93,8 @@
       "icon": "monitor-smartphone",
       "description": [
         "Created a cutting-edge platform for making and distributing surveys in American Sign Language (ASL).",
-        "Used guidelines from the WCAG 2.2 and USWDS color indicators and standards for non-text contrast.",
-        "Implemented and deployed the application using JavaScript, React, CSS, Python, PostgreSQL, and AWS.",
-        "Conducted a successful unmoderated user study with 30 Deaf participants to evaluate the tool's usability."
+        "Used WCAG 2.2 design guidelines and color indicators and standards for non-text contrast from USWDS.",
+        "Conducted an unmoderated user study with 30 Deaf participants to evaluate the tool's usability."
       ],
       "tech": ["JavaScript", "React", "CSS", "Python", "PostgreSQL", "AWS"]
     },
@@ -106,7 +104,8 @@
       "period": "Jun - Aug 2023",
       "icon": "heart-pulse",
       "description": [
-        "Improved an internal insurance claim management portal by creating a data override system."
+        "Developed a data override system integrated into an internal portal for managing Medicaid claims.",
+        "Reduced DevOps costs by empowering users to submit manual data corrections and receive approvals."
       ],
       "tech": ["Java", "Oracle Scripts", "SQL", "Jenkins", "DBeaver", "Postman"]
     }
@@ -116,13 +115,13 @@
       "title": "Warehouse Management System",
       "image": "/media/warehouse_management_system.png",
       "platform": "desktop",
-      "description": "Web app for all operations of a same-day delivery company. It provides an easy way to track and edit orders, configure vendors, update inventory, and manage billing. Vendors have their own dashboard to view all of their recent deliveries. Customers can use their tracking number to see the order status and proof of delivery. Its features utilize integrations with Shopify, Route4Me, Twilio, SendGrid, and Clerk."
+      "description": "Manage all operations of a same-day delivery company. It provides an easy way to track and edit orders, configure vendors, update inventory, and manage billing. Vendors have their own dashboard to view all of their recent deliveries. Customers can use their tracking number to see the order status and proof of delivery. Its features utilize integrations with Shopify, Route4Me, Twilio, SendGrid, and Clerk."
     },
     {
       "title": "ASL Survey Tool",
       "image": "/media/asl_survey_tool.png",
       "platform": "desktop",
-      "description": "Web app that hosts surveys in American Sign Language, relying entirely on videos and non-textual elements. The design incorporates color indicators that meet WCAG 2.2 and USWDS standards for non-text contrast. To evaluate the tool's usability, we conducted an unmoderated user study with 30 Deaf participants. It was used at the Symposium on AI and Sign Language Interpreting in April 2024.",
+      "description": "Create and distribute surveys in American Sign Language, relying entirely on videos and non-textual elements. The design incorporates color indicators that meet WCAG 2.2 and USWDS standards for non-text contrast. To evaluate the tool's usability, we conducted an unmoderated user study with 30 Deaf participants. It was used at the Symposium on AI and Sign Language Interpreting in April 2024 for attendee surveys.",
       "links": [
         { "title": "Paper", "link": "/docs/ASL_Survey_Tool.pdf" },
         { "title": "Poster", "link": "/docs/ASL_Survey_Tool.png" }
