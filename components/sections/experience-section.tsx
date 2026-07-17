@@ -8,7 +8,14 @@ import {
   Package,
 } from "lucide-react";
 
-import { Badge, SectionTitle, Timeline, TimelineItem } from "@/components/ui";
+import {
+  Badge,
+  Card,
+  CardContent,
+  SectionTitle,
+  Timeline,
+  TimelineItem,
+} from "@/components/ui";
 import type { ExperienceIcon, SiteContent } from "@/content/types";
 
 const experienceIcons: Record<ExperienceIcon, LucideIcon> = {
@@ -54,26 +61,36 @@ export function ExperienceSection({ content }: ExperienceSectionProps) {
             </div>
           </TimelineItem>
         ))}
-        {content.education.map((edu) => (
-          <TimelineItem
-            key={edu.institution}
-            icon={GraduationCap}
-            period={edu.period}
-            title={edu.institution}
-          >
-            <ul className="space-y-2 list-disc list-outside ml-4 marker:text-primary">
-              {edu.degrees.map((degree, key) => (
-                <li
-                  key={key}
-                  className="text-muted-foreground leading-relaxed text-sm pl-1"
-                >
-                  {degree}
-                </li>
-              ))}
-            </ul>
-          </TimelineItem>
-        ))}
       </Timeline>
+      <div className="mt-10 space-y-4">
+        {content.education.map((edu) => (
+          <Card
+            key={edu.institution}
+            className="hover:border-primary/40 transition-colors"
+          >
+            <CardContent className="flex flex-col sm:flex-row gap-4">
+              <div className="flex items-center justify-center size-10 rounded-full border border-border bg-background text-primary shrink-0">
+                <GraduationCap className="size-5" />
+              </div>
+              <div className="flex-1">
+                <p className="text-sm font-medium text-primary uppercase tracking-wide">
+                  {edu.period}
+                </p>
+                <h3 className="font-heading font-bold text-lg text-foreground mt-1">
+                  {edu.institution}
+                </h3>
+                <div className="flex flex-wrap gap-1.5 mt-3">
+                  {edu.degrees.map((degree) => (
+                    <Badge key={degree} variant="secondary" className="text-xs">
+                      {degree}
+                    </Badge>
+                  ))}
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        ))}
+      </div>
     </section>
   );
 }
