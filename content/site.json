@@ -115,7 +115,7 @@
       "title": "Smiski Tracker",
       "image": "/media/smiski-tracker.png",
       "platform": "desktop",
-      "description": "Catalog your Smiski collection. The application is especially designed to be responsive and features a list of each released figure, collection tracking, statistics, and various filters. Selections are saved to session storage, and users can sign up for an account (managed by Supabase) to save their collection and access it later on other devices.",
+      "description": "Catalog your Smiski collection. The application is designed to be responsive on both desktop and mobile and features a list of figures, collection tracking, statistics, and various filters. Selections are saved to session storage, and users can sign up for an account (managed by Supabase) to save their collection and access it later on other devices.",
       "links": [
         { "title": "Visit", "link": "/smiski" }
       ]
@@ -130,7 +130,7 @@
       "title": "ASL Survey Tool",
       "image": "/media/asl-survey-tool.png",
       "platform": "desktop",
-      "description": "Create and distribute surveys in American Sign Language, relying entirely on videos and non-English elements. The design incorporates color indicators that meet WCAG 2.2 and USWDS component standards for non-text contrast (to account for color blindness). To evaluate the tool's usability, we conducted an unmoderated user study with 30 Deaf participants. The tool was used for surveys at the Symposium on AI and Sign Language Interpreting in April 2024.",
+      "description": "Create and distribute surveys in American Sign Language, using only videos and non-English elements. The design incorporates color indicators that meet WCAG 2.2 and USWDS standards for non-text contrast, accounting for four types of color blindness. To evaluate usability, we conducted an unmoderated user study with 30 Deaf participants. It was then used for surveys at the 2024 Symposium on AI and Sign Language Interpreting.",
       "links": [
         { "title": "Paper", "link": "/media/asl-survey-tool.pdf" },
         { "title": "Poster", "link": "/media/asl-survey-tool-poster.png" }
