@@ -115,7 +115,7 @@
       "title": "Smiski Tracker",
       "image": "/media/smiski-tracker.png",
       "platform": "desktop",
-      "description": "Catalog your Smiski collection. The application is designed to be responsive on both desktop and mobile and features a list of figures, collection tracking, statistics, and various filters. Selections are saved to session storage, and users can sign up for an account (managed by Supabase) to save their collection and access it later on other devices.",
+      "description": "Catalog your Smiski collection. The application is designed to be responsive on both desktop and mobile and features a list of figures, collection tracking, statistics, and various filters. Selections are saved to session storage, and users can make an account (managed by Supabase) to save their collection and access it later.",
       "links": [
         { "title": "Visit", "link": "/smiski" }
       ]
