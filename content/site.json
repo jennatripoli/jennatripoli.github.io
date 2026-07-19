@@ -113,13 +113,13 @@
   "projects": [
     {
       "title": "Warehouse Management System",
-      "image": "/media/warehouse_management_system.png",
+      "image": "/media/gently-wms.png",
       "platform": "desktop",
       "description": "Manage all operations of a same-day sustainable delivery company. It provides an easy way to track and edit orders, configure vendors, update inventory, and manage billing. Vendors have their own dashboard to view all of their recent deliveries. Customers can use their tracking number to see the order status and proof of delivery. Its features utilize integrations with Shopify, Route4Me, Twilio, SendGrid, and Clerk."
     },
     {
       "title": "ASL Survey Tool",
-      "image": "/media/asl_survey_tool.png",
+      "image": "/media/asl-survey-tool.png",
       "platform": "desktop",
       "description": "Create and distribute surveys in American Sign Language, relying entirely on videos and non-English elements. The design incorporates color indicators that meet WCAG 2.2 and USWDS standards for non-text contrast. To evaluate the tool's usability, we conducted an unmoderated user study with 30 Deaf participants. It was used at the Symposium on AI and Sign Language Interpreting in April 2024 for entry and exit surveys.",
       "links": [
