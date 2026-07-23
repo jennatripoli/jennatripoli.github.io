@@ -112,10 +112,10 @@
   ],
   "projects": [
     {
-      "title": "Smiski Tracker",
-      "image": "/media/smiski-tracker.png",
+      "title": "My Smiski Tracker",
+      "image": "/media/my-smiski-tracker.png",
       "platform": "desktop",
-      "description": "Catalog your Smiski collection. The application is designed to be responsive on both desktop and mobile and features a list of figures, collection tracking, statistics, and various filters. Selections are saved to session storage, and users can make an account (managed by Supabase) to save their collection and access it later.",
+      "description": "Track your Smiski collection. The application is designed to be responsive on both desktop and mobile and features a list of figures, collection tracking, statistics, and various filters. Selections are saved to session storage, and users can make an account (managed by Supabase, including Google OAuth) to save their collection and access it later.",
       "links": [
         { "title": "Visit", "link": "/smiski" }
       ]
