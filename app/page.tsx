@@ -1,6 +1,7 @@
 import {
   AboutSection,
   ExperienceSection,
+  Footer,
   ProjectsSection,
   Sidebar,
 } from "@/components/index";
@@ -17,6 +18,7 @@ export default function Portfolio() {
           <AboutSection content={content} />
           <ExperienceSection content={content} />
           <ProjectsSection content={content} />
+          <Footer />
         </main>
       </div>
     </div>
